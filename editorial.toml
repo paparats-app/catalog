@@ -101,7 +101,7 @@ id = "desktop"
 icon = "sliders-horizontal"
 title = { en = "Make Windows Yours", be = "Windows пад сябе", ru = "Windows под себя" }
 sub = { en = "Taskbar, brightness, menus and a tidy desktop.", be = "Панэль задач, яркасць, меню і парадак на працоўным стале.", ru = "Панель задач, яркость, меню и порядок на рабочем столе." }
-apps = ["translucenttb", "twinkle-tray", "lightbulb", "flow-launcher", "kando", "seelen-ui", "deskbox", "stretchly"]
+apps = ["translucenttb", "twinkle-tray", "lightbulb", "flow-launcher", "kando", "seelen-ui", "stretchly"]
 
 [[collections]]
 id = "learn-play"

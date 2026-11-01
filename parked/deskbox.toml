@@ -1,3 +1,5 @@
+# Parked 2026-11-01: its silent uninstall does not finish (paparats-app/catalog#2).
+# Move back to apps/ once the smoke install passes for it.
 id = "deskbox"
 name = "DeskBox"
 publisher = "Tianyu"

@@ -43,6 +43,9 @@ runner with the client's own installer, checks that the client's inventory finds
 uninstalls it. Its summary lists the Uninstall entries each install added, which is how a
 detection rule gets fixed.
 
+`parked/` keeps apps taken off the catalog until a problem is fixed upstream, with the issue
+that explains why: moving the file back to `apps/` returns the app.
+
 ## Adding an app
 
 Suggest it with an [issue](../../issues/new/choose), or open a pull request with
