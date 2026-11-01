@@ -1,0 +1,68 @@
+name: Smoke install
+
+# Installs every app for real on a throwaway Windows runner with the client's own installer,
+# checks that the client's inventory finds it, and uninstalls it. The job summary lists the
+# Uninstall entries each install added, so a detection rule that misses can be fixed from what
+# Windows actually shows. Weekly, and by hand for a few apps after changing their files.
+
+on:
+  schedule:
+    - cron: "41 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "App ids separated by spaces (empty: every app)"
+        required: false
+        default: ""
+
+concurrency:
+  group: smoke
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  smoke:
+    runs-on: windows-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Bot version
+        id: bot
+        shell: bash
+        run: echo "ref=$(tr -d '[:space:]' < .github/bot-ref)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v5
+        with:
+          repository: paparats-app/paparats
+          ref: ${{ steps.bot.outputs.ref }}
+          path: .bot
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: .bot
+          shared-key: catalog-bot
+          save-if: false
+
+      - name: Build the bot
+        run: cargo build --release --locked -p paparats-catalog-bot --manifest-path .bot/Cargo.toml
+
+      - name: Install, find and uninstall
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          $only = @()
+          foreach ($id in "$env:ONLY".Split(' ', [StringSplitOptions]::RemoveEmptyEntries)) {
+            $only += '--only', $id
+          }
+          .bot/target/release/catalog-bot.exe smoke . --summary "$env:GITHUB_STEP_SUMMARY" @only
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
