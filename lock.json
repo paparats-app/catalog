@@ -24,7 +24,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4352,
+        "stars": 4354,
         "license": null,
         "created": "2022-03-05",
         "homepage": null,
@@ -61,7 +61,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 32437,
+        "stars": 32445,
         "license": null,
         "created": "2012-12-21",
         "homepage": "https://apps.ankiweb.net",
@@ -98,7 +98,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18898,
+        "stars": 18903,
         "license": null,
         "created": "2015-03-26",
         "homepage": "https://www.audacityteam.org/manual/getting-started/",
@@ -169,7 +169,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 28376,
+        "stars": 28427,
         "license": "Apache-2.0",
         "created": "2026-04-29",
         "homepage": "https://dbxio.com",
@@ -178,43 +178,6 @@
           "https://t8y2.com/sponsors/",
           "https://afdian.com/a/t8y2o"
         ],
-        "archived": false
-      },
-      "checked": "2026-11-01"
-    },
-    "deskbox": {
-      "release": {
-        "tag": "v1.5.9",
-        "version": "1.5.9",
-        "prerelease": false,
-        "published": "2026-10-23",
-        "notes": [
-          "DeskBox 1.5.9",
-          "DeskBox 1.5.9 is a feature update: Windows 11-native right-click menus, a calmer and more capable updater, a recovery offer after configuration wipes, Korean…",
-          "Released on October 23, 2026.",
-          "Highlights",
-          "Windows 11-native right-click menus. A single column of inline-icon rows in Explorer's classic order, rendered directly on acrylic; \"Open with\" lists real as…",
-          "A calmer, more capable updater. Daily wall-clock-anchored checks with failure back-off, actionable update-toast buttons, automatic release notes after an upd…",
-          "A recovery offer after a configuration wipe. When a launch detects missing settings plus a surviving snapshot that passes the hard gates, a one-time window o…",
-          "Korean language support. The interface, installer, and first-run experience ship in Korean alongside the existing 12 languages, plus a full translation-quali…"
-        ]
-      },
-      "file": {
-        "name": "DeskBox_Setup_1.5.9_x64.exe",
-        "url": "https://github.com/Tianyu199509/DeskBox/releases/download/v1.5.9/DeskBox_Setup_1.5.9_x64.exe",
-        "size": 33710285,
-        "sha256": "3b8fad94b8a0e0ae136572ae8da378c72c406c7c370f875212cb71b8cb586e4a",
-        "digestChecked": true,
-        "signer": null,
-        "unsigned": true,
-        "scan": "clean"
-      },
-      "repo": {
-        "stars": 7932,
-        "license": "GPL-3.0",
-        "created": "2026-06-11",
-        "homepage": "https://deskbox.fun",
-        "funding": [],
         "archived": false
       },
       "checked": "2026-11-01"
@@ -247,7 +210,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 12251,
+        "stars": 12254,
         "license": "Apache-2.0",
         "created": "2023-09-15",
         "homepage": "https://viarotel.eu.org/",
@@ -321,7 +284,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15930,
+        "stars": 15937,
         "license": "MIT",
         "created": "2020-04-21",
         "homepage": "https://flowlauncher.com",
@@ -361,7 +324,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 8325,
+        "stars": 8337,
         "license": "MIT",
         "created": "2026-05-27",
         "homepage": "https://geolibre.app",
@@ -401,7 +364,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9472,
+        "stars": 9473,
         "license": null,
         "created": "2014-08-22",
         "homepage": null,
@@ -438,7 +401,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 35908,
+        "stars": 36052,
         "license": "MIT",
         "created": "2025-02-13",
         "homepage": "https://handy.computer",
@@ -481,7 +444,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 14769,
+        "stars": 14776,
         "license": null,
         "created": "2012-12-30",
         "homepage": "https://imageglass.org",
@@ -523,7 +486,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45204,
+        "stars": 45211,
         "license": null,
         "created": "2023-08-17",
         "homepage": "https://jan.ai/",
@@ -558,7 +521,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 56963,
+        "stars": 56971,
         "license": null,
         "created": "2017-01-16",
         "homepage": "https://joplinapp.org",
@@ -639,7 +602,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29647,
+        "stars": 29662,
         "license": null,
         "created": "2016-02-28",
         "homepage": "https://keepassxc.org/",
@@ -683,7 +646,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4259,
+        "stars": 4265,
         "license": "GPL-3.0",
         "created": "2026-04-16",
         "homepage": "https://KillerPDF.net",
@@ -757,7 +720,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 96831,
+        "stars": 96898,
         "license": "Apache-2.0",
         "created": "2022-12-16",
         "homepage": "https://localsend.org",
@@ -868,7 +831,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29746,
+        "stars": 29751,
         "license": null,
         "created": "2015-03-28",
         "homepage": "https://notepad-plus-plus.org/",
@@ -905,7 +868,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 78710,
+        "stars": 78739,
         "license": "GPL-2.0",
         "created": "2013-10-01",
         "homepage": "https://obsproject.com",
@@ -936,7 +899,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 22787,
+        "stars": 22798,
         "license": null,
         "created": "2020-05-08",
         "homepage": "https://obsidian.md",
@@ -966,7 +929,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 5678,
+        "stars": 5679,
         "license": "AGPL-3.0",
         "created": "2016-10-03",
         "homepage": "https://www.onlyoffice.com",
@@ -1003,7 +966,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 24757,
+        "stars": 24822,
         "license": "Apache-2.0",
         "created": "2026-05-24",
         "homepage": "https://openlogi.org",
@@ -1043,7 +1006,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9510,
+        "stars": 9517,
         "license": "MIT",
         "created": "2026-02-27",
         "homepage": "https://openpencil.dev",
@@ -1115,7 +1078,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 75569,
+        "stars": 75702,
         "license": "Apache-2.0",
         "created": "2026-09-30",
         "homepage": "https://getartcraft.com/apps/photocraft",
@@ -1152,7 +1115,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 10909,
+        "stars": 10912,
         "license": "MIT",
         "created": "2019-08-18",
         "homepage": "https://www.pixelorama.org/",
@@ -1193,7 +1156,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 140357,
+        "stars": 140376,
         "license": "MIT",
         "created": "2019-05-01",
         "homepage": null,
@@ -1264,7 +1227,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 10874,
+        "stars": 10886,
         "license": "AGPL-3.0",
         "created": "2025-06-13",
         "homepage": "https://getrapidraw.com",
@@ -1303,7 +1266,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 25792,
+        "stars": 25811,
         "license": "AGPL-3.0",
         "created": "2024-10-12",
         "homepage": "https://readest.com",
@@ -1342,7 +1305,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 35734,
+        "stars": 35763,
         "license": null,
         "created": "2026-03-12",
         "homepage": "https://recordly.dev",
@@ -1382,7 +1345,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38192,
+        "stars": 38202,
         "license": "GPL-3.0",
         "created": "2011-11-19",
         "homepage": "https://rufus.ie",
@@ -1416,7 +1379,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 27874,
+        "stars": 27873,
         "license": "MS-PL",
         "created": "2016-08-02",
         "homepage": null,
@@ -1461,7 +1424,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18297,
+        "stars": 18305,
         "license": "AGPL-3.0",
         "created": "2024-02-16",
         "homepage": null,
@@ -1496,7 +1459,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 40553,
+        "stars": 40564,
         "license": "GPL-3.0",
         "created": "2013-10-08",
         "homepage": "https://getsharex.com",
@@ -1535,7 +1498,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6745,
+        "stars": 6746,
         "license": "GPL-3.0",
         "created": "2014-07-31",
         "homepage": "https://shatteredpixel.com/shatteredpd/",
@@ -1572,7 +1535,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15545,
+        "stars": 15554,
         "license": "GPL-3.0",
         "created": "2012-04-23",
         "homepage": "https://www.shotcut.org",
@@ -1609,7 +1572,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 10136,
+        "stars": 10137,
         "license": "GPL-2.0",
         "created": "2014-04-13",
         "homepage": "https://stellarium.org",
@@ -1648,7 +1611,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6629,
+        "stars": 6631,
         "license": "BSD-2-Clause",
         "created": "2016-07-10",
         "homepage": "https://hovancik.net/stretchly",
@@ -1689,7 +1652,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2924,
+        "stars": 2925,
         "license": "BSD-3-Clause",
         "created": "2017-03-20",
         "homepage": "https://www.edrlab.org/software/thorium-reader/",
@@ -1726,7 +1689,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 20699,
+        "stars": 20702,
         "license": "GPL-3.0",
         "created": "2017-01-10",
         "homepage": "https://translucenttb.github.io",
@@ -1766,7 +1729,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9274,
+        "stars": 9276,
         "license": "MIT",
         "created": "2019-08-14",
         "homepage": "https://twinkletray.com",
@@ -1808,7 +1771,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 33902,
+        "stars": 33910,
         "license": "MIT",
         "created": "2018-08-13",
         "homepage": "https://vscodium.com",
@@ -1845,7 +1808,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9294,
+        "stars": 9297,
         "license": "AGPL-3.0",
         "created": "2024-05-27",
         "homepage": "https://wealthfolio.app",
@@ -1879,7 +1842,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4449,
+        "stars": 4452,
         "license": "GPL-3.0",
         "created": "2016-04-04",
         "homepage": "https://windirstat.net",
@@ -1920,12 +1883,41 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4057,
+        "stars": 4061,
         "license": "GPL-3.0",
         "created": "2026-01-18",
         "homepage": "https://www.wslui.com",
         "funding": [],
         "archived": false
+      },
+      "pending": {
+        "release": {
+          "tag": "v0.13.0",
+          "version": "0.13.0",
+          "prerelease": false,
+          "published": "2026-11-01",
+          "notes": [
+            "Change Summary:",
+            "Global shortcuts: Added a \"Shortcuts\" tab in Settings to bind global key combinations to show/hide the main window and to open each distro's terminal (still …",
+            "USB devices: A clear reason is now shown when attaching a device fails;",
+            "API request headers: Request headers have been adjusted, e.g. the WSL version is now included;",
+            "About page: Slimmed down to keep only the project website, repository, community group, and issue feedback entries;",
+            "README: Content condensed, with notes added on distro keep-alive and shortcuts;",
+            "Thanks to @WslzGmzs for proposing the shortcuts feature — a valuable idea;",
+            "Full Changelog:"
+          ]
+        },
+        "file": {
+          "name": "WSLDashboard.0.13.0.Portable.x64.zip",
+          "url": "https://github.com/owu/wsl-dashboard/releases/download/v0.13.0/WSLDashboard.0.13.0.Portable.x64.zip",
+          "size": 13218772,
+          "sha256": "804f7f047f723031124c87765c659fabcba9784a5874e170746935984ee5d19d",
+          "digestChecked": true,
+          "signer": null,
+          "unsigned": false,
+          "scan": "clean"
+        },
+        "since": "2026-11-01T11:55:27Z"
       },
       "checked": "2026-11-01"
     },
@@ -1957,7 +1949,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19394,
+        "stars": 19396,
         "license": "MIT",
         "created": "2023-02-16",
         "homepage": "https://yaak.app",
@@ -1996,7 +1988,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45484,
+        "stars": 45493,
         "license": "MPL-2.0",
         "created": "2024-03-28",
         "homepage": "https://zen-browser.app",
