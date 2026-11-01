@@ -1,0 +1,24 @@
+id = "shotcut"
+name = "Shotcut"
+publisher = "Meltytech"
+category = "media"
+
+[source]
+repo = "mltframework/shotcut"
+asset = '^shotcut-win64-[\d.]+\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "Shotcut/shotcut.exe"
+
+[text.en]
+tagline = "A free, cross-platform video editor."
+long = "A timeline with filters, transitions and colour grading, support for hundreds of formats and hardware-accelerated export."
+
+[text.be]
+tagline = "Бясплатны кросплатформавы відэарэдактар."
+long = "Шкала часу з фільтрамі, пераходамі і каляровай карэкцыяй, падтрымка сотняў фарматаў і апаратна паскораны экспарт."
+
+[text.ru]
+tagline = "Бесплатный кроссплатформенный видеоредактор."
+long = "Шкала времени с фильтрами, переходами и цветокоррекцией, поддержка сотен форматов и аппаратно ускоренный экспорт."

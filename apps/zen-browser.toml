@@ -1,0 +1,33 @@
+id = "zen-browser"
+name = "Zen Browser"
+publisher = "Zen Team"
+category = "utilities"
+
+[source]
+repo = "zen-browser/desktop"
+asset = '^zen\.installer\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+scope = "machine"
+
+[detection]
+displayNameRegex = '^Zen'
+
+[text.en]
+tagline = "A calm browser built on Firefox."
+long = "Vertical tabs, workspaces, split view and a compact mode, on Firefox's engine with privacy settings that make sense."
+
+[text.be]
+tagline = "Спакойны браўзер на аснове Firefox."
+long = "Вертыкальныя ўкладкі, працоўныя прасторы, падзел экрана і кампактны рэжым на рухавіку Firefox з разумнымі наладамі прыватнасці."
+
+[text.ru]
+tagline = "Спокойный браузер на основе Firefox."
+long = "Вертикальные вкладки, рабочие пространства, разделение экрана и компактный режим на движке Firefox с разумными настройками приватности."
+
+[rising.note]
+en = "The ideas of Arc on Firefox's engine. Its installer asks for administrator rights."
+be = "Ідэі Arc на рухавіку Firefox. Яго ўсталёўшчык просіць правы адміністратара."
+ru = "Идеи Arc на движке Firefox. Его установщик просит права администратора."

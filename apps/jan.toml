@@ -1,0 +1,32 @@
+id = "jan"
+name = "Jan"
+publisher = "Jan AI"
+category = "productivity"
+
+[source]
+repo = "janhq/jan"
+asset = '^Jan_[\d.]+_x64-setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+
+[detection]
+displayNameRegex = '^Jan$'
+
+[text.en]
+tagline = "An AI chat that runs offline on your computer."
+long = "Download open language models and chat with them locally. Your conversations stay on the disk; cloud models are optional."
+
+[text.be]
+tagline = "ШІ-чат, які працуе на вашым камп'ютары без сеткі."
+long = "Спампоўвайце адкрытыя моўныя мадэлі і размаўляйце з імі лакальна. Размовы застаюцца на дыску; воблачныя мадэлі — па жаданні."
+
+[text.ru]
+tagline = "ИИ-чат, который работает на вашем компьютере офлайн."
+long = "Скачивайте открытые языковые модели и общайтесь с ними локально. Разговоры остаются на диске; облачные модели — по желанию."
+
+[rising.note]
+en = "The friendliest way to try local AI models: no terminal, no account."
+be = "Самы зручны спосаб паспрабаваць лакальныя ШІ-мадэлі: без тэрмінала і без уліковага запісу."
+ru = "Самый удобный способ попробовать локальные ИИ-модели: без терминала и без учётной записи."

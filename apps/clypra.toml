@@ -1,0 +1,33 @@
+id = "clypra"
+name = "Clypra"
+publisher = "AIEraDev"
+category = "media"
+
+[source]
+repo = "AIEraDev/Clypra"
+asset = '^Clypra_[\d.]+_x64-setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^Clypra'
+
+[text.en]
+tagline = "A video editor built with Rust and Tauri."
+long = "Cut clips on a timeline, add titles, transitions and music, and export without watermarks."
+
+[text.be]
+tagline = "Відэарэдактар на Rust і Tauri."
+long = "Рэжце кліпы на шкале часу, дадавайце тытры, пераходы і музыку і экспартуйце без вадзяных знакаў."
+
+[text.ru]
+tagline = "Видеоредактор на Rust и Tauri."
+long = "Режьте клипы на шкале времени, добавляйте титры, переходы и музыку и экспортируйте без водяных знаков."
+
+[rising.note]
+en = "A young, quick video editor for simple projects, with no watermarks and no subscription."
+be = "Малады хуткі відэарэдактар для простых праектаў, без вадзяных знакаў і падпіскі."
+ru = "Молодой быстрый видеоредактор для простых проектов, без водяных знаков и подписки."

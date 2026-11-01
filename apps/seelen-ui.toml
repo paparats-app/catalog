@@ -1,0 +1,31 @@
+id = "seelen-ui"
+name = "Seelen UI"
+publisher = "Seelen"
+category = "system"
+
+[source]
+repo = "eythaann/Seelen-UI"
+asset = '^Seelen\.UI_[\d.]+_x64\.Msix$'
+
+[install]
+strategy = "msix"
+
+[detection]
+msixFamilyNames = ["Seelen.SeelenUI_p6yyn03m1894e"]
+
+[text.en]
+tagline = "A customisable desktop shell for Windows."
+long = "A tiling window manager, a top bar, a dock and a launcher with themes and widgets, layered over the usual desktop."
+
+[text.be]
+tagline = "Наладжвальная абалонка працоўнага стала для Windows."
+long = "Тайлавы менеджар вокнаў, верхняя панэль, док і запускальнік з тэмамі і віджэтамі па-над звычайным працоўным сталом."
+
+[text.ru]
+tagline = "Настраиваемая оболочка рабочего стола для Windows."
+long = "Тайловый менеджер окон, верхняя панель, док и запуск программ с темами и виджетами поверх обычного рабочего стола."
+
+[rising.note]
+en = "Turns Windows into a desktop you design yourself, without hacks in system files."
+be = "Ператварае Windows у працоўны стол, які вы складаеце самі, без умяшання ў сістэмныя файлы."
+ru = "Превращает Windows в рабочий стол, который вы собираете сами, без вмешательства в системные файлы."

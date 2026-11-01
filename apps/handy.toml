@@ -1,0 +1,32 @@
+id = "handy"
+name = "Handy"
+publisher = "CJ Pais"
+category = "productivity"
+
+[source]
+repo = "cjpais/Handy"
+asset = '^Handy_[\d.]+_x64-setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+
+[detection]
+displayNameRegex = '^Handy'
+
+[text.en]
+tagline = "Speech to text that works without the internet."
+long = "Press a shortcut, speak, and the text appears where the cursor is. Recognition runs on your computer with open models."
+
+[text.be]
+tagline = "Галасавы ўвод, які працуе без інтэрнэту."
+long = "Націсніце спалучэнне клавіш, скажыце, і тэкст з'явіцца там, дзе курсор. Распазнаванне ідзе на вашым камп'ютары з адкрытымі мадэлямі."
+
+[text.ru]
+tagline = "Голосовой ввод, который работает без интернета."
+long = "Нажмите сочетание клавиш, скажите, и текст появится там, где курсор. Распознавание идёт на вашем компьютере с открытыми моделями."
+
+[rising.note]
+en = "Dictation that never sends your voice anywhere, and it is simple enough to use every day."
+be = "Дыктоўка, якая нікуды не адпраўляе ваш голас, і пры гэтым досыць простая, каб карыстацца штодня."
+ru = "Диктовка, которая никуда не отправляет ваш голос, и при этом достаточно простая, чтобы пользоваться каждый день."

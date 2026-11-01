@@ -1,0 +1,32 @@
+id = "yaak"
+name = "Yaak"
+publisher = "Mountain Loop Labs"
+category = "development"
+
+[source]
+repo = "mountain-loop/yaak"
+asset = '^Yaak_[\d.]+_x64-setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+
+[detection]
+displayNameRegex = '^Yaak'
+
+[text.en]
+tagline = "A fast client for REST, GraphQL and gRPC."
+long = "Send requests, organise them in folders and environments, and keep the collection in Git as plain files. Works offline."
+
+[text.be]
+tagline = "Хуткі кліент для REST, GraphQL і gRPC."
+long = "Адпраўляйце запыты, раскладвайце іх па тэчках і асяроддзях і захоўвайце калекцыю ў Git звычайнымі файламі. Працуе без сеткі."
+
+[text.ru]
+tagline = "Быстрый клиент для REST, GraphQL и gRPC."
+long = "Отправляйте запросы, раскладывайте их по папкам и окружениям и храните коллекцию в Git обычными файлами. Работает офлайн."
+
+[rising.note]
+en = "An API client from the author of Insomnia that respects your files and needs no cloud."
+be = "Кліент для API ад аўтара Insomnia, які паважае вашы файлы і не патрабуе воблака."
+ru = "Клиент для API от автора Insomnia, который уважает ваши файлы и не требует облака."

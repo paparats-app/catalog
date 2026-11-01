@@ -1,0 +1,31 @@
+id = "7zip"
+name = "7-Zip"
+publisher = "Igor Pavlov"
+category = "utilities"
+license = "LGPL-2.1 + unRAR"
+
+[source]
+repo = "ip7z/7zip"
+asset = '^7z\d+-x64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+scope = "machine"
+signer = "none"
+
+[detection]
+displayNames = ["7-Zip"]
+publisher = "Igor Pavlov"
+
+[text.en]
+tagline = "The archiver with the best compression."
+long = "Packs and unpacks 7z, ZIP, RAR, TAR and dozens of formats, with strong AES-256 encryption and Explorer integration."
+
+[text.be]
+tagline = "Архіватар з найлепшым сцісканнем."
+long = "Пакуе і распакоўвае 7z, ZIP, RAR, TAR і дзясяткі фарматаў, з моцным шыфраваннем AES-256 і інтэграцыяй у Правадыр."
+
+[text.ru]
+tagline = "Архиватор с лучшим сжатием."
+long = "Упаковывает и распаковывает 7z, ZIP, RAR, TAR и десятки форматов, с сильным шифрованием AES-256 и интеграцией в Проводник."

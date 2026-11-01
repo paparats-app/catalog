@@ -1,0 +1,24 @@
+id = "translucenttb"
+name = "TranslucentTB"
+publisher = "TranslucentTB Open Source Developers"
+category = "system"
+
+[source]
+repo = "TranslucentTB/TranslucentTB"
+asset = '^TranslucentTB-portable-x64\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "TranslucentTB.exe"
+
+[text.en]
+tagline = "A transparent or blurred taskbar."
+long = "Makes the Windows taskbar clear, blurred or acrylic, with different looks for the desktop, open windows and the Start menu."
+
+[text.be]
+tagline = "Празрыстая ці размытая панэль задач."
+long = "Робіць панэль задач Windows празрыстай, размытай ці акрылавай, з рознымі выглядамі для працоўнага стала, адкрытых вокнаў і меню «Пуск»."
+
+[text.ru]
+tagline = "Прозрачная или размытая панель задач."
+long = "Делает панель задач Windows прозрачной, размытой или акриловой, с разным видом для рабочего стола, открытых окон и меню «Пуск»."

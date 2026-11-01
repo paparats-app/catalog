@@ -1,0 +1,33 @@
+id = "geolibre"
+name = "GeoLibre"
+publisher = "Open Geospatial Solutions"
+category = "education"
+
+[source]
+repo = "opengeos/GeoLibre"
+asset = '^GeoLibre\.Desktop_[\d.]+_x64-setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^GeoLibre'
+
+[text.en]
+tagline = "Maps and geodata on your desktop."
+long = "Open GeoJSON, Shapefile, GeoTIFF and other layers, style them, measure and analyse, and export maps."
+
+[text.be]
+tagline = "Карты і геаданыя на вашым камп'ютары."
+long = "Адкрывайце GeoJSON, Shapefile, GeoTIFF і іншыя слаі, афармляйце іх, вымярайце, аналізуйце і экспартуйце карты."
+
+[text.ru]
+tagline = "Карты и геоданные на вашем компьютере."
+long = "Открывайте GeoJSON, Shapefile, GeoTIFF и другие слои, оформляйте их, измеряйте, анализируйте и экспортируйте карты."
+
+[rising.note]
+en = "A friendly GIS for students and hobbyists, from the team behind leafmap and geemap."
+be = "Зручная ГІС для студэнтаў і аматараў ад каманды leafmap і geemap."
+ru = "Удобная ГИС для студентов и любителей от команды leafmap и geemap."

@@ -1,0 +1,30 @@
+id = "paintfe"
+name = "PaintFE"
+publisher = "Kyle Jackson"
+category = "design"
+
+[source]
+repo = "kylejckson/PaintFE"
+asset = '^PaintFE\.exe$'
+
+[install]
+strategy = "portableExe"
+launch = "PaintFE.exe"
+signer = "none"
+
+[text.en]
+tagline = "A light raster editor in a single file."
+long = "Layers, selections, brushes and filters in a quick editor that starts at once and needs no installation."
+
+[text.be]
+tagline = "Лёгкі растравы рэдактар у адным файле."
+long = "Слаі, вылучэнні, пэндзлі і фільтры ў хуткім рэдактары, які запускаецца адразу і не патрабуе ўсталявання."
+
+[text.ru]
+tagline = "Лёгкий растровый редактор в одном файле."
+long = "Слои, выделения, кисти и фильтры в быстром редакторе, который запускается сразу и не требует установки."
+
+[rising.note]
+en = "Somewhere between Paint and Paint.NET: small, quick and growing release by release."
+be = "Нешта сярэдняе паміж Paint і Paint.NET: невялікі, хуткі і расце ад рэлізу да рэлізу."
+ru = "Что-то среднее между Paint и Paint.NET: небольшой, быстрый и растёт от релиза к релизу."

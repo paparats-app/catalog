@@ -1,0 +1,24 @@
+id = "luanti"
+name = "Luanti"
+publisher = "Luanti Team"
+category = "games"
+license = "LGPL-2.1"
+
+[source]
+repo = "luanti-org/luanti"
+asset = '^luanti-[\d.]+-win64\.zip$'
+
+[install]
+strategy = "portableZip"
+
+[text.en]
+tagline = "An open voxel game engine (formerly Minetest)."
+long = "Build, mine and explore block worlds, play hundreds of community games and mods, alone or on servers."
+
+[text.be]
+tagline = "Адкрыты рухавік воксельных гульняў (былы Minetest)."
+long = "Будуйце, капайце і даследуйце светы з блокаў, гуляйце ў сотні гульняў і модаў супольнасці адзін ці на серверах."
+
+[text.ru]
+tagline = "Открытый движок воксельных игр (бывший Minetest)."
+long = "Стройте, копайте и исследуйте миры из блоков, играйте в сотни игр и модов сообщества в одиночку или на серверах."

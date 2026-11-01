@@ -1,0 +1,24 @@
+id = "mpc-hc"
+name = "MPC-HC"
+publisher = "clsid2"
+category = "media"
+
+[source]
+repo = "clsid2/mpc-hc"
+asset = '^MPC-HC\.[\d.]+\.x64\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "mpc-hc64.exe"
+
+[text.en]
+tagline = "The light, classic media player for Windows."
+long = "Plays almost any video and audio file with built-in codecs, subtitles and a small, familiar interface."
+
+[text.be]
+tagline = "Лёгкі класічны медыяпрайгравальнік для Windows."
+long = "Прайграе амаль любое відэа і аўдыя з убудаванымі кодэкамі, субтытрамі і невялікім звыклым інтэрфейсам."
+
+[text.ru]
+tagline = "Лёгкий классический медиаплеер для Windows."
+long = "Воспроизводит почти любое видео и аудио со встроенными кодеками, субтитрами и небольшим привычным интерфейсом."

@@ -1,0 +1,31 @@
+id = "openlogi"
+name = "OpenLogi"
+publisher = "AprilNEA"
+category = "utilities"
+
+[source]
+repo = "AprilNEA/OpenLogi"
+asset = '^OpenLogi-v[\d.]+-windows-x86_64\.msi$'
+
+[install]
+strategy = "msi"
+
+[detection]
+displayNameRegex = '^OpenLogi'
+
+[text.en]
+tagline = "Set up Logitech mice and keyboards without an account."
+long = "Remap buttons, adjust DPI and scrolling and switch profiles for Logitech devices, with no cloud and no sign-in."
+
+[text.be]
+tagline = "Наладка мышэй і клавіятур Logitech без уліковага запісу."
+long = "Перапрызначайце кнопкі, наладжвайце DPI і пракрутку і пераключайце профілі прылад Logitech без воблака і без уваходу."
+
+[text.ru]
+tagline = "Настройка мышей и клавиатур Logitech без учётной записи."
+long = "Переназначайте кнопки, настраивайте DPI и прокрутку и переключайте профили устройств Logitech без облака и без входа."
+
+[rising.note]
+en = "A small, open replacement for Logitech Options+, the app many people would rather not install."
+be = "Невялікая адкрытая замена Logitech Options+, праграмы, якую многія не хочуць ставіць."
+ru = "Небольшая открытая замена Logitech Options+, программы, которую многие не хотят ставить."

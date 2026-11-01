@@ -1,0 +1,33 @@
+id = "deskbox"
+name = "DeskBox"
+publisher = "Tianyu"
+category = "system"
+
+[source]
+repo = "Tianyu199509/DeskBox"
+asset = '^DeskBox_Setup_[\d.]+_x64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-", "/CURRENTUSER"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^DeskBox'
+
+[text.en]
+tagline = "Tidy desktop boxes and widgets in WinUI 3."
+long = "Group desktop icons into boxes that fold away, add clocks, notes and system widgets, all in the Windows 11 style."
+
+[text.be]
+tagline = "Акуратныя скрыні і віджэты на працоўным стале ў WinUI 3."
+long = "Раскладвайце значкі працоўнага стала па скрынях, якія згортваюцца, дадавайце гадзіннікі, нататкі і сістэмныя віджэты ў стылі Windows 11."
+
+[text.ru]
+tagline = "Аккуратные коробки и виджеты на рабочем столе в WinUI 3."
+long = "Раскладывайте значки рабочего стола по коробкам, которые сворачиваются, добавляйте часы, заметки и системные виджеты в стиле Windows 11."
+
+[rising.note]
+en = "A free take on Stardock Fences that looks like it belongs in Windows 11."
+be = "Бясплатны погляд на Stardock Fences, які выглядае як частка Windows 11."
+ru = "Бесплатный взгляд на Stardock Fences, который выглядит как часть Windows 11."

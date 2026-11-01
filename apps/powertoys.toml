@@ -1,0 +1,28 @@
+id = "powertoys"
+name = "PowerToys"
+publisher = "Microsoft"
+category = "system"
+
+[source]
+repo = "microsoft/PowerToys"
+asset = '^PowerToysUserSetup-[\d.]+-x64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/quiet", "/norestart"]
+
+[detection]
+displayNameRegex = '^PowerToys'
+publisher = "Microsoft"
+
+[text.en]
+tagline = "Microsoft's toolbox for power users."
+long = "FancyZones window layouts, PowerToys Run, a colour picker, batch rename, text extractor and two dozen more utilities."
+
+[text.be]
+tagline = "Набор інструментаў Microsoft для дасведчаных карыстальнікаў."
+long = "Раскладкі вокнаў FancyZones, PowerToys Run, піпетка, групавое перайменаванне, распазнаванне тэксту і яшчэ два дзясяткі ўтыліт."
+
+[text.ru]
+tagline = "Набор инструментов Microsoft для опытных пользователей."
+long = "Раскладки окон FancyZones, PowerToys Run, пипетка, групповое переименование, распознавание текста и ещё два десятка утилит."

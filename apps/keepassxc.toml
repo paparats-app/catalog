@@ -1,0 +1,24 @@
+id = "keepassxc"
+name = "KeePassXC"
+publisher = "KeePassXC Team"
+category = "utilities"
+license = "GPL-2.0 / GPL-3.0"
+
+[source]
+repo = "keepassxreboot/keepassxc"
+asset = '^KeePassXC-[\d.]+-(x64|Win64)\.zip$'
+
+[install]
+strategy = "portableZip"
+
+[text.en]
+tagline = "A password manager that keeps your vault offline."
+long = "Stores passwords, passkeys and notes in an encrypted KeePass file you control, with browser integration and auto-type."
+
+[text.be]
+tagline = "Менеджар пароляў, які трымае сховішча ў вас."
+long = "Захоўвае паролі, ключы доступу і нататкі ў зашыфраваным файле KeePass пад вашым кантролем, з інтэграцыяй у браўзер і аўтаўводам."
+
+[text.ru]
+tagline = "Менеджер паролей, который держит хранилище у вас."
+long = "Хранит пароли, ключи доступа и заметки в зашифрованном файле KeePass под вашим контролем, с интеграцией в браузер и автовводом."

@@ -1,0 +1,27 @@
+id = "joplin"
+name = "Joplin"
+publisher = "Laurent Cozic"
+category = "productivity"
+
+[source]
+repo = "laurent22/joplin"
+asset = '^Joplin-Setup-[\d.]+\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+
+[detection]
+displayNames = ["Joplin"]
+
+[text.en]
+tagline = "Open-source notes with end-to-end encrypted sync."
+long = "Notes and to-do lists in Markdown, organised in notebooks. Sync through your own cloud with end-to-end encryption, clip web pages and work offline."
+
+[text.be]
+tagline = "Нататкі з адкрытым кодам і шыфраванай сінхранізацыяй."
+long = "Нататкі і спісы спраў у Markdown, раскладзеныя па нататніках. Сінхранізуйце праз уласнае воблака са скразным шыфраваннем, захоўвайце вэб-старонкі і працуйце без сеткі."
+
+[text.ru]
+tagline = "Заметки с открытым кодом и шифрованной синхронизацией."
+long = "Заметки и списки дел в Markdown, разложенные по блокнотам. Синхронизируйте через своё облако со сквозным шифрованием, сохраняйте веб-страницы и работайте офлайн."

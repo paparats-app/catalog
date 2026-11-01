@@ -1,0 +1,29 @@
+id = "killerpdf"
+name = "KillerPDF"
+publisher = "Stephen Riley"
+category = "productivity"
+
+[source]
+repo = "SteveTheKiller/KillerPDF"
+asset = '^KillerPDF-Portable\.exe$'
+
+[install]
+strategy = "portableExe"
+launch = "KillerPDF.exe"
+
+[text.en]
+tagline = "Edit PDFs: text, OCR, forms and signatures."
+long = "Change text in PDFs, recognise scanned pages, fill in and create forms, merge and split files and sign documents."
+
+[text.be]
+tagline = "Рэдагаванне PDF: тэкст, OCR, формы і подпісы."
+long = "Мяняйце тэкст у PDF, распазнавайце сканы, запаўняйце і стварайце формы, аб'ядноўвайце і дзяліце файлы і падпісвайце дакументы."
+
+[text.ru]
+tagline = "Редактирование PDF: текст, OCR, формы и подписи."
+long = "Меняйте текст в PDF, распознавайте сканы, заполняйте и создавайте формы, объединяйте и разделяйте файлы и подписывайте документы."
+
+[rising.note]
+en = "A free PDF editor that covers what people usually pay for, from one program file."
+be = "Бясплатны рэдактар PDF, які робіць тое, за што звычайна плацяць, і ўвесь змяшчаецца ў адным файле."
+ru = "Бесплатный редактор PDF, который делает то, за что обычно платят, и весь умещается в одном файле."

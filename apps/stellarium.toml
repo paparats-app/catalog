@@ -1,0 +1,28 @@
+id = "stellarium"
+name = "Stellarium"
+publisher = "Stellarium team"
+category = "education"
+
+[source]
+repo = "Stellarium/stellarium"
+asset = '^stellarium-[\d.]+-qt6-win64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-"]
+scope = "machine"
+
+[detection]
+displayNameRegex = '^Stellarium'
+
+[text.en]
+tagline = "A planetarium on your computer."
+long = "A realistic sky with stars, planets and constellations from any place and time, plus telescopes and the sky cultures of many peoples."
+
+[text.be]
+tagline = "Планетарый на вашым камп'ютары."
+long = "Рэалістычнае неба з зоркамі, планетамі і сузор'ямі з любога месца і ў любы час, а таксама тэлескопы і зорныя культуры многіх народаў."
+
+[text.ru]
+tagline = "Планетарий на вашем компьютере."
+long = "Реалистичное небо со звёздами, планетами и созвездиями из любого места и в любое время, а также телескопы и звёздные культуры многих народов."

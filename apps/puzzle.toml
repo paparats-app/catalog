@@ -1,0 +1,29 @@
+id = "puzzle"
+name = "Puzzle"
+publisher = "Sidhant"
+category = "games"
+
+[source]
+repo = "sidhant947/Puzzle"
+asset = '^puzzle-games-windows-portable\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "puzzle.exe"
+
+[text.en]
+tagline = "Hundreds of puzzles: sudoku, minesweeper, 2048 and more."
+long = "A collection of classic logic games in one app, with no ads and no internet needed."
+
+[text.be]
+tagline = "Сотні галаваломак: судоку, сапёр, 2048 і іншыя."
+long = "Калекцыя класічных лагічных гульняў у адной праграме, без рэкламы і без інтэрнэту."
+
+[text.ru]
+tagline = "Сотни головоломок: судоку, сапёр, 2048 и другие."
+long = "Коллекция классических логических игр в одной программе, без рекламы и без интернета."
+
+[rising.note]
+en = "A small project with a big heart: hundreds of puzzles and not a single ad."
+be = "Невялікі праект з вялікім сэрцам: сотні галаваломак і ніводнай рэкламы."
+ru = "Небольшой проект с большим сердцем: сотни головоломок и ни одной рекламы."

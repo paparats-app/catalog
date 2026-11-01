@@ -1,0 +1,24 @@
+id = "screentogif"
+name = "ScreenToGif"
+publisher = "Nicke Manarin"
+category = "design"
+
+[source]
+repo = "NickeManarin/ScreenToGif"
+asset = '^ScreenToGif\.[\d.]+\.Portable\.x64\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "ScreenToGif.exe"
+
+[text.en]
+tagline = "Record the screen, the webcam or a sketch as a GIF."
+long = "Capture part of the screen, edit frame by frame, add text and arrows, then save as GIF, APNG or video."
+
+[text.be]
+tagline = "Запіс экрана, вэб-камеры ці малюнка ў GIF."
+long = "Запішыце частку экрана, адрэдагуйце па кадрах, дадайце тэкст і стрэлкі і захавайце як GIF, APNG ці відэа."
+
+[text.ru]
+tagline = "Запись экрана, веб-камеры или рисунка в GIF."
+long = "Запишите часть экрана, отредактируйте по кадрам, добавьте текст и стрелки и сохраните как GIF, APNG или видео."

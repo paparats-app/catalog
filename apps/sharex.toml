@@ -1,0 +1,24 @@
+id = "sharex"
+name = "ShareX"
+publisher = "ShareX Team"
+category = "utilities"
+
+[source]
+repo = "ShareX/ShareX"
+asset = '^ShareX-[\d.]+-portable-x64\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "ShareX.exe"
+
+[text.en]
+tagline = "Screenshots, screen recording and annotation in one."
+long = "Capture a region, a window or a scrolling page, annotate it, record GIFs and share with dozens of destinations."
+
+[text.be]
+tagline = "Здымкі экрана, запіс і анатацыі ў адной праграме."
+long = "Здымайце вобласць, акно ці старонку з пракруткай, рабіце пазнакі, запісвайце GIF і дзяліцеся ў дзясяткі сэрвісаў."
+
+[text.ru]
+tagline = "Скриншоты, запись экрана и аннотации в одной программе."
+long = "Снимайте область, окно или страницу с прокруткой, делайте пометки, записывайте GIF и делитесь в десятки сервисов."

@@ -1,0 +1,27 @@
+id = "audacity"
+name = "Audacity"
+publisher = "Audacity Team"
+category = "media"
+
+[source]
+repo = "audacity/audacity"
+asset = '^audacity-win-[\d.]+-x86_64\.msi$'
+
+[install]
+strategy = "msi"
+scope = "machine"
+
+[detection]
+displayNames = ["Audacity"]
+
+[text.en]
+tagline = "Record and edit audio, free and open."
+long = "Multitrack recording and editing with effects, noise reduction and plugins. Exports MP3, WAV, FLAC and more."
+
+[text.be]
+tagline = "Запіс і рэдагаванне гуку, бясплатна і адкрыта."
+long = "Шматдарожкавы запіс і мантаж з эфектамі, шумапрыглушэннем і плагінамі. Экспартуе MP3, WAV, FLAC і іншае."
+
+[text.ru]
+tagline = "Запись и редактирование звука, бесплатно и открыто."
+long = "Многодорожечная запись и монтаж с эффектами, шумоподавлением и плагинами. Экспортирует MP3, WAV, FLAC и другое."

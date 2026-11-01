@@ -1,0 +1,35 @@
+id = "fastmd"
+name = "FastMD"
+publisher = "seka"
+category = "productivity"
+# Made by the owner of Paparats; the app page says so.
+byPaparatsAuthor = true
+
+[source]
+repo = "beanbo/FastMD"
+asset = '^FastMD-Setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^FastMD'
+
+[text.en]
+tagline = "A Markdown viewer that opens instantly."
+long = "Opens Markdown files in a blink, with tables, code highlighting and a table of contents. Made to start faster than you can notice."
+
+[text.be]
+tagline = "Прагляднік Markdown, які адкрываецца імгненна."
+long = "Адкрывае файлы Markdown у імгненне вока, з табліцамі, падсветкай кода і зместам. Зроблены, каб запускацца хутчэй, чым вы заўважыце."
+
+[text.ru]
+tagline = "Просмотрщик Markdown, который открывается мгновенно."
+long = "Открывает файлы Markdown в мгновение ока, с таблицами, подсветкой кода и оглавлением. Сделан, чтобы запускаться быстрее, чем вы заметите."
+
+[rising.note]
+en = "A native viewer that starts in milliseconds. Made by the author of Paparats, so judge it twice as strictly."
+be = "Натыўны прагляднік, які запускаецца за мілісекунды. Яго зрабіў аўтар Paparats, таму ацэньвайце ўдвая строга."
+ru = "Нативный просмотрщик, который запускается за миллисекунды. Его сделал автор Paparats, поэтому оценивайте вдвойне строго."

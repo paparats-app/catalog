@@ -1,0 +1,26 @@
+id = "anki"
+name = "Anki"
+publisher = "Ankitects"
+category = "education"
+
+[source]
+repo = "ankitects/anki"
+asset = '^anki-[\d.]+-win-x64\.msi$'
+
+[install]
+strategy = "msi"
+
+[detection]
+displayNameRegex = '^Anki'
+
+[text.en]
+tagline = "Flashcards that remember for you."
+long = "Spaced repetition shows each card just before you would forget it. Learn languages, medicine or anything with your own or shared decks."
+
+[text.be]
+tagline = "Карткі, якія памятаюць за вас."
+long = "Інтэрвальнае паўтарэнне паказвае кожную картку якраз перад тым, як вы б яе забылі. Вывучайце мовы, медыцыну ці што заўгодна з уласнымі ці агульнымі калодамі."
+
+[text.ru]
+tagline = "Карточки, которые помнят за вас."
+long = "Интервальное повторение показывает каждую карточку как раз перед тем, как вы бы её забыли. Учите языки, медицину или что угодно со своими или общими колодами."

@@ -1,0 +1,33 @@
+id = "recordly"
+name = "Recordly"
+publisher = "Recordly"
+category = "media"
+
+[source]
+repo = "webadderallorg/Recordly"
+asset = '^Recordly-windows-x64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^Recordly'
+
+[text.en]
+tagline = "Polished screen demos without editing."
+long = "Record the screen and get a video with smooth zooms on clicks, a styled cursor and backgrounds, ready to share."
+
+[text.be]
+tagline = "Акуратныя дэма-ролікі з экрана без мантажу."
+long = "Запішыце экран і атрымайце відэа з плаўным набліжэннем на кліках, прыгожым курсорам і фонам, гатовае да публікацыі."
+
+[text.ru]
+tagline = "Аккуратные демо-ролики с экрана без монтажа."
+long = "Запишите экран и получите видео с плавным приближением на кликах, красивым курсором и фоном, готовое к публикации."
+
+[rising.note]
+en = "What paid screen-demo tools do, free and open, on Windows too."
+be = "Тое, што робяць платныя праграмы для дэма-ролікаў, бясплатна і адкрыта, у тым ліку на Windows."
+ru = "То, что делают платные программы для демо-роликов, бесплатно и открыто, в том числе на Windows."

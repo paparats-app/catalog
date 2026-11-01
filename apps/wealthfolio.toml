@@ -1,0 +1,33 @@
+id = "wealthfolio"
+name = "Wealthfolio"
+publisher = "Wealthfolio"
+category = "lifestyle"
+
+[source]
+repo = "wealthfolio/wealthfolio"
+asset = '^Wealthfolio_[\d.]+_x64-setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^Wealthfolio'
+
+[text.en]
+tagline = "Track your investments with the data on your computer."
+long = "Follow accounts, holdings, dividends and goals in a clean dashboard. Data lives in a local file, not in someone's cloud."
+
+[text.be]
+tagline = "Улік інвестыцый, даныя на вашым камп'ютары."
+long = "Сачыце за рахункамі, актывамі, дывідэндамі і мэтамі на акуратнай панэлі. Даныя ляжаць у лакальным файле, а не ў чужым воблаку."
+
+[text.ru]
+tagline = "Учёт инвестиций, данные на вашем компьютере."
+long = "Следите за счетами, активами, дивидендами и целями на аккуратной панели. Данные лежат в локальном файле, а не в чужом облаке."
+
+[rising.note]
+en = "Personal finance without handing your accounts to a service."
+be = "Асабістыя фінансы без перадачы вашых рахункаў чужому сэрвісу."
+ru = "Личные финансы без передачи ваших счетов чужому сервису."

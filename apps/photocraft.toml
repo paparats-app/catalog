@@ -1,0 +1,30 @@
+id = "photocraft"
+name = "photocraft"
+publisher = "Learning Machines"
+category = "design"
+mono = "Ph"
+
+[source]
+repo = "storytold/photocraft"
+asset = '^photocraft-[\d.]+-windows-x64-portable\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "photocraft.exe"
+
+[text.en]
+tagline = "A Photoshop-style raster editor written in Rust."
+long = "Layers, masks, adjustment layers, brushes and PSD import in a fast editor that is changing every day."
+
+[text.be]
+tagline = "Растравы рэдактар у духу Photoshop, напісаны на Rust."
+long = "Слаі, маскі, карэкцыйныя слаі, пэндзлі і імпарт PSD у хуткім рэдактары, які мяняецца кожны дзень."
+
+[text.ru]
+tagline = "Растровый редактор в духе Photoshop, написанный на Rust."
+long = "Слои, маски, корректирующие слои, кисти и импорт PSD в быстром редакторе, который меняется каждый день."
+
+[rising.note]
+en = "Only weeks old and already a serious editor. A new version lands almost daily."
+be = "Праекту ўсяго некалькі тыдняў, а гэта ўжо сур'ёзны рэдактар. Новая версія выходзіць амаль кожны дзень."
+ru = "Проекту всего несколько недель, а это уже серьёзный редактор. Новая версия выходит почти каждый день."

@@ -1,0 +1,24 @@
+id = "shattered-pixel-dungeon"
+name = "Shattered Pixel Dungeon"
+publisher = "Shattered Pixel"
+category = "games"
+
+[source]
+repo = "00-Evan/shattered-pixel-dungeon"
+asset = '^ShatteredPD-v[\d.]+-Windows\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "Shattered Pixel Dungeon.exe"
+
+[text.en]
+tagline = "A classic roguelike dungeon crawler."
+long = "Explore randomly generated dungeons, find gear and fight monsters in turn-based pixel art. Every run is different."
+
+[text.be]
+tagline = "Класічны rogue-like пра падзямелле."
+long = "Даследуйце выпадковыя падзямеллі, шукайце рыштунак і змагайцеся з пачварамі ў пакрокавым піксель-арце. Кожнае праходжанне новае."
+
+[text.ru]
+tagline = "Классический rogue-like про подземелье."
+long = "Исследуйте случайные подземелья, ищите снаряжение и сражайтесь с монстрами в пошаговом пиксель-арте. Каждое прохождение новое."

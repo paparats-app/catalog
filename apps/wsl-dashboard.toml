@@ -1,0 +1,28 @@
+id = "wsl-dashboard"
+name = "WSL Dashboard"
+publisher = "owu"
+category = "development"
+
+[source]
+repo = "owu/wsl-dashboard"
+asset = '^WSLDashboard\.[\d.]+\.Portable\.x64\.zip$'
+
+[install]
+strategy = "portableZip"
+
+[text.en]
+tagline = "Manage your WSL distributions in a window."
+long = "Start, stop, export and import Linux distributions, see their state and open a terminal or Explorer in one click."
+
+[text.be]
+tagline = "Кіраванне дыстрыбутывамі WSL у акне."
+long = "Запускайце, спыняйце, экспартуйце і імпартуйце дыстрыбутывы Linux, глядзіце іх стан і адкрывайце тэрмінал ці Правадыр адной кнопкай."
+
+[text.ru]
+tagline = "Управление дистрибутивами WSL в окне."
+long = "Запускайте, останавливайте, экспортируйте и импортируйте дистрибутивы Linux, смотрите их состояние и открывайте терминал или Проводник одной кнопкой."
+
+[rising.note]
+en = "Everything wsl.exe can do, without remembering a single flag."
+be = "Усё, што ўмее wsl.exe, без запамінання хоць аднаго ключа."
+ru = "Всё, что умеет wsl.exe, без запоминания хотя бы одного ключа."

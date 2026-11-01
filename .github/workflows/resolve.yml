@@ -1,0 +1,112 @@
+name: Resolve
+
+# Once a day the bot looks for new releases, checks the files and commits lock.json. Newer
+# releases wait 48 hours in quarantine before they ship. When the lock changed, the site is
+# rebuilt and published. Anything that needs a person (a release held back, a failed app, a
+# stale or archived project) goes to the "Bot: needs attention" issue.
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "App ids separated by spaces (empty: every app)"
+        required: false
+        default: ""
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  resolve:
+    runs-on: windows-latest
+    timeout-minutes: 180
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Bot version
+        id: bot
+        shell: bash
+        run: echo "ref=$(tr -d '[:space:]' < .github/bot-ref)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v5
+        with:
+          repository: paparats-app/paparats
+          ref: ${{ steps.bot.outputs.ref }}
+          path: .bot
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: .bot
+          shared-key: catalog-bot
+
+      - name: Build the bot
+        run: cargo build --release --locked -p paparats-catalog-bot --manifest-path .bot/Cargo.toml
+
+      - name: Resolve
+        id: resolve
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          $only = @()
+          foreach ($id in "$env:ONLY".Split(' ', [StringSplitOptions]::RemoveEmptyEntries)) {
+            $only += '--only', $id
+          }
+          .bot/target/release/catalog-bot.exe resolve . --summary "$env:RUNNER_TEMP/summary.md" @only
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+
+      - name: Commit lock.json
+        id: commit
+        shell: bash
+        run: |
+          if git diff --quiet -- lock.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          { echo "chore(lock): bot update $(date -u +%F)"; echo; cat "$RUNNER_TEMP/summary.md"; } > "$RUNNER_TEMP/message.txt"
+          git add lock.json
+          git commit -q -F "$RUNNER_TEMP/message.txt"
+          git push -q
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Tell a person
+        if: steps.resolve.outputs.attention == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Bot: needs attention"
+          { cat "$RUNNER_TEMP/summary.md"; echo; echo "Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"; } > "$RUNNER_TEMP/issue.md"
+          number=$(gh issue list --state open --label bot --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --body-file "$RUNNER_TEMP/issue.md"
+          else
+            gh issue create --title "$title" --label bot --body-file "$RUNNER_TEMP/issue.md"
+          fi
+
+  publish:
+    needs: resolve
+    if: needs.resolve.outputs.changed == 'true'
+    uses: ./.github/workflows/publish.yml
+    secrets: inherit
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

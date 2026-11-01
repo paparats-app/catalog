@@ -1,0 +1,23 @@
+id = "imageglass"
+name = "ImageGlass"
+publisher = "Dương Diệu Pháp"
+category = "design"
+
+[source]
+repo = "d2phap/ImageGlass"
+asset = '^ImageGlass_[\d.]+_win-x64\.zip$'
+
+[install]
+strategy = "portableZip"
+
+[text.en]
+tagline = "A light, fast image viewer for 90+ formats."
+long = "Opens photos and graphics instantly, including WebP, AVIF, HEIC, SVG and RAW, with a clean interface and themes."
+
+[text.be]
+tagline = "Лёгкі хуткі прагляднік выяў для 90+ фарматаў."
+long = "Імгненна адкрывае фота і графіку, у тым ліку WebP, AVIF, HEIC, SVG і RAW, у акуратным інтэрфейсе з тэмамі."
+
+[text.ru]
+tagline = "Лёгкий быстрый просмотрщик изображений для 90+ форматов."
+long = "Мгновенно открывает фото и графику, включая WebP, AVIF, HEIC, SVG и RAW, в аккуратном интерфейсе с темами."

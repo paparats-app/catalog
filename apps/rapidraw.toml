@@ -1,0 +1,33 @@
+id = "rapidraw"
+name = "RapidRAW"
+publisher = "Timon Käch"
+category = "design"
+
+[source]
+repo = "CyberTimon/RapidRAW"
+asset = '^\d*_?RapidRAW_v[\d.]+_windows_x64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^RapidRAW'
+
+[text.en]
+tagline = "A RAW photo editor accelerated by the GPU."
+long = "Develop RAW photos with exposure, curves, colour grading and masks. The graphics card keeps the editing smooth."
+
+[text.be]
+tagline = "Рэдактар RAW-фатаграфій з паскарэннем на відэакарце."
+long = "Праяўляйце RAW-здымкі з экспазіцыяй, крывымі, каляровай карэкцыяй і маскамі. Відэакарта робіць рэдагаванне плаўным."
+
+[text.ru]
+tagline = "Редактор RAW-фотографий с ускорением на видеокарте."
+long = "Проявляйте RAW-снимки с экспозицией, кривыми, цветокоррекцией и масками. Видеокарта делает редактирование плавным."
+
+[rising.note]
+en = "A light Lightroom alternative from one young developer that grew a large community in months."
+be = "Лёгкая альтэрнатыва Lightroom ад аднаго маладога распрацоўшчыка, якая за некалькі месяцаў сабрала вялікую супольнасць."
+ru = "Лёгкая альтернатива Lightroom от одного молодого разработчика, которая за несколько месяцев собрала большое сообщество."

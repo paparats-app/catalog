@@ -1,0 +1,30 @@
+id = "readest"
+name = "Readest"
+publisher = "Readest"
+category = "education"
+
+[source]
+repo = "readest/readest"
+asset = '^Readest_[\d.]+_x64-portable\.exe$'
+
+[install]
+strategy = "portableExe"
+launch = "Readest.exe"
+signer = "none"
+
+[text.en]
+tagline = "A modern reader for EPUB, PDF and more."
+long = "Read EPUB, PDF, MOBI and comics with notes, highlights, dictionary lookup and read-aloud; sync progress if you wish."
+
+[text.be]
+tagline = "Сучасная чытанка для EPUB, PDF і іншых фарматаў."
+long = "Чытайце EPUB, PDF, MOBI і коміксы з нататкамі, вылучэннямі, слоўнікам і чытаннем услых; сінхранізуйце прагрэс, калі хочаце."
+
+[text.ru]
+tagline = "Современная читалка для EPUB, PDF и других форматов."
+long = "Читайте EPUB, PDF, MOBI и комиксы с заметками, выделениями, словарём и чтением вслух; синхронизируйте прогресс, если хотите."
+
+[rising.note]
+en = "A beautiful reader that works the same on every device you own."
+be = "Прыгожая чытанка, якая аднолькава працуе на ўсіх вашых прыладах."
+ru = "Красивая читалка, которая одинаково работает на всех ваших устройствах."

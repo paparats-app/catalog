@@ -1,0 +1,33 @@
+id = "openpencil"
+name = "OpenPencil"
+publisher = "OpenPencil"
+category = "design"
+
+[source]
+repo = "open-pencil/open-pencil"
+asset = '^OpenPencil_[\d.]+_x64-setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^OpenPencil'
+
+[text.en]
+tagline = "An open design tool that opens Figma files."
+long = "Design interfaces with frames, components and auto layout. Opens .fig files and keeps your work on your disk."
+
+[text.be]
+tagline = "Адкрыты рэдактар дызайну, які адкрывае файлы Figma."
+long = "Малюйце інтэрфейсы з фрэймамі, кампанентамі і аўтавёрсткай. Адкрывае файлы .fig і трымае працу на вашым дыску."
+
+[text.ru]
+tagline = "Открытый редактор дизайна, который открывает файлы Figma."
+long = "Рисуйте интерфейсы с фреймами, компонентами и автовёрсткой. Открывает файлы .fig и хранит работу на вашем диске."
+
+[rising.note]
+en = "The open alternative to Figma we were waiting for, and it already reads .fig files."
+be = "Адкрытая альтэрнатыва Figma, якую мы чакалі, і яна ўжо чытае файлы .fig."
+ru = "Открытая альтернатива Figma, которую мы ждали, и она уже читает файлы .fig."

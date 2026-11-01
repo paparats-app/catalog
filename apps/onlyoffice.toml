@@ -1,0 +1,24 @@
+id = "onlyoffice"
+name = "ONLYOFFICE Desktop Editors"
+publisher = "Ascensio System SIA"
+category = "productivity"
+
+[source]
+repo = "ONLYOFFICE/DesktopEditors"
+asset = '^DesktopEditors_x64\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "DesktopEditors.exe"
+
+[text.en]
+tagline = "Documents, spreadsheets and slides, Office-compatible."
+long = "One app for text documents, spreadsheets, presentations and PDF forms. Opens and saves Microsoft Office formats faithfully."
+
+[text.be]
+tagline = "Дакументы, табліцы і прэзентацыі, сумяшчальныя з Office."
+long = "Адна праграма для тэкставых дакументаў, табліц, прэзентацый і PDF-формаў. Дакладна адкрывае і захоўвае фарматы Microsoft Office."
+
+[text.ru]
+tagline = "Документы, таблицы и презентации, совместимые с Office."
+long = "Одна программа для текстовых документов, таблиц, презентаций и PDF-форм. Точно открывает и сохраняет форматы Microsoft Office."

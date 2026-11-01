@@ -1,0 +1,27 @@
+id = "vscodium"
+name = "VSCodium"
+publisher = "VSCodium"
+category = "development"
+
+[source]
+repo = "VSCodium/vscodium"
+asset = '^VSCodiumUserSetup-x64-[\d.]+\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-", "/MERGETASKS=!runcode"]
+
+[detection]
+displayNameRegex = '^VSCodium'
+
+[text.en]
+tagline = "The VS Code editor without Microsoft's telemetry."
+long = "Free builds of Visual Studio Code's open-source code with telemetry switched off. Extensions come from the Open VSX registry."
+
+[text.be]
+tagline = "Рэдактар VS Code без тэлеметрыі Microsoft."
+long = "Свабодныя зборкі адкрытага кода Visual Studio Code з выключанай тэлеметрыяй. Пашырэнні бяруцца з рэестра Open VSX."
+
+[text.ru]
+tagline = "Редактор VS Code без телеметрии Microsoft."
+long = "Свободные сборки открытого кода Visual Studio Code с выключенной телеметрией. Расширения берутся из реестра Open VSX."

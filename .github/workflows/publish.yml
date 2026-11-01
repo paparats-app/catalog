@@ -1,0 +1,82 @@
+name: Publish
+
+# Builds the signed manifests (channels.json, catalog.json, platform.json, official.json) and the
+# icons from main, and publishes them to GitHub Pages. The signing key lives in the "catalog"
+# environment and is only handed to this workflow on main.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/**"
+      - "icons/**"
+      - "editorial.toml"
+      - "lock.json"
+      - ".github/bot-ref"
+      - ".github/workflows/publish.yml"
+  workflow_dispatch:
+  workflow_call:
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: windows-latest
+    environment: catalog
+    timeout-minutes: 30
+    steps:
+      # Always main: when Resolve calls this workflow, its own commit is newer than the event.
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Bot version
+        id: bot
+        shell: bash
+        run: echo "ref=$(tr -d '[:space:]' < .github/bot-ref)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v5
+        with:
+          repository: paparats-app/paparats
+          ref: ${{ steps.bot.outputs.ref }}
+          path: .bot
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: .bot
+          shared-key: catalog-bot
+
+      - name: Build the bot
+        run: cargo build --release --locked -p paparats-catalog-bot --manifest-path .bot/Cargo.toml
+
+      - name: Build the site
+        env:
+          PAPARATS_SIGNING_KEY: ${{ secrets.PAPARATS_SIGNING_KEY }}
+          PAPARATS_SIGNING_KEY_ID: ${{ secrets.PAPARATS_SIGNING_KEY_ID }}
+        run: .bot/target/release/catalog-bot.exe build . --out site
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,24 @@
+id = "rufus"
+name = "Rufus"
+publisher = "Pete Batard"
+category = "utilities"
+
+[source]
+repo = "pbatard/rufus"
+asset = '^rufus-[\d.]+\.exe$'
+
+[install]
+strategy = "portableExe"
+launch = "Rufus.exe"
+
+[text.en]
+tagline = "Make bootable USB drives in a minute."
+long = "Writes Windows and Linux images to USB sticks, with options for UEFI, GPT and bypassing Windows 11 requirements."
+
+[text.be]
+tagline = "Загрузныя флэшкі за хвіліну."
+long = "Запісвае вобразы Windows і Linux на USB-назапашвальнікі, з наладамі для UEFI, GPT і абыходу патрабаванняў Windows 11."
+
+[text.ru]
+tagline = "Загрузочные флешки за минуту."
+long = "Записывает образы Windows и Linux на USB-накопители, с настройками для UEFI, GPT и обхода требований Windows 11."

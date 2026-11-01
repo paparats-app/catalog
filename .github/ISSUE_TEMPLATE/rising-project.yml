@@ -1,0 +1,57 @@
+name: Rising project
+description: A young project worth meeting, for the Rising shelf. Your own is welcome.
+title: "Rising: "
+labels: [rising]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Rising shelf introduces young projects. What we look for:
+        - the repository was created in 2023 or later;
+        - a Windows build in the official repository's GitHub Releases, released in the last
+          four months;
+        - a license that allows free use; no ads; telemetry off or clearly optional.
+
+        Stars do not matter. Before a project goes on the shelf, an editor runs it in Windows
+        Sandbox and checks it does what it promises.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      placeholder: https://github.com/owner/name
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does
+      description: One or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it is worth meeting
+      description: What makes it stand out. This may become the editors' note on the shelf.
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: Windows file in the latest release
+      placeholder: App_0.4.0_x64-setup.exe
+    validations:
+      required: true
+  - type: textarea
+    id: install
+    attributes:
+      label: Silent install and detection (if you know)
+      description: Silent install arguments, per-user or machine-wide, the name in "Installed apps".
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The app has no ads, bundled offers or hidden data collection.
+          required: true
+        - label: I am the author of this project.

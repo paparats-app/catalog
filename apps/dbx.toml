@@ -1,0 +1,32 @@
+id = "dbx"
+name = "DBX"
+publisher = "Yujie Network Studio"
+category = "development"
+
+[source]
+repo = "t8y2/dbx"
+asset = '^DBX_[\d.]+_x64-setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+
+[detection]
+displayNameRegex = '^(DBX|dbx)'
+
+[text.en]
+tagline = "One client for more than a hundred databases."
+long = "Connect to PostgreSQL, MySQL, SQLite, MongoDB, Redis and many more, write queries with completion and edit data in tables."
+
+[text.be]
+tagline = "Адзін кліент для больш чым сотні баз даных."
+long = "Падключайцеся да PostgreSQL, MySQL, SQLite, MongoDB, Redis і многіх іншых, пішыце запыты з падказкамі і рэдагуйце даныя ў табліцах."
+
+[text.ru]
+tagline = "Один клиент для более чем сотни баз данных."
+long = "Подключайтесь к PostgreSQL, MySQL, SQLite, MongoDB, Redis и многим другим, пишите запросы с подсказками и редактируйте данные в таблицах."
+
+[rising.note]
+en = "Half a year old and already a light alternative to heavyweight database tools."
+be = "Праекту паўгода, а ён ужо лёгкая альтэрнатыва цяжкім інструментам для баз даных."
+ru = "Проекту полгода, а он уже лёгкая альтернатива тяжёлым инструментам для баз данных."

@@ -1,0 +1,27 @@
+id = "localsend"
+name = "LocalSend"
+publisher = "LocalSend"
+category = "utilities"
+
+[source]
+repo = "localsend/localsend"
+asset = '^LocalSend-[\d.]+-windows-x86-64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-", "/CURRENTUSER"]
+
+[detection]
+displayNameRegex = '^LocalSend'
+
+[text.en]
+tagline = "Send files to nearby devices without the internet."
+long = "Share files and text between your computer and phones over the local network, encrypted and with no account."
+
+[text.be]
+tagline = "Перадача файлаў на прылады побач без інтэрнэту."
+long = "Дзяліцеся файламі і тэкстам паміж камп'ютарам і тэлефонамі праз лакальную сетку, з шыфраваннем і без уліковага запісу."
+
+[text.ru]
+tagline = "Передача файлов на соседние устройства без интернета."
+long = "Делитесь файлами и текстом между компьютером и телефонами через локальную сеть, с шифрованием и без учётной записи."

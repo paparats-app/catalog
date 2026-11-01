@@ -1,0 +1,45 @@
+name: Validate
+
+# Checks app files and editorial.toml on every pull request: ids, patterns, texts in three
+# languages, detection rules, known app ids. No network, no key.
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Bot version
+        id: bot
+        shell: bash
+        run: echo "ref=$(tr -d '[:space:]' < .github/bot-ref)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v5
+        with:
+          repository: paparats-app/paparats
+          ref: ${{ steps.bot.outputs.ref }}
+          path: .bot
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: .bot
+          shared-key: catalog-bot
+          save-if: false
+
+      - name: Build the bot
+        run: cargo build --release --locked -p paparats-catalog-bot --manifest-path .bot/Cargo.toml
+
+      - name: Validate
+        run: .bot/target/release/catalog-bot.exe validate .

@@ -1,0 +1,24 @@
+id = "pixelorama"
+name = "Pixelorama"
+publisher = "Orama Interactive"
+category = "design"
+
+[source]
+repo = "Orama-Interactive/Pixelorama"
+asset = '^Pixelorama-Windows-64bit\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "Pixelorama-Windows-64bit/Pixelorama.exe"
+
+[text.en]
+tagline = "A pixel-art editor for sprites, tiles and animation."
+long = "Layers, onion skinning, tile mode and a timeline for animated sprites. Exports sprite sheets and GIFs."
+
+[text.be]
+tagline = "Рэдактар піксель-арту для спрайтаў, тайлаў і анімацыі."
+long = "Слаі, калька папярэдніх кадраў, рэжым тайлаў і шкала часу для анімаваных спрайтаў. Экспартуе спрайт-лісты і GIF."
+
+[text.ru]
+tagline = "Редактор пиксель-арта для спрайтов, тайлов и анимации."
+long = "Слои, калька предыдущих кадров, режим тайлов и шкала времени для анимированных спрайтов. Экспортирует спрайт-листы и GIF."

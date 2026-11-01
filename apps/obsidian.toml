@@ -1,0 +1,28 @@
+id = "obsidian"
+name = "Obsidian"
+publisher = "Obsidian"
+category = "productivity"
+license = "Freeware"
+
+[source]
+repo = "obsidianmd/obsidian-releases"
+asset = '^Obsidian-[\d.]+\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+
+[detection]
+displayNames = ["Obsidian"]
+
+[text.en]
+tagline = "Notes that link to each other, in plain files."
+long = "A knowledge base on top of a folder of Markdown files. Link notes, see them on a graph and extend it with community plugins; everything stays on your disk."
+
+[text.be]
+tagline = "Нататкі, звязаныя паміж сабой, у звычайных файлах."
+long = "База ведаў па-над тэчкай з файламі Markdown. Звязвайце нататкі, глядзіце іх на графе і пашырайце плагінамі супольнасці; усё застаецца на вашым дыску."
+
+[text.ru]
+tagline = "Заметки, связанные друг с другом, в обычных файлах."
+long = "База знаний поверх папки с файлами Markdown. Связывайте заметки, смотрите их на графе и расширяйте плагинами сообщества; всё остаётся на вашем диске."

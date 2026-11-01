@@ -1,0 +1,28 @@
+id = "flow-launcher"
+name = "Flow Launcher"
+publisher = "Flow Launcher Team"
+category = "productivity"
+
+[source]
+repo = "Flow-Launcher/Flow.Launcher"
+asset = '^Flow-Launcher-Setup\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["--silent"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^Flow[ -]Launcher'
+
+[text.en]
+tagline = "Find apps and files and run commands from one box."
+long = "A quick launcher for Windows: press Alt+Space, type, and open apps, files, bookmarks or calculations. Hundreds of plugins add more."
+
+[text.be]
+tagline = "Пошук праграм, файлаў і каманд з аднаго радка."
+long = "Хуткі запускальнік для Windows: націсніце Alt+Space, пачніце пісаць і адкрывайце праграмы, файлы, закладкі ці вылічэнні. Сотні плагінаў дадаюць магчымасцей."
+
+[text.ru]
+tagline = "Поиск программ, файлов и команд из одной строки."
+long = "Быстрый запуск для Windows: нажмите Alt+Space, начните печатать и открывайте программы, файлы, закладки или вычисления. Сотни плагинов добавляют возможностей."

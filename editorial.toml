@@ -1,0 +1,117 @@
+# What Home and Browse feature. App ids refer to apps/<id>.toml.
+
+# Home › "Featured" row.
+featured = ["obsidian", "sharex", "powertoys", "keepassxc", "obs-studio", "localsend"]
+# Home › "New & notable": young projects from the Rising shelf.
+notable = ["openpencil", "photocraft", "handy", "rapidraw"]
+
+# Home › the big hero (four slides).
+[[heroSlides]]
+target = "browse"
+kicker = { en = "Discover", be = "Адкрывайце", ru = "Открывайте" }
+title1 = { en = "Great tools", be = "Выдатныя праграмы", ru = "Отличные программы" }
+title2 = { en = "hide in plain sight.", be = "хаваюцца на віду.", ru = "прячутся на виду." }
+body = { en = "Paparats is a curated store of Windows apps. Each one comes straight from its authors on GitHub, checked and installed in one click.", be = "Paparats — крама адабраных праграм для Windows. Кожная прыходзіць проста ад аўтараў з GitHub, правераная, і ставіцца адной кнопкай.", ru = "Paparats — магазин отобранных программ для Windows. Каждая приходит прямо от авторов с GitHub, проверенная, и ставится одной кнопкой." }
+cta = { en = "Explore apps", be = "Да праграм", ru = "К программам" }
+quote = { en = "Sometimes the most valuable things are just waiting to be found.", be = "Часам самае каштоўнае проста чакае, каб яго знайшлі.", ru = "Иногда самое ценное просто ждёт, чтобы его нашли." }
+
+[[heroSlides]]
+target = "rising"
+kicker = { en = "Rising", be = "Новыя імёны", ru = "Подающие надежды" }
+title1 = { en = "Young projects", be = "Маладыя праекты", ru = "Молодые проекты" }
+title2 = { en = "worth meeting.", be = "з якімі варта пазнаёміцца.", ru = "с которыми стоит познакомиться." }
+body = { en = "New apps by small teams and single developers: a Figma alternative, a RAW editor, offline dictation and more. Early, honest, alive.", be = "Новыя праграмы ад невялікіх каманд і асобных распрацоўшчыкаў: альтэрнатыва Figma, рэдактар RAW, дыктоўка без сеткі і іншае. Раннія, сумленныя, жывыя.", ru = "Новые программы от небольших команд и отдельных разработчиков: альтернатива Figma, редактор RAW, диктовка без сети и другое. Ранние, честные, живые." }
+cta = { en = "Meet them", be = "Пазнаёміцца", ru = "Познакомиться" }
+quote = { en = "Every great tool was once a small project.", be = "Кожная вялікая праграма калісьці была невялікім праектам.", ru = "Каждая большая программа когда-то была маленьким проектом." }
+
+[[heroSlides]]
+target = "categories"
+kicker = { en = "Curated for Windows", be = "Адабрана для Windows", ru = "Отобрано для Windows" }
+title1 = { en = "Small apps.", be = "Невялікія праграмы.", ru = "Небольшие программы." }
+title2 = { en = "Big possibilities.", be = "Вялікія магчымасці.", ru = "Большие возможности." }
+body = { en = "Hand-picked software for work, creativity and play. No ads, no bundled offers, no telemetry in Paparats itself.", be = "Адабраныя праграмы для працы, творчасці і адпачынку. Без рэкламы, без навязаных прапаноў і без тэлеметрыі ў самім Paparats.", ru = "Отобранные программы для работы, творчества и отдыха. Без рекламы, без навязанных предложений и без телеметрии в самом Paparats." }
+cta = { en = "Browse categories", be = "Да катэгорый", ru = "К категориям" }
+quote = { en = "Native · Safe · Useful · No ads", be = "Натыўна · Бяспечна · Карысна · Без рэкламы", ru = "Нативно · Безопасно · Полезно · Без рекламы" }
+
+[[heroSlides]]
+target = "library"
+kicker = { en = "Your library", be = "Ваша бібліятэка", ru = "Ваша библиотека" }
+title1 = { en = "Your apps,", be = "Вашы праграмы,", ru = "Ваши программы," }
+title2 = { en = "together.", be = "разам.", ru = "вместе." }
+body = { en = "Paparats finds the apps you already have, tells you when an update is out and installs it from the author's own release.", be = "Paparats знаходзіць праграмы, якія ў вас ужо ёсць, паведамляе пра абнаўленні і ставіць іх з афіцыйнага рэлізу аўтара.", ru = "Paparats находит программы, которые у вас уже есть, сообщает об обновлениях и ставит их из официального релиза автора." }
+cta = { en = "Open library", be = "Адкрыць бібліятэку", ru = "Открыть библиотеку" }
+quote = { en = "Better tools. Brighter days.", be = "Лепшыя інструменты. Яснейшыя дні.", ru = "Лучше инструменты. Светлее дни." }
+
+# Browse › the big banner (three slides). The italic note defaults to the app's rising note.
+[[browseHeroes]]
+appId = "openpencil"
+title1 = { en = "Design", be = "Дызайн", ru = "Дизайн" }
+title2 = { en = "in the open.", be = "у адкрытым кодзе.", ru = "в открытом коде." }
+body = { en = "OpenPencil is a young open design tool: frames, components, auto layout, and it opens your .fig files.", be = "OpenPencil — малады адкрыты рэдактар дызайну: фрэймы, кампаненты, аўтавёрстка, і ён адкрывае вашы файлы .fig.", ru = "OpenPencil — молодой открытый редактор дизайна: фреймы, компоненты, автовёрстка, и он открывает ваши файлы .fig." }
+
+[[browseHeroes]]
+appId = "photocraft"
+title1 = { en = "Layers, masks,", be = "Слаі, маскі,", ru = "Слои, маски," }
+title2 = { en = "and a new version daily.", be = "і новая версія штодня.", ru = "и новая версия каждый день." }
+body = { en = "photocraft is a Photoshop-style editor written in Rust. It is weeks old and moves fast; try it and watch it grow.", be = "photocraft — рэдактар у духу Photoshop, напісаны на Rust. Яму некалькі тыдняў, і ён хутка расце; паспрабуйце і назірайце.", ru = "photocraft — редактор в духе Photoshop, написанный на Rust. Ему несколько недель, и он быстро растёт; попробуйте и наблюдайте." }
+
+[[browseHeroes]]
+appId = "handy"
+title1 = { en = "Speak.", be = "Гаварыце.", ru = "Говорите." }
+title2 = { en = "It types.", be = "Яно піша.", ru = "Оно печатает." }
+body = { en = "Handy turns your voice into text right on your computer. No cloud, no account, just a shortcut.", be = "Handy ператварае голас у тэкст проста на вашым камп'ютары. Без воблака і ўліковага запісу, толькі спалучэнне клавіш.", ru = "Handy превращает голос в текст прямо на вашем компьютере. Без облака и учётной записи, только сочетание клавиш." }
+
+# Browse › collections. "rising" with no apps lists every app that has a [rising] table.
+[[collections]]
+id = "rising"
+icon = "sprout"
+title = { en = "Rising", be = "Новыя імёны", ru = "Подающие надежды" }
+sub = { en = "Young projects worth meeting.", be = "Маладыя праекты, з якімі варта пазнаёміцца.", ru = "Молодые проекты, с которыми стоит познакомиться." }
+
+[[collections]]
+id = "essential"
+icon = "laptop"
+title = { en = "Essential Windows Apps", be = "Неабходнае для Windows", ru = "Самое нужное для Windows" }
+sub = { en = "A great start for any setup.", be = "Добры пачатак для любога камп'ютара.", ru = "Хорошее начало для любого компьютера." }
+apps = ["7zip", "notepadplusplus", "sharex", "powertoys", "keepassxc", "mpc-hc", "localsend", "windirstat"]
+
+[[collections]]
+id = "creators"
+icon = "palette"
+title = { en = "For Creators", be = "Для творцаў", ru = "Для авторов" }
+sub = { en = "Draw, record, edit, publish.", be = "Малюйце, запісвайце, мантуйце, публікуйце.", ru = "Рисуйте, записывайте, монтируйте, публикуйте." }
+apps = ["obs-studio", "shotcut", "audacity", "screentogif", "pixelorama", "openpencil", "rapidraw", "recordly"]
+
+[[collections]]
+id = "developers"
+icon = "code"
+title = { en = "For Developers", be = "Для распрацоўшчыкаў", ru = "Для разработчиков" }
+sub = { en = "Sharper tools for sharper code.", be = "Вострыя інструменты для дакладнага кода.", ru = "Острые инструменты для точного кода." }
+apps = ["vscodium", "git", "notepadplusplus", "yaak", "dbx", "wsl-dashboard"]
+
+[[collections]]
+id = "private"
+icon = "shield-check"
+title = { en = "Your Data Stays Home", be = "Даныя застаюцца ў вас", ru = "Данные остаются у вас" }
+sub = { en = "Apps that work offline and keep files on your disk.", be = "Праграмы, якія працуюць без сеткі і трымаюць файлы на вашым дыску.", ru = "Программы, которые работают офлайн и хранят файлы на вашем диске." }
+apps = ["keepassxc", "obsidian", "joplin", "localsend", "jan", "handy", "wealthfolio"]
+
+[[collections]]
+id = "desktop"
+icon = "sliders-horizontal"
+title = { en = "Make Windows Yours", be = "Windows пад сябе", ru = "Windows под себя" }
+sub = { en = "Taskbar, brightness, menus and a tidy desktop.", be = "Панэль задач, яркасць, меню і парадак на працоўным стале.", ru = "Панель задач, яркость, меню и порядок на рабочем столе." }
+apps = ["translucenttb", "twinkle-tray", "lightbulb", "flow-launcher", "kando", "seelen-ui", "deskbox", "stretchly"]
+
+[[collections]]
+id = "learn-play"
+icon = "graduation-cap"
+title = { en = "Learn and Play", be = "Вучыцца і гуляць", ru = "Учиться и играть" }
+sub = { en = "Stars, books, flashcards and a few good games.", be = "Зоркі, кнігі, карткі і некалькі добрых гульняў.", ru = "Звёзды, книги, карточки и несколько хороших игр." }
+apps = ["stellarium", "anki", "thorium-reader", "readest", "luanti", "shattered-pixel-dungeon", "puzzle"]
+
+# Release notes for releases whose notes are empty.
+[genericNotes]
+en = ["Stability and performance improvements", "Bug fixes"]
+be = ["Паляпшэнні стабільнасці і хуткасці", "Выпраўленні памылак"]
+ru = ["Улучшения стабильности и скорости", "Исправления ошибок"]

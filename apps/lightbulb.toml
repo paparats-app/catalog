@@ -1,0 +1,24 @@
+id = "lightbulb"
+name = "LightBulb"
+publisher = "Oleksii Holub"
+category = "lifestyle"
+
+[source]
+repo = "Tyrrrz/LightBulb"
+asset = '^LightBulb\.win-x64\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "LightBulb.exe"
+
+[text.en]
+tagline = "Warmer screen colours in the evening."
+long = "Shifts the display's colour temperature with the time of day to reduce eye strain at night, like f.lux."
+
+[text.be]
+tagline = "Цяплейшыя колеры экрана вечарам."
+long = "Мяняе каляровую тэмпературу дысплея ў залежнасці ад часу сутак, каб вочы менш стамляліся ўначы, як f.lux."
+
+[text.ru]
+tagline = "Тёплые цвета экрана по вечерам."
+long = "Меняет цветовую температуру дисплея в зависимости от времени суток, чтобы глаза меньше уставали ночью, как f.lux."

@@ -1,0 +1,24 @@
+id = "windirstat"
+name = "WinDirStat"
+publisher = "WinDirStat Team"
+category = "system"
+
+[source]
+repo = "windirstat/windirstat"
+asset = '^WinDirStat\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "x64/WinDirStat.exe"
+
+[text.en]
+tagline = "See what takes up your disk."
+long = "Scans drives and shows every folder and file type as a coloured treemap, so the biggest space hogs stand out."
+
+[text.be]
+tagline = "Пабачце, што займае месца на дыску."
+long = "Скануе дыскі і паказвае кожную тэчку і тып файлаў каляровай картай, каб адразу было відаць, што займае найбольш месца."
+
+[text.ru]
+tagline = "Посмотрите, что занимает место на диске."
+long = "Сканирует диски и показывает каждую папку и тип файлов цветной картой, чтобы сразу было видно, что занимает больше всего места."

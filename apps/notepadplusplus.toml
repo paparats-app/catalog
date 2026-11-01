@@ -1,0 +1,24 @@
+id = "notepadplusplus"
+name = "Notepad++"
+publisher = "Don Ho"
+category = "development"
+
+[source]
+repo = "notepad-plus-plus/notepad-plus-plus"
+asset = '^npp\.[\d.]+\.portable\.x64\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "notepad++.exe"
+
+[text.en]
+tagline = "The fast, classic text and code editor."
+long = "Syntax highlighting for dozens of languages, tabs, macros and powerful search and replace in a small, quick program."
+
+[text.be]
+tagline = "Хуткі класічны рэдактар тэксту і кода."
+long = "Падсветка сінтаксісу для дзясяткаў моў, укладкі, макрасы і моцны пошук з заменай у невялікай хуткай праграме."
+
+[text.ru]
+tagline = "Быстрый классический редактор текста и кода."
+long = "Подсветка синтаксиса для десятков языков, вкладки, макросы и мощный поиск с заменой в небольшой быстрой программе."

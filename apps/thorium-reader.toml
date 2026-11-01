@@ -1,0 +1,28 @@
+id = "thorium-reader"
+name = "Thorium Reader"
+publisher = "EDRLab"
+category = "education"
+license = "BSD-3-Clause"
+
+[source]
+repo = "edrlab/thorium-reader"
+asset = '^Thorium-[\d.]+-x64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+
+[detection]
+displayNameRegex = '^Thorium'
+
+[text.en]
+tagline = "An accessible reader for EPUB, PDF and audiobooks."
+long = "Reads EPUB, PDF, comics and audiobooks, with read-aloud, screen-reader support and adjustable layouts."
+
+[text.be]
+tagline = "Даступная чытанка для EPUB, PDF і аўдыякніг."
+long = "Чытае EPUB, PDF, коміксы і аўдыякнігі, з чытаннем услых, падтрымкай экранных дыктараў і зменлівай вёрсткай."
+
+[text.ru]
+tagline = "Доступная читалка для EPUB, PDF и аудиокниг."
+long = "Читает EPUB, PDF, комиксы и аудиокниги, с чтением вслух, поддержкой экранных дикторов и настраиваемой вёрсткой."

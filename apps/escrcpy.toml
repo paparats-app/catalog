@@ -1,0 +1,33 @@
+id = "escrcpy"
+name = "Escrcpy"
+publisher = "viarotel"
+category = "utilities"
+
+[source]
+repo = "viarotel-org/escrcpy"
+asset = '^Escrcpy-[\d.]+-win-setup-x64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNameRegex = '^[Ee]scrcpy'
+
+[text.en]
+tagline = "Your Android phone's screen on the computer."
+long = "Mirror and control Android devices over USB or Wi-Fi with the mouse and keyboard, record the screen and drop in files."
+
+[text.be]
+tagline = "Экран Android-тэлефона на камп'ютары."
+long = "Паказвайце і кіруйце прыладамі Android праз USB ці Wi-Fi мышшу і клавіятурай, запісвайце экран і перакідвайце файлы."
+
+[text.ru]
+tagline = "Экран Android-телефона на компьютере."
+long = "Показывайте и управляйте устройствами Android по USB или Wi-Fi мышью и клавиатурой, записывайте экран и перекидывайте файлы."
+
+[rising.note]
+en = "The power of scrcpy in a friendly window, for people who would rather not use the command line."
+be = "Магчымасці scrcpy ў зручным акне, для тых, хто не хоча працаваць у камандным радку."
+ru = "Возможности scrcpy в удобном окне, для тех, кто не хочет работать в командной строке."

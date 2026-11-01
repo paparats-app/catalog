@@ -1,0 +1,32 @@
+id = "kando"
+name = "Kando"
+publisher = "Simon Schneegans"
+category = "system"
+
+[source]
+repo = "kando-menu/kando"
+asset = '^Kando-[\d.]+\.Setup-x64\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["--silent"]
+
+[detection]
+displayNameRegex = '^[Kk]ando'
+
+[text.en]
+tagline = "A pie menu for quick actions."
+long = "Press a shortcut and a round menu appears at the cursor: launch apps, send keys, open links and run commands with a flick."
+
+[text.be]
+tagline = "Кругавое меню для хуткіх дзеянняў."
+long = "Націсніце спалучэнне клавіш, і каля курсора з'явіцца круглае меню: запускайце праграмы, клавішы, спасылкі і каманды адным рухам."
+
+[text.ru]
+tagline = "Круговое меню для быстрых действий."
+long = "Нажмите сочетание клавиш, и у курсора появится круглое меню: запускайте программы, клавиши, ссылки и команды одним движением."
+
+[rising.note]
+en = "Pie menus from games and 3D tools, made for every app on the desktop."
+be = "Кругавыя меню з гульняў і 3D-праграм, зробленыя для любой праграмы на працоўным стале."
+ru = "Круговые меню из игр и 3D-программ, сделанные для любой программы на рабочем столе."

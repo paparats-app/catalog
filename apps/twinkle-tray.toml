@@ -1,0 +1,28 @@
+id = "twinkle-tray"
+name = "Twinkle Tray"
+publisher = "Xander Frangos"
+category = "lifestyle"
+
+[source]
+repo = "xanderfrangos/twinkle-tray"
+asset = '^Twinkle\.Tray\.v[\d.]+\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNames = ["Twinkle Tray"]
+
+[text.en]
+tagline = "Monitor brightness from the taskbar."
+long = "Adjust the brightness of every connected display from one tray slider, with hotkeys and schedules by time of day."
+
+[text.be]
+tagline = "Яркасць маніторы з панэлі задач."
+long = "Мяняйце яркасць кожнага падлучанага дысплея адным паўзунком у трэі, з гарачымі клавішамі і раскладам па часе сутак."
+
+[text.ru]
+tagline = "Яркость мониторов с панели задач."
+long = "Меняйте яркость каждого подключённого дисплея одним ползунком в трее, с горячими клавишами и расписанием по времени суток."

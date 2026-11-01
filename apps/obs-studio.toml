@@ -1,0 +1,24 @@
+id = "obs-studio"
+name = "OBS Studio"
+publisher = "OBS Project"
+category = "media"
+
+[source]
+repo = "obsproject/obs-studio"
+asset = '^OBS-Studio-[\d.]+-Windows-x64\.zip$'
+
+[install]
+strategy = "portableZip"
+launch = "bin/64bit/obs64.exe"
+
+[text.en]
+tagline = "Record and stream your screen like a studio."
+long = "Mix scenes from windows, cameras and images, record in high quality or stream live to any platform."
+
+[text.be]
+tagline = "Запіс і трансляцыя экрана, як у студыі."
+long = "Збірайце сцэны з вокнаў, камер і выяў, запісвайце ў высокай якасці ці вядзіце трансляцыі на любую платформу."
+
+[text.ru]
+tagline = "Запись и трансляция экрана, как в студии."
+long = "Собирайте сцены из окон, камер и изображений, записывайте в высоком качестве или ведите трансляции на любую платформу."

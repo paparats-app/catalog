@@ -1,0 +1,28 @@
+id = "git"
+name = "Git for Windows"
+publisher = "The Git Development Community"
+category = "development"
+
+[source]
+repo = "git-for-windows/git"
+asset = '^Git-[\d.]+-64-bit\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-", "/NOCANCEL"]
+scope = "machine"
+
+[detection]
+productCodes = ["Git_is1"]
+
+[text.en]
+tagline = "Git, Git Bash and the credential manager."
+long = "The version control system with a Bash shell, common Unix tools and Git Credential Manager, set up for Windows."
+
+[text.be]
+tagline = "Git, Git Bash і менеджар уліковых даных."
+long = "Сістэма кіравання версіямі з абалонкай Bash, звыклымі інструментамі Unix і Git Credential Manager, наладжаная для Windows."
+
+[text.ru]
+tagline = "Git, Git Bash и менеджер учётных данных."
+long = "Система контроля версий с оболочкой Bash, привычными инструментами Unix и Git Credential Manager, настроенная для Windows."

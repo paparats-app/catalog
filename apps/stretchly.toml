@@ -1,0 +1,29 @@
+id = "stretchly"
+name = "Stretchly"
+publisher = "Jan Hovancik"
+category = "lifestyle"
+license = "BSD-2-Clause"
+
+[source]
+repo = "hovancik/stretchly"
+asset = '^Stretchly-Setup-[\d.]+\.exe$'
+
+[install]
+strategy = "exeSilent"
+args = ["/S"]
+signer = "none"
+
+[detection]
+displayNames = ["Stretchly"]
+
+[text.en]
+tagline = "Reminders to take breaks from the screen."
+long = "Short micro-breaks and longer pauses with ideas for stretching, on a schedule you set, so your eyes and back get a rest."
+
+[text.be]
+tagline = "Напаміны пра перапынкі ад экрана."
+long = "Кароткія мікраперапынкі і даўжэйшыя паўзы з ідэямі для размінкі па вашым раскладзе, каб адпачывалі вочы і спіна."
+
+[text.ru]
+tagline = "Напоминания о перерывах от экрана."
+long = "Короткие микроперерывы и более длинные паузы с идеями для разминки по вашему расписанию, чтобы отдыхали глаза и спина."
