@@ -74,7 +74,8 @@ jobs:
         id: commit
         shell: bash
         run: |
-          if git diff --quiet -- lock.json; then
+          # Porcelain status also sees the first lock.json, which git diff does not.
+          if [ -z "$(git status --porcelain -- lock.json)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
