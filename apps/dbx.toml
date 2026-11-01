@@ -12,7 +12,7 @@ strategy = "exeSilent"
 args = ["/S"]
 
 [detection]
-displayNameRegex = '^(DBX|dbx)'
+displayNameRegex = 'DBX.*'
 
 [text.en]
 tagline = "One client for more than a hundred databases."

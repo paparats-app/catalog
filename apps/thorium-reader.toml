@@ -13,7 +13,7 @@ strategy = "exeSilent"
 args = ["/S"]
 
 [detection]
-displayNameRegex = '^Thorium'
+displayNameRegex = 'Thorium.*'
 
 [text.en]
 tagline = "An accessible reader for EPUB, PDF and audiobooks."

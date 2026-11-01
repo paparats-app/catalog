@@ -13,7 +13,7 @@ args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-", "/CURRENTUSER"
 signer = "none"
 
 [detection]
-displayNameRegex = '^DeskBox'
+displayNameRegex = 'DeskBox.*'
 
 [text.en]
 tagline = "Tidy desktop boxes and widgets in WinUI 3."

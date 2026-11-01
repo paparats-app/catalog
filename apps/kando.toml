@@ -12,7 +12,7 @@ strategy = "exeSilent"
 args = ["--silent"]
 
 [detection]
-displayNameRegex = '^[Kk]ando'
+displayNameRegex = 'Kando.*'
 
 [text.en]
 tagline = "A pie menu for quick actions."

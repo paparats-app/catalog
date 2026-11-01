@@ -13,7 +13,7 @@ args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-"]
 scope = "machine"
 
 [detection]
-displayNameRegex = '^Stellarium'
+displayNameRegex = 'Stellarium.*'
 
 [text.en]
 tagline = "A planetarium on your computer."

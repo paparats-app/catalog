@@ -13,7 +13,7 @@ args = ["--silent"]
 signer = "none"
 
 [detection]
-displayNameRegex = '^Flow[ -]Launcher'
+displayNameRegex = 'Flow[ -]Launcher.*'
 
 [text.en]
 tagline = "Find apps and files and run commands from one box."

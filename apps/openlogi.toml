@@ -11,7 +11,7 @@ asset = '^OpenLogi-v[\d.]+-windows-x86_64\.msi$'
 strategy = "msi"
 
 [detection]
-displayNameRegex = '^OpenLogi'
+displayNameRegex = 'OpenLogi.*'
 
 [text.en]
 tagline = "Set up Logitech mice and keyboards without an account."

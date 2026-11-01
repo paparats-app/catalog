@@ -12,7 +12,7 @@ strategy = "exeSilent"
 args = ["/S"]
 
 [detection]
-displayNameRegex = '^Handy'
+displayNameRegex = 'Handy.*'
 
 [text.en]
 tagline = "Speech to text that works without the internet."

@@ -12,7 +12,7 @@ strategy = "exeSilent"
 args = ["/quiet", "/norestart"]
 
 [detection]
-displayNameRegex = '^PowerToys'
+displayNameRegex = 'PowerToys.*'
 publisher = "Microsoft"
 
 [text.en]

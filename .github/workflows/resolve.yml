@@ -84,6 +84,8 @@ jobs:
           { echo "chore(lock): bot update $(date -u +%F)"; echo; cat "$RUNNER_TEMP/summary.md"; } > "$RUNNER_TEMP/message.txt"
           git add lock.json
           git commit -q -F "$RUNNER_TEMP/message.txt"
+          # A person may have pushed while the bot ran: put the lock on top of their work.
+          git pull -q --rebase
           git push -q
           echo "changed=true" >> "$GITHUB_OUTPUT"
 

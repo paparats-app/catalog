@@ -13,7 +13,7 @@ args = ["/S"]
 signer = "none"
 
 [detection]
-displayNameRegex = '^[Ee]scrcpy'
+displayNameRegex = 'Escrcpy.*'
 
 [text.en]
 tagline = "Your Android phone's screen on the computer."

@@ -13,7 +13,7 @@ args = ["/S"]
 scope = "machine"
 
 [detection]
-displayNameRegex = '^Zen'
+displayNameRegex = 'Zen Browser.*'
 
 [text.en]
 tagline = "A calm browser built on Firefox."

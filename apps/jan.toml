@@ -12,7 +12,7 @@ strategy = "exeSilent"
 args = ["/S"]
 
 [detection]
-displayNameRegex = '^Jan$'
+displayNameRegex = 'Jan'
 
 [text.en]
 tagline = "An AI chat that runs offline on your computer."

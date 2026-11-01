@@ -62,7 +62,10 @@ args = ["/S"]                  # exeSilent only
 # signer = "none"              # the author signs nothing (default "auto": pin the signer)
 
 [detection]                    # every strategy but the portable ones
-displayNameRegex = '^Example'
+displayNameRegex = 'Example.*' # the whole DisplayName in "Installed apps", any case
+# displayNames = ["Example"]   # exact names; versions and "(x64)" are ignored
+# productCodes = ["{GUID}"]    # the Uninstall key name: an MSI product code, "App_is1"
+# msixFamilyNames = ["Publisher.App_abcdefghjkmnp"]
 
 [text.en]
 tagline = "One short line."

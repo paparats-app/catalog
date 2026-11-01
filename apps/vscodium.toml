@@ -12,7 +12,7 @@ strategy = "exeSilent"
 args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-", "/MERGETASKS=!runcode"]
 
 [detection]
-displayNameRegex = '^VSCodium'
+displayNameRegex = 'VSCodium.*'
 
 [text.en]
 tagline = "The VS Code editor without Microsoft's telemetry."

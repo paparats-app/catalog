@@ -12,7 +12,7 @@ strategy = "exeSilent"
 args = ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-", "/CURRENTUSER"]
 
 [detection]
-displayNameRegex = '^LocalSend'
+displayNameRegex = 'LocalSend.*'
 
 [text.en]
 tagline = "Send files to nearby devices without the internet."

@@ -13,7 +13,7 @@ args = ["/S"]
 signer = "none"
 
 [detection]
-displayNameRegex = '^Clypra'
+displayNameRegex = 'Clypra.*'
 
 [text.en]
 tagline = "A video editor built with Rust and Tauri."

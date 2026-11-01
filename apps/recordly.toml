@@ -13,7 +13,7 @@ args = ["/S"]
 signer = "none"
 
 [detection]
-displayNameRegex = '^Recordly'
+displayNameRegex = 'Recordly.*'
 
 [text.en]
 tagline = "Polished screen demos without editing."

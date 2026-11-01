@@ -11,7 +11,7 @@ asset = '^anki-[\d.]+-win-x64\.msi$'
 strategy = "msi"
 
 [detection]
-displayNameRegex = '^Anki'
+displayNameRegex = 'Anki.*'
 
 [text.en]
 tagline = "Flashcards that remember for you."

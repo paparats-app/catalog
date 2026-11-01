@@ -12,7 +12,7 @@ strategy = "exeSilent"
 args = ["/S"]
 
 [detection]
-displayNameRegex = '^Yaak'
+displayNameRegex = 'Yaak.*'
 
 [text.en]
 tagline = "A fast client for REST, GraphQL and gRPC."

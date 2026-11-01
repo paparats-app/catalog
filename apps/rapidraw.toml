@@ -13,7 +13,7 @@ args = ["/S"]
 signer = "none"
 
 [detection]
-displayNameRegex = '^RapidRAW'
+displayNameRegex = 'RapidRAW.*'
 
 [text.en]
 tagline = "A RAW photo editor accelerated by the GPU."

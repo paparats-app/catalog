@@ -15,7 +15,7 @@ args = ["/S"]
 signer = "none"
 
 [detection]
-displayNameRegex = '^FastMD'
+displayNameRegex = 'FastMD.*'
 
 [text.en]
 tagline = "A Markdown viewer that opens instantly."
