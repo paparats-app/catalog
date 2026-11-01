@@ -1507,6 +1507,119 @@
       },
       "checked": "2026-11-01"
     },
+    "shattered-pixel-dungeon": {
+      "release": {
+        "tag": "v4.0.2",
+        "version": "4.0.2",
+        "prerelease": false,
+        "published": "2026-10-07",
+        "notes": [
+          "v4.0 is arguably Shattered's biggest update yet! There's a massive new quest, a bunch of new in-game art, 6 new enchantments, and plenty smaller changes and …",
+          "Blog posts related to this update:",
+          "Shattered Pixel Dungeon v4.0.0!",
+          "Coming Soon to Shattered: The Vault Quest!",
+          "Status Update: v4.0 Beta Soon!",
+          "Coming Soon to Shattered: New Enchants and Pixel Art!",
+          "Coming Soon to Shattered: A New City Quest!",
+          "The following builds of Shattered Pixel Dungeon are available for this update:"
+        ]
+      },
+      "file": {
+        "name": "ShatteredPD-v4.0.2-Windows.zip",
+        "url": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/v4.0.2/ShatteredPD-v4.0.2-Windows.zip",
+        "size": 108216769,
+        "sha256": "c2bff844ae2dc1e470985cd453555e7d4be9b05b67d4013c075a55923d75f3c3",
+        "digestChecked": true,
+        "signer": null,
+        "unsigned": false,
+        "scan": "clean"
+      },
+      "repo": {
+        "stars": 6745,
+        "license": "GPL-3.0",
+        "created": "2014-07-31",
+        "homepage": "https://shatteredpixel.com/shatteredpd/",
+        "funding": [],
+        "archived": false
+      },
+      "checked": "2026-11-01"
+    },
+    "shotcut": {
+      "release": {
+        "tag": "v26.9.27",
+        "version": "26.9.27",
+        "prerelease": false,
+        "published": "2026-09-28",
+        "notes": [
+          "What's Changed",
+          "See a nicely formatted page on the web site.",
+          "Fixed security flaws in upgrade and Whisper downloads (failed HTTPS was retried over HTTP, certificate errors could be ignored, and a downloaded file could b…",
+          "Fixed Mask: Draw (Glaxnimate) filter, Operation > Subtract for 8-bit processing mode (broke in version 25.12).",
+          "Fixed using Size, Position & Rotate with Mask: Apply filters (broke in version 25.12).",
+          "Improved audio quality by removing a conversion to 16-bit integer and keeping the pipeline in 32-bit float.",
+          "Fixed LV2 external audio plugins not loading on Windows (unless LV2_PATH environment var set explicitly).",
+          "Fixed VA-API HEVC hardware encoder on Linux."
+        ]
+      },
+      "file": {
+        "name": "shotcut-win64-26.9.27.zip",
+        "url": "https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win64-26.9.27.zip",
+        "size": 213335062,
+        "sha256": "1f8c50ce7b125a2f0dcb60777b358e86baf03b8515982612b6adae10a83d93a5",
+        "digestChecked": true,
+        "signer": null,
+        "unsigned": false,
+        "scan": "clean"
+      },
+      "repo": {
+        "stars": 15545,
+        "license": "GPL-3.0",
+        "created": "2012-04-23",
+        "homepage": "https://www.shotcut.org",
+        "funding": [],
+        "archived": false
+      },
+      "checked": "2026-11-01"
+    },
+    "stellarium": {
+      "release": {
+        "tag": "v26.3",
+        "version": "26.3",
+        "prerelease": false,
+        "published": "2026-09-28",
+        "notes": [
+          "The installers are located in the \"Assets\" section at the end of these release notes!",
+          "Glad to announce the release of Stellarium 26.3 for all platforms. This is our third release in 2026 with exciting features and many bug fixes.",
+          "The major changes of this version:",
+          "Added Potawatomi skyculture",
+          "Added new plugin: Object visibility",
+          "Many improvements in plugins",
+          "Many improvements in Core and GUI",
+          "Many updates in sky cultures"
+        ]
+      },
+      "file": {
+        "name": "stellarium-26.3-qt6-win64.exe",
+        "url": "https://github.com/Stellarium/stellarium/releases/download/v26.3/stellarium-26.3-qt6-win64.exe",
+        "size": 489006448,
+        "sha256": "06d0444e02bca3ad9703e08a641270576c1df581088eb3e7549870887e039cd8",
+        "digestChecked": true,
+        "signer": "SignPath Foundation",
+        "unsigned": false,
+        "scan": "clean"
+      },
+      "repo": {
+        "stars": 10136,
+        "license": "GPL-2.0",
+        "created": "2014-04-13",
+        "homepage": "https://stellarium.org",
+        "funding": [
+          "https://opencollective.com/stellarium"
+        ],
+        "archived": false
+      },
+      "checked": "2026-11-01"
+    },
     "stretchly": {
       "release": {
         "tag": "v1.22.1",
