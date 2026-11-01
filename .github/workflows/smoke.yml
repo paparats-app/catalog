@@ -1,9 +1,12 @@
 name: Smoke install
 
-# Installs every app for real on a throwaway Windows runner with the client's own installer,
-# checks that the client's inventory finds it, and uninstalls it. The job summary lists the
-# Uninstall entries each install added, so a detection rule that misses can be fixed from what
-# Windows actually shows. Weekly, and by hand for a few apps after changing their files.
+# Installs every app for real on throwaway Windows runners with the client's own installer:
+# the previous release first where there is one, then the current one over it (the update);
+# checks that the client's inventory finds it and that "Open" has something to start; then
+# uninstalls it. Windows Server 2022 stands for the Windows 10 generation, Server 2025 for
+# Windows 11. The job summary lists the Uninstall entries each install added, so a detection
+# rule that misses can be fixed from what Windows actually shows, and an installer's log when
+# an uninstall fails. Weekly, and by hand for a few apps after changing their files.
 
 on:
   schedule:
@@ -27,8 +30,13 @@ env:
 
 jobs:
   smoke:
-    runs-on: windows-latest
-    timeout-minutes: 240
+    name: Smoke (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-2022, windows-2025]
     steps:
       - uses: actions/checkout@v5
 
@@ -48,8 +56,7 @@ jobs:
       - uses: Swatinem/rust-cache@v2
         with:
           workspaces: .bot
-          shared-key: catalog-bot
-          save-if: false
+          shared-key: catalog-bot-${{ matrix.os }}
 
       - name: Build the bot
         run: cargo build --release --locked -p paparats-catalog-bot --manifest-path .bot/Cargo.toml
