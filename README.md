@@ -38,6 +38,11 @@ verifies the signature and refuses anything else. It also installs a file only i
 hash is the one the bot pinned. Releases that are held back, apps that fail and stale projects
 go to the "Bot: needs attention" issue.
 
+Once a week [Smoke install](.github/workflows/smoke.yml) installs every app on a clean Windows
+runner with the client's own installer, checks that the client's inventory finds it and
+uninstalls it. Its summary lists the Uninstall entries each install added, which is how a
+detection rule gets fixed.
+
 ## Adding an app
 
 Suggest it with an [issue](../../issues/new/choose), or open a pull request with
