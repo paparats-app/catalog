@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "apps": {
     "7zip": {
       "release": {
@@ -24,7 +24,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4418,
+        "stars": 4438,
         "license": null,
         "created": "2022-03-05",
         "homepage": null,
@@ -55,71 +55,42 @@
         },
         "since": "2026-11-07T11:48:17Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "anki": {
       "release": {
-        "tag": "26.09.3",
-        "version": "26.09.3",
+        "tag": "26.09.4",
+        "version": "26.09.4",
         "prerelease": false,
-        "published": "2026-09-23",
+        "published": "2026-11-04",
         "notes": [
           "What's Changed",
-          "⚠️ Please upgrade to 26.09+ as soon as possible as it includes important security fixes.",
-          "Fixes",
-          "Fix system-wide app upgrades on Windows not properly replacing old versions and causing startup crashes by @abdnh in",
-          "Fix \"Card modified\" error in the Cards Info screen when FSRS disabled or memory state is missing by @Luc-Mcgrady in",
-          "Append app version to the extracted tarball directory name on Linux by @Luc-Mcgrady in",
-          "Force software rendering in safe mode by @Luc-Mcgrady in",
-          "Fix the \"Please restart to save changes\" message shown multiple times in the preferences screen in some cases by @Luc-Mcgrady in"
+          "⚠️ This update contains important security fixes. Please upgrade as soon as possible.",
+          "Shared decks could execute arbitrary code via iframes when viewed in the editor (GHSA-j9v5-m549-cg6c). Thanks to @DePierre for the report.",
+          "On macOS, shared decks could execute arbitrary commands via specially crafted image filenames when the \"Show in Folder\" editor action is used (GHSA-gfvm-4968…",
+          "Compromised eMudhra intermediate CA certificates are now disallowed. This is in response to a widespread security incident affecting most systems and web bro…",
+          "Full Changelog:"
         ]
       },
       "file": {
-        "name": "anki-26.09.3-win-x64.msi",
-        "url": "https://github.com/ankitects/anki/releases/download/26.09.3/anki-26.09.3-win-x64.msi",
-        "size": 201261056,
-        "sha256": "8a45823d1c31017cebb7d3af4493d69b6ae3c185345fcb2390ede4af01e0a950",
+        "name": "anki-26.09.4-win-x64.msi",
+        "url": "https://github.com/ankitects/anki/releases/download/26.09.4/anki-26.09.4-win-x64.msi",
+        "size": 201621504,
+        "sha256": "c35e7b90acf2929a71d70ac755a3dd0685f9fbe1a89d2f9edabb6fe7c0d91cba",
         "digestChecked": true,
         "signer": "Anki Software LLC",
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 32643,
+        "stars": 32667,
         "license": null,
         "created": "2012-12-21",
         "homepage": "https://apps.ankiweb.net",
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "26.09.4",
-          "version": "26.09.4",
-          "prerelease": false,
-          "published": "2026-11-04",
-          "notes": [
-            "What's Changed",
-            "⚠️ This update contains important security fixes. Please upgrade as soon as possible.",
-            "Shared decks could execute arbitrary code via iframes when viewed in the editor (GHSA-j9v5-m549-cg6c). Thanks to @DePierre for the report.",
-            "On macOS, shared decks could execute arbitrary commands via specially crafted image filenames when the \"Show in Folder\" editor action is used (GHSA-gfvm-4968…",
-            "Compromised eMudhra intermediate CA certificates are now disallowed. This is in response to a widespread security incident affecting most systems and web bro…",
-            "Full Changelog:"
-          ]
-        },
-        "file": {
-          "name": "anki-26.09.4-win-x64.msi",
-          "url": "https://github.com/ankitects/anki/releases/download/26.09.4/anki-26.09.4-win-x64.msi",
-          "size": 201621504,
-          "sha256": "c35e7b90acf2929a71d70ac755a3dd0685f9fbe1a89d2f9edabb6fe7c0d91cba",
-          "digestChecked": true,
-          "signer": "Anki Software LLC",
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-05T13:19:09Z"
-      },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "audacity": {
       "release": {
@@ -149,14 +120,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18982,
+        "stars": 18992,
         "license": null,
         "created": "2015-03-26",
         "homepage": "https://www.audacityteam.org/manual/getting-started/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "clypra": {
       "release": {
@@ -179,7 +150,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 3352,
+        "stars": 3351,
         "license": "MIT",
         "created": "2026-04-26",
         "homepage": "https://clypra.abdulkabirmusa.com",
@@ -190,7 +161,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "dbx": {
       "release": {
@@ -290,14 +261,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 12313,
+        "stars": 12322,
         "license": "Apache-2.0",
         "created": "2023-09-15",
         "homepage": "https://viarotel.eu.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "fastmd": {
       "release": {
@@ -327,14 +298,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 0,
+        "stars": 2,
         "license": "MIT",
         "created": "2026-09-19",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "flow-launcher": {
       "release": {
@@ -364,7 +335,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15974,
+        "stars": 15979,
         "license": "MIT",
         "created": "2020-04-21",
         "homepage": "https://flowlauncher.com",
@@ -374,7 +345,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "geolibre": {
       "release": {
@@ -444,14 +415,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9484,
+        "stars": 9488,
         "license": null,
         "created": "2014-08-22",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "handy": {
       "release": {
@@ -481,7 +452,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 37871,
+        "stars": 38000,
         "license": "MIT",
         "created": "2025-02-13",
         "homepage": "https://handy.computer",
@@ -494,7 +465,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "imageglass": {
       "release": {
@@ -524,7 +495,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 14876,
+        "stars": 14890,
         "license": null,
         "created": "2012-12-30",
         "homepage": "https://imageglass.org",
@@ -536,7 +507,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "jan": {
       "release": {
@@ -566,14 +537,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45544,
+        "stars": 45584,
         "license": null,
         "created": "2023-08-17",
         "homepage": "https://jan.ai/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "joplin": {
       "release": {
@@ -601,7 +572,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 57069,
+        "stars": 57080,
         "license": null,
         "created": "2017-01-16",
         "homepage": "https://joplinapp.org",
@@ -612,7 +583,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "kando": {
       "release": {
@@ -642,7 +613,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6603,
+        "stars": 6613,
         "license": null,
         "created": "2023-04-16",
         "homepage": "https://kando.menu",
@@ -652,7 +623,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "keepassxc": {
       "release": {
@@ -682,7 +653,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29829,
+        "stars": 29853,
         "license": null,
         "created": "2016-02-28",
         "homepage": "https://keepassxc.org/",
@@ -696,7 +667,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "killerpdf": {
       "release": {
@@ -726,14 +697,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4336,
+        "stars": 4340,
         "license": "GPL-3.0",
         "created": "2026-04-16",
         "homepage": "https://KillerPDF.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "lightbulb": {
       "release": {
@@ -763,7 +734,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2820,
+        "stars": 2821,
         "license": "MIT",
         "created": "2017-01-12",
         "homepage": "https://github.com/Tyrrrz/LightBulb/releases",
@@ -799,7 +770,7 @@
         },
         "since": "2026-11-07T11:48:17Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "localsend": {
       "release": {
@@ -829,7 +800,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 97696,
+        "stars": 97860,
         "license": "Apache-2.0",
         "created": "2022-12-16",
         "homepage": "https://localsend.org",
@@ -838,7 +809,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "luanti": {
       "release": {
@@ -863,7 +834,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 13827,
+        "stars": 13829,
         "license": null,
         "created": "2011-08-07",
         "homepage": "https://www.luanti.org/",
@@ -873,7 +844,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "mpc-hc": {
       "release": {
@@ -903,7 +874,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16095,
+        "stars": 16105,
         "license": "GPL-3.0",
         "created": "2017-05-17",
         "homepage": null,
@@ -939,7 +910,7 @@
         },
         "since": "2026-11-07T11:48:17Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "notepadplusplus": {
       "release": {
@@ -969,7 +940,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29804,
+        "stars": 29810,
         "license": null,
         "created": "2015-03-28",
         "homepage": "https://notepad-plus-plus.org/",
@@ -1005,7 +976,7 @@
         },
         "since": "2026-11-07T11:48:17Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "obs-studio": {
       "release": {
@@ -1035,7 +1006,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 79100,
+        "stars": 79159,
         "license": "GPL-2.0",
         "created": "2013-10-01",
         "homepage": "https://obsproject.com",
@@ -1045,7 +1016,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "obsidian": {
       "release": {
@@ -1066,14 +1037,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 23068,
+        "stars": 23125,
         "license": null,
         "created": "2020-05-08",
         "homepage": "https://obsidian.md",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "onlyoffice": {
       "release": {
@@ -1096,14 +1067,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 5700,
+        "stars": 5706,
         "license": "AGPL-3.0",
         "created": "2016-10-03",
         "homepage": "https://www.onlyoffice.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "openlogi": {
       "release": {
@@ -1133,7 +1104,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 25300,
+        "stars": 25363,
         "license": "Apache-2.0",
         "created": "2026-05-24",
         "homepage": "https://openlogi.org",
@@ -1143,7 +1114,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "openpencil": {
       "release": {
@@ -1173,7 +1144,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9679,
+        "stars": 9698,
         "license": "MIT",
         "created": "2026-02-27",
         "homepage": "https://openpencil.dev",
@@ -1182,7 +1153,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "paintfe": {
       "release": {
@@ -1246,7 +1217,7 @@
         },
         "since": "2026-11-06T13:02:46Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "photocraft": {
       "release": {
@@ -1276,7 +1247,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 77594,
+        "stars": 77865,
         "license": "Apache-2.0",
         "created": "2026-09-30",
         "homepage": "https://getartcraft.com/apps/photocraft",
@@ -1312,7 +1283,7 @@
         },
         "since": "2026-11-07T11:48:17Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "pixelorama": {
       "release": {
@@ -1342,7 +1313,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11015,
+        "stars": 11024,
         "license": "MIT",
         "created": "2019-08-18",
         "homepage": "https://www.pixelorama.org/",
@@ -1353,7 +1324,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "powertoys": {
       "release": {
@@ -1383,7 +1354,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 140680,
+        "stars": 140714,
         "license": "MIT",
         "created": "2019-05-01",
         "homepage": null,
@@ -1419,7 +1390,7 @@
         },
         "since": "2026-11-06T13:02:46Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "puzzle": {
       "release": {
@@ -1453,7 +1424,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "rapidraw": {
       "release": {
@@ -1522,7 +1493,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 26023,
+        "stars": 26060,
         "license": "AGPL-3.0",
         "created": "2024-10-12",
         "homepage": "https://readest.com",
@@ -1560,7 +1531,7 @@
         },
         "since": "2026-11-06T13:02:46Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "recordly": {
       "release": {
@@ -1590,8 +1561,8 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 36244,
-        "license": null,
+        "stars": 36302,
+        "license": "AGPL-3.0",
         "created": "2026-03-12",
         "homepage": "https://recordly.dev",
         "funding": [
@@ -1600,7 +1571,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "rufus": {
       "release": {
@@ -1630,14 +1601,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38268,
+        "stars": 38281,
         "license": "GPL-3.0",
         "created": "2011-11-19",
         "homepage": "https://rufus.ie",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "screentogif": {
       "release": {
@@ -1664,7 +1635,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 27893,
+        "stars": 27898,
         "license": "MS-PL",
         "created": "2016-08-02",
         "homepage": null,
@@ -1679,7 +1650,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "seelen-ui": {
       "release": {
@@ -1709,7 +1680,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18363,
+        "stars": 18379,
         "license": "AGPL-3.0",
         "created": "2024-02-16",
         "homepage": null,
@@ -1721,7 +1692,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "sharex": {
       "release": {
@@ -1805,14 +1776,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6769,
+        "stars": 6775,
         "license": "GPL-3.0",
         "created": "2014-07-31",
         "homepage": "https://shatteredpixel.com/shatteredpd/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "shotcut": {
       "release": {
@@ -1842,14 +1813,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15628,
+        "stars": 15631,
         "license": "GPL-3.0",
         "created": "2012-04-23",
         "homepage": "https://www.shotcut.org",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "stellarium": {
       "release": {
@@ -1888,7 +1859,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "stretchly": {
       "release": {
@@ -1918,7 +1889,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6641,
+        "stars": 6640,
         "license": "BSD-2-Clause",
         "created": "2016-07-10",
         "homepage": "https://hovancik.net/stretchly",
@@ -1929,7 +1900,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "thorium-reader": {
       "release": {
@@ -1966,7 +1937,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "translucenttb": {
       "release": {
@@ -1996,7 +1967,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 20741,
+        "stars": 20751,
         "license": "GPL-3.0",
         "created": "2017-01-10",
         "homepage": "https://translucenttb.github.io",
@@ -2006,7 +1977,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "twinkle-tray": {
       "release": {
@@ -2036,7 +2007,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9299,
+        "stars": 9303,
         "license": "MIT",
         "created": "2019-08-14",
         "homepage": "https://twinkletray.com",
@@ -2048,7 +2019,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "vscodium": {
       "release": {
@@ -2078,14 +2049,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 33996,
+        "stars": 34010,
         "license": "MIT",
         "created": "2018-08-13",
         "homepage": "https://vscodium.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "wealthfolio": {
       "release": {
@@ -2115,7 +2086,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9350,
+        "stars": 9367,
         "license": "AGPL-3.0",
         "created": "2024-05-27",
         "homepage": "https://wealthfolio.app",
@@ -2125,7 +2096,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "windirstat": {
       "release": {
@@ -2149,7 +2120,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4486,
+        "stars": 4490,
         "license": "GPL-3.0",
         "created": "2016-04-04",
         "homepage": "https://windirstat.net",
@@ -2160,7 +2131,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "wsl-dashboard": {
       "release": {
@@ -2190,14 +2161,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4098,
+        "stars": 4101,
         "license": "GPL-3.0",
         "created": "2026-01-18",
         "homepage": "https://www.wslui.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "yaak": {
       "release": {
@@ -2232,7 +2203,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     },
     "zen-browser": {
       "release": {
@@ -2262,7 +2233,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45635,
+        "stars": 45657,
         "license": "MPL-2.0",
         "created": "2024-03-28",
         "homepage": "https://zen-browser.app",
@@ -2302,7 +2273,7 @@
         },
         "since": "2026-11-07T11:48:17Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-08"
     }
   }
 }
