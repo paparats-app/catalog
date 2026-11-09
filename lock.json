@@ -1,61 +1,37 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-09",
   "apps": {
     "7zip": {
       "release": {
-        "tag": "26.05",
-        "version": "26.05",
+        "tag": "26.06",
+        "version": "26.06",
         "prerelease": false,
-        "published": "2026-10-21",
+        "published": "2026-11-07",
         "notes": [
-          "7-Zip 26.05",
-          "Improved code for unpacking Z archives and Mach-O files.",
+          "7-Zip 26.06",
+          "Improved support for split files created by \"split\" utility in Linux.",
           "Some bugs and vulnerabilities were fixed."
         ]
       },
       "file": {
-        "name": "7z2605-x64.exe",
-        "url": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.exe",
-        "size": 1663506,
-        "sha256": "fd99e86f57d8f429ef5ed045bf98315af962e2309b0f1ba87a147a44c71647d0",
+        "name": "7z2606-x64.exe",
+        "url": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.exe",
+        "size": 1659704,
+        "sha256": "9b697f65ecc2d9b0152f5ee96d72dde522a7827690349d9307935dacf40f42ec",
         "digestChecked": true,
         "signer": null,
         "unsigned": true,
         "scan": "clean"
       },
       "repo": {
-        "stars": 4438,
+        "stars": 4459,
         "license": null,
         "created": "2022-03-05",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "26.06",
-          "version": "26.06",
-          "prerelease": false,
-          "published": "2026-11-07",
-          "notes": [
-            "7-Zip 26.06",
-            "Improved support for split files created by \"split\" utility in Linux.",
-            "Some bugs and vulnerabilities were fixed."
-          ]
-        },
-        "file": {
-          "name": "7z2606-x64.exe",
-          "url": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.exe",
-          "size": 1659704,
-          "sha256": "9b697f65ecc2d9b0152f5ee96d72dde522a7827690349d9307935dacf40f42ec",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": true,
-          "scan": "clean"
-        },
-        "since": "2026-11-07T11:48:17Z"
-      },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "anki": {
       "release": {
@@ -83,14 +59,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 32667,
+        "stars": 32690,
         "license": null,
         "created": "2012-12-21",
         "homepage": "https://apps.ankiweb.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "audacity": {
       "release": {
@@ -120,14 +96,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18992,
+        "stars": 19002,
         "license": null,
         "created": "2015-03-26",
         "homepage": "https://www.audacityteam.org/manual/getting-started/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "clypra": {
       "release": {
@@ -150,7 +126,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 3351,
+        "stars": 3353,
         "license": "MIT",
         "created": "2026-04-26",
         "homepage": "https://clypra.abdulkabirmusa.com",
@@ -161,7 +137,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "dbx": {
       "release": {
@@ -191,7 +167,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29434,
+        "stars": 29704,
         "license": "Apache-2.0",
         "created": "2026-04-29",
         "homepage": "https://dbxio.com",
@@ -204,34 +180,34 @@
       },
       "pending": {
         "release": {
-          "tag": "v0.6.67",
-          "version": "0.6.67",
+          "tag": "v0.6.68",
+          "version": "0.6.68",
           "prerelease": false,
-          "published": "2026-11-05",
+          "published": "2026-11-07",
           "notes": [
+            "赞助信息",
+            "华龙算力双十一充值活动 11 月 11 日即将开启，当天在其官方群抽取 3 台 VPS。活动详情入口：华龙算力",
             "新功能",
-            "Web 访问登录页新增图片验证码，默认在登录失败后自动触发，可在设置 → 安全中选择始终、自动或关闭",
-            "MySQL 批量截断、清空、删除对象时新增「外键检查」选项（默认/启用/禁用），非默认选项在独立会话中执行并在结束后恢复原值 (contributed by @alanslengkoan) (PR #14000)",
-            "数据网格复制新增独立的 SQL DELETE 选项，可仅复制所选行的删除语句 (contributed by @eryajf) (PR #14318)",
-            "查找替换面板支持 Ctrl+Alt+Enter 全部替换，与 VS Code 快捷键一致 (contributed by @AndreasK79) (PR #14342)",
-            "「选中内容转换为带分隔符的列表」命令新增可自定义快捷键，默认 Mod+Alt+, (contributed by @AndreasK79) (PR #14310)",
-            "重名标签页新增可选的连接名区分方式，显示为「对象名 + 连接名」，默认仍使用序号 (contributed by @javalover123) (PR #14343)",
-            "MySQL 建表 SQL 补全新增 MEDIUMINT 数据类型建议 (contributed by @MuY-DG) (PR #14148)"
+            "导入表数据支持为生成列手填固定值，不再只能用数据库表达式 (contributed by @javalover123) (PR #14537)",
+            "对象列表与数据库列表新增表格复制选项，可复制名称、选中对象、当前列表或全部筛选结果为可直接粘贴到电子表格的 TSV (contributed by @eryajf) (PR #14514)",
+            "MySQL 对象浏览器的表列表新增「字符集」「排序规则」两列，并支持排序、调整列宽与显示隐藏 (contributed by @Acd-kk) (PR #14513)",
+            "Kafka 消息浏览器支持按结束时间戳读取消息 (contributed by @pengwow) (PR #14297)",
+            "双击只读对象（如触发器）改为复用现有标签页，不再每次新建标签页 (contributed by @javalover123) (PR #14526)"
           ]
         },
         "file": {
-          "name": "DBX_0.6.67_x64-setup.exe",
-          "url": "https://github.com/t8y2/dbx/releases/download/v0.6.67/DBX_0.6.67_x64-setup.exe",
-          "size": 34412360,
-          "sha256": "2d01d3cd993cf0993a8497cb68d614c6745cc35d475537db25da90a45e0d5028",
+          "name": "DBX_0.6.68_x64-setup.exe",
+          "url": "https://github.com/t8y2/dbx/releases/download/v0.6.68/DBX_0.6.68_x64-setup.exe",
+          "size": 34485592,
+          "sha256": "0a83157f2818d32c960714ab87be1a4da727380878076026c44125cc0bd1e8f0",
           "digestChecked": true,
           "signer": "武汉市洪山区宇界网络工作室（个体工商户）",
           "unsigned": false,
           "scan": "clean"
         },
-        "since": "2026-11-06T13:02:46Z"
+        "since": "2026-11-09T14:00:53Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-09"
     },
     "escrcpy": {
       "release": {
@@ -261,14 +237,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 12322,
+        "stars": 12334,
         "license": "Apache-2.0",
         "created": "2023-09-15",
         "homepage": "https://viarotel.eu.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "fastmd": {
       "release": {
@@ -305,7 +281,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "flow-launcher": {
       "release": {
@@ -335,7 +311,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15979,
+        "stars": 15989,
         "license": "MIT",
         "created": "2020-04-21",
         "homepage": "https://flowlauncher.com",
@@ -345,7 +321,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "geolibre": {
       "release": {
@@ -375,7 +351,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 8431,
+        "stars": 8510,
         "license": "MIT",
         "created": "2026-05-27",
         "homepage": "https://geolibre.app",
@@ -385,7 +361,36 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "pending": {
+        "release": {
+          "tag": "v3.7.0",
+          "version": "3.7.0",
+          "prerelease": false,
+          "published": "2026-11-08",
+          "notes": [
+            "GeoLibre v3.7.0 brings indoor maps, ArcGIS I3S Building Scene Layers, and JAXA Earth data. You can now open IMDF and IndoorGML buildings, step through their …",
+            "Highlights",
+            "Indoor maps: open an IMDF venue archive (the zip of GeoJSON that Apple Maps and many indoor tools export) as a ready-made 3D venue, or an OGC IndoorGML build…",
+            "Stacked floors from data: the extrusion base can now come from a field, a scale, or an expression, and a floor height stacks every floor of a building from i…",
+            "I3S and ArcGIS imagery: ArcGIS I3S scene layers draw again on deck.gl, and Building Scene Layers (BIM) load with discipline and category toggles. Hosted tile…",
+            "JAXA Earth: a new plugin under Plugins → Web Services browses all 119 JAXA Earth API datasets, from AW3D30 elevation to GSMaP precipitation and land surface …",
+            "Cartography and measurement: lines gain their own opacity, dashes, and blur in the layer style, also applied from imported Mapbox styles. The print layout ge…",
+            "Deployment controls: administrators can turn off the Regional basemaps served from mainland China (an opened project that selects one now asks first), point …"
+          ]
+        },
+        "file": {
+          "name": "GeoLibre.Desktop_3.7.0_x64-setup.exe",
+          "url": "https://github.com/opengeos/GeoLibre/releases/download/v3.7.0/GeoLibre.Desktop_3.7.0_x64-setup.exe",
+          "size": 44494285,
+          "sha256": "dccc304e1ff65b551a0aec079dfe156527be92e4c6c89724eb6c553ef21e8a1b",
+          "digestChecked": true,
+          "signer": null,
+          "unsigned": true,
+          "scan": "clean"
+        },
+        "since": "2026-11-09T14:00:53Z"
+      },
+      "checked": "2026-11-09"
     },
     "git": {
       "release": {
@@ -415,14 +420,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9488,
+        "stars": 9493,
         "license": null,
         "created": "2014-08-22",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "handy": {
       "release": {
@@ -452,7 +457,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38000,
+        "stars": 38141,
         "license": "MIT",
         "created": "2025-02-13",
         "homepage": "https://handy.computer",
@@ -465,7 +470,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "imageglass": {
       "release": {
@@ -495,7 +500,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 14890,
+        "stars": 14904,
         "license": null,
         "created": "2012-12-30",
         "homepage": "https://imageglass.org",
@@ -507,7 +512,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "jan": {
       "release": {
@@ -537,14 +542,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45584,
+        "stars": 45626,
         "license": null,
         "created": "2023-08-17",
         "homepage": "https://jan.ai/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "joplin": {
       "release": {
@@ -572,7 +577,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 57080,
+        "stars": 57112,
         "license": null,
         "created": "2017-01-16",
         "homepage": "https://joplinapp.org",
@@ -583,7 +588,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "kando": {
       "release": {
@@ -613,7 +618,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6613,
+        "stars": 6622,
         "license": null,
         "created": "2023-04-16",
         "homepage": "https://kando.menu",
@@ -623,7 +628,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "keepassxc": {
       "release": {
@@ -653,7 +658,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29853,
+        "stars": 29882,
         "license": null,
         "created": "2016-02-28",
         "homepage": "https://keepassxc.org/",
@@ -667,7 +672,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "killerpdf": {
       "release": {
@@ -697,80 +702,51 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4340,
+        "stars": 4346,
         "license": "GPL-3.0",
         "created": "2026-04-16",
         "homepage": "https://KillerPDF.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "lightbulb": {
       "release": {
-        "tag": "2.7.2",
-        "version": "2.7.2",
+        "tag": "2.7.3",
+        "version": "2.7.3",
         "prerelease": false,
-        "published": "2026-09-10",
+        "published": "2026-11-06",
         "notes": [
           "What's Changed",
-          "Enhancements",
-          "Extract App.Shutdown static helper and update all call sites by @Tyrrrz with @Copilot in",
-          "Add Traditional Chinese localization by @love80312 in",
           "Bugs",
-          "Fix theme colors not applied when starting hidden by @Tyrrrz with @Copilot in",
-          "Fix brightness reset when opening Windows Quick Settings panel by @Tyrrrz with @Copilot in",
-          "New Contributors"
+          "Refresh cached local time zone so manual sunrise/sunset follows system time zone changes by @Tyrrrz with @Copilot in",
+          "Disable CET compatibility in the apphost so the app can launch on older operating systems by @Jah-yee in",
+          "Revert UI unloading, restore persistent main window by @Tyrrrz with @Copilot in",
+          "Don't change paused state when the taskbar or other shell windows are focused by @Tyrrrz with @Copilot in",
+          "New Contributors",
+          "@Jah-yee made their first contribution in"
         ]
       },
       "file": {
         "name": "LightBulb.win-x64.zip",
-        "url": "https://github.com/Tyrrrz/LightBulb/releases/download/2.7.2/LightBulb.win-x64.zip",
-        "size": 49770391,
-        "sha256": "558b6eccfe69b90771b8b97464333b7bcf98ed3ff0e87e9e9808369f056e139f",
+        "url": "https://github.com/Tyrrrz/LightBulb/releases/download/2.7.3/LightBulb.win-x64.zip",
+        "size": 49810146,
+        "sha256": "18714f54376dc8d608c11709d8e62f858a3662888ef1c2ec98a894223dc6eac9",
         "digestChecked": true,
         "signer": null,
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 2821,
+        "stars": 2824,
         "license": "MIT",
         "created": "2017-01-12",
         "homepage": "https://github.com/Tyrrrz/LightBulb/releases",
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "2.7.3",
-          "version": "2.7.3",
-          "prerelease": false,
-          "published": "2026-11-06",
-          "notes": [
-            "What's Changed",
-            "Bugs",
-            "Refresh cached local time zone so manual sunrise/sunset follows system time zone changes by @Tyrrrz with @Copilot in",
-            "Disable CET compatibility in the apphost so the app can launch on older operating systems by @Jah-yee in",
-            "Revert UI unloading, restore persistent main window by @Tyrrrz with @Copilot in",
-            "Don't change paused state when the taskbar or other shell windows are focused by @Tyrrrz with @Copilot in",
-            "New Contributors",
-            "@Jah-yee made their first contribution in"
-          ]
-        },
-        "file": {
-          "name": "LightBulb.win-x64.zip",
-          "url": "https://github.com/Tyrrrz/LightBulb/releases/download/2.7.3/LightBulb.win-x64.zip",
-          "size": 49810146,
-          "sha256": "18714f54376dc8d608c11709d8e62f858a3662888ef1c2ec98a894223dc6eac9",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-07T11:48:17Z"
-      },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "localsend": {
       "release": {
@@ -800,7 +776,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 97860,
+        "stars": 98049,
         "license": "Apache-2.0",
         "created": "2022-12-16",
         "homepage": "https://localsend.org",
@@ -809,7 +785,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "luanti": {
       "release": {
@@ -834,7 +810,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 13829,
+        "stars": 13841,
         "license": null,
         "created": "2011-08-07",
         "homepage": "https://www.luanti.org/",
@@ -844,139 +820,81 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "mpc-hc": {
       "release": {
-        "tag": "2.8.4",
-        "version": "2.8.4",
+        "tag": "2.8.5",
+        "version": "2.8.5",
         "prerelease": false,
-        "published": "2026-10-18",
+        "published": "2026-11-06",
         "notes": [
           "Donations are appreciated. There is now a PayPal option.",
-          "Changes from 2.8.3 to 2.8.4:",
+          "Changes from 2.8.4 to 2.8.5:",
           "Updates:",
-          "Updated MPC Video Renderer to version 0.10.10.2618",
+          "Updated LAV Filters to version 0.83-20-gd8d8a",
+          "Updated MPC Video Renderer to version 0.11.2.2638",
           "Changes/additions:",
-          "MPCVR now has an improved HDR to SDR tonemapping algorithm",
-          "Replaced statusbar audio icon. It now also shows channel count.",
-          "Fixes:"
+          "Significant performance improvements in internal subtitle renderer for rendering complex subtitles",
+          "Added an option to draw rounded corners when using an opaque box for default subtitle style"
         ]
       },
       "file": {
-        "name": "MPC-HC.2.8.4.x64.zip",
-        "url": "https://github.com/clsid2/mpc-hc/releases/download/2.8.4/MPC-HC.2.8.4.x64.zip",
-        "size": 30116329,
-        "sha256": "9feb91e27407ec048d7fe3722db0f5f06debf9841d7879bd920ab787f9b098ae",
+        "name": "MPC-HC.2.8.5.x64.zip",
+        "url": "https://github.com/clsid2/mpc-hc/releases/download/2.8.5/MPC-HC.2.8.5.x64.zip",
+        "size": 28574866,
+        "sha256": "164372dc972c3980ba4bbe89df68e2afa517dca6f3a7613b21039db0ffc98db6",
         "digestChecked": true,
         "signer": null,
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 16105,
+        "stars": 16118,
         "license": "GPL-3.0",
         "created": "2017-05-17",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "2.8.5",
-          "version": "2.8.5",
-          "prerelease": false,
-          "published": "2026-11-06",
-          "notes": [
-            "Donations are appreciated. There is now a PayPal option.",
-            "Changes from 2.8.4 to 2.8.5:",
-            "Updates:",
-            "Updated LAV Filters to version 0.83-20-gd8d8a",
-            "Updated MPC Video Renderer to version 0.11.2.2638",
-            "Changes/additions:",
-            "Significant performance improvements in internal subtitle renderer for rendering complex subtitles",
-            "Added an option to draw rounded corners when using an opaque box for default subtitle style"
-          ]
-        },
-        "file": {
-          "name": "MPC-HC.2.8.5.x64.zip",
-          "url": "https://github.com/clsid2/mpc-hc/releases/download/2.8.5/MPC-HC.2.8.5.x64.zip",
-          "size": 28574866,
-          "sha256": "164372dc972c3980ba4bbe89df68e2afa517dca6f3a7613b21039db0ffc98db6",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-07T11:48:17Z"
-      },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "notepadplusplus": {
       "release": {
-        "tag": "v8.9.8.1",
-        "version": "8.9.8.1",
+        "tag": "v8.9.9",
+        "version": "8.9.9",
         "prerelease": false,
-        "published": "2026-09-24",
+        "published": "2026-11-06",
         "notes": [
           "Release note:",
           "SHA256 Digest:",
-          "a53c5116b55ac93fedd7808e71096badecbf10a55f2be9b28b741591b8917a73 npp.8.9.8.1.Installer.arm64.exe",
-          "ee848aa54df153921678b343857a83861da81ce0c9dbb217b6f55a8780e60f5e npp.8.9.8.1.Installer.exe",
-          "26f3bcced788fadbac4e7e577b430ea2ce6060cf3bcad993ef4612ecd7d743da npp.8.9.8.1.Installer.x64.exe",
-          "0c4f4fe82babd7688f5c1431b1357392491563af6ffedf4e37f5de0bd71babb4 npp.8.9.8.1.Installer.x64.msi",
-          "24199c5bb37d86bcc004f353f4ce1ec644b50c4757cd591bc41aad9150935f83 npp.8.9.8.1.portable.7z",
-          "7d42389b5f057d5985211cbca029d388fd8f619c67ec5a254170e3bbd69f9c36 npp.8.9.8.1.portable.arm64.7z"
+          "4d7bccb7d2f7c2c275369ec930332bea42061f97b1609e3bc4120652978addd1 npp.8.9.9.Installer.arm64.exe",
+          "747b73c3c92d63eaaee8160fe58ae84620d14820169498741a7c40e0651e5300 npp.8.9.9.Installer.exe",
+          "a18cfb33d616c8eecda0059604d40bdb9d607fbc4ede857c8be6e41986464367 npp.8.9.9.Installer.x64.exe",
+          "52260e91dd98adda3413de1555e042debebc89615fab7a9bb0c20e4292491d3c npp.8.9.9.Installer.x64.msi",
+          "5a14c227848973cc077c26c7855eb02c1147c0d88bac119227a0bb456ea578f9 npp.8.9.9.portable.7z",
+          "78a3bd730ddf5973e5bc86acaa0224879e4cf3eb303081f019adaefd6b79eef0 npp.8.9.9.portable.arm64.7z"
         ]
       },
       "file": {
-        "name": "npp.8.9.8.1.portable.x64.zip",
-        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.8.1/npp.8.9.8.1.portable.x64.zip",
-        "size": 8250001,
-        "sha256": "beddf5548e75c97930d1575ba1c7d113e6e2b33d0a200310e734ca08e225f414",
+        "name": "npp.8.9.9.portable.x64.zip",
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9/npp.8.9.9.portable.x64.zip",
+        "size": 8338502,
+        "sha256": "96a8216930f5316ed5961663b2cc92a62ec7d303b6c3077b92a7cfc38a8761b7",
         "digestChecked": true,
         "signer": null,
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 29810,
+        "stars": 29828,
         "license": null,
         "created": "2015-03-28",
         "homepage": "https://notepad-plus-plus.org/",
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v8.9.9",
-          "version": "8.9.9",
-          "prerelease": false,
-          "published": "2026-11-06",
-          "notes": [
-            "Release note:",
-            "SHA256 Digest:",
-            "4d7bccb7d2f7c2c275369ec930332bea42061f97b1609e3bc4120652978addd1 npp.8.9.9.Installer.arm64.exe",
-            "747b73c3c92d63eaaee8160fe58ae84620d14820169498741a7c40e0651e5300 npp.8.9.9.Installer.exe",
-            "a18cfb33d616c8eecda0059604d40bdb9d607fbc4ede857c8be6e41986464367 npp.8.9.9.Installer.x64.exe",
-            "52260e91dd98adda3413de1555e042debebc89615fab7a9bb0c20e4292491d3c npp.8.9.9.Installer.x64.msi",
-            "5a14c227848973cc077c26c7855eb02c1147c0d88bac119227a0bb456ea578f9 npp.8.9.9.portable.7z",
-            "78a3bd730ddf5973e5bc86acaa0224879e4cf3eb303081f019adaefd6b79eef0 npp.8.9.9.portable.arm64.7z"
-          ]
-        },
-        "file": {
-          "name": "npp.8.9.9.portable.x64.zip",
-          "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9/npp.8.9.9.portable.x64.zip",
-          "size": 8338502,
-          "sha256": "96a8216930f5316ed5961663b2cc92a62ec7d303b6c3077b92a7cfc38a8761b7",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-07T11:48:17Z"
-      },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "obs-studio": {
       "release": {
@@ -1006,7 +924,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 79159,
+        "stars": 79214,
         "license": "GPL-2.0",
         "created": "2013-10-01",
         "homepage": "https://obsproject.com",
@@ -1016,7 +934,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "obsidian": {
       "release": {
@@ -1037,14 +955,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 23125,
+        "stars": 23187,
         "license": null,
         "created": "2020-05-08",
         "homepage": "https://obsidian.md",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "onlyoffice": {
       "release": {
@@ -1067,14 +985,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 5706,
+        "stars": 5711,
         "license": "AGPL-3.0",
         "created": "2016-10-03",
         "homepage": "https://www.onlyoffice.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "openlogi": {
       "release": {
@@ -1104,7 +1022,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 25363,
+        "stars": 25431,
         "license": "Apache-2.0",
         "created": "2026-05-24",
         "homepage": "https://openlogi.org",
@@ -1114,7 +1032,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "openpencil": {
       "release": {
@@ -1144,7 +1062,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9698,
+        "stars": 9718,
         "license": "MIT",
         "created": "2026-02-27",
         "homepage": "https://openpencil.dev",
@@ -1153,28 +1071,30 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "paintfe": {
       "release": {
-        "tag": "v1.4.22",
-        "version": "1.4.22",
+        "tag": "v1.4.27",
+        "version": "1.4.27",
         "prerelease": false,
-        "published": "2026-10-29",
+        "published": "2026-11-06",
         "notes": [
-          "This update improves saving and export options, along with a few everyday interface interactions.",
-          "Menus have more consistent click areas and handling around unavailable actions. Save All also includes new, untitled documents without edits. Related to issu…",
-          "Save As has a more flexible layout, background previews and clearer output details. Export settings are remembered by format after saving. Related to issue 221.",
-          "PNG export gains colour, bit-depth, compression and palette options, including dithering and partial transparency. GIF dithering and TIFF compression handlin…",
-          "Configuration-resource pickers avoid adding files to Windows recent documents. Preferences > AI includes cleanup for currently configured resource paths. Rel…",
-          "Retired experimental Heifer decoder and encoder code has been removed. Related to issue 196."
+          "Painting and tool settings",
+          "Changing tools while drawing now waits for the stroke to finish. Save, clipboard and selection actions finish pending paint too. Undo removes the current str…",
+          "Brush, Pencil and Eraser remember their own settings across restarts, while selected colours stay shared. Pencil no longer shows Opacity, Flow, AA or brush d…",
+          "Shortcuts",
+          "More built-in commands can be assigned in Preferences > Keybinds, including menu commands, tools and guide actions. Commands stay together under their catego…",
+          "The new defaults are Ctrl+Shift+X for Crop to Selection, Ctrl+H for clockwise canvas rotation and Ctrl+G for anticlockwise rotation. Existing custom bindings…",
+          "Interface and language",
+          "The docked tool options bar now blends into the workspace when its Background opacity is reduced, without moving the canvas. Related to issue 223."
         ]
       },
       "file": {
         "name": "PaintFE.exe",
-        "url": "https://github.com/kylejckson/PaintFE/releases/download/v1.4.22/PaintFE.exe",
-        "size": 43746304,
-        "sha256": "40b7caa5a917a1e60df202a21c36f9834f86a8eb7f25ad31ad14c1807e23e249",
+        "url": "https://github.com/kylejckson/PaintFE/releases/download/v1.4.27/PaintFE.exe",
+        "size": 45106688,
+        "sha256": "6ef5a97af15a1da592c95449ab66ae7eb81f81c3359af756fa35d62046d2caab",
         "digestChecked": true,
         "signer": null,
         "unsigned": true,
@@ -1188,36 +1108,7 @@
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v1.4.27",
-          "version": "1.4.27",
-          "prerelease": false,
-          "published": "2026-11-06",
-          "notes": [
-            "Painting and tool settings",
-            "Changing tools while drawing now waits for the stroke to finish. Save, clipboard and selection actions finish pending paint too. Undo removes the current str…",
-            "Brush, Pencil and Eraser remember their own settings across restarts, while selected colours stay shared. Pencil no longer shows Opacity, Flow, AA or brush d…",
-            "Shortcuts",
-            "More built-in commands can be assigned in Preferences > Keybinds, including menu commands, tools and guide actions. Commands stay together under their catego…",
-            "The new defaults are Ctrl+Shift+X for Crop to Selection, Ctrl+H for clockwise canvas rotation and Ctrl+G for anticlockwise rotation. Existing custom bindings…",
-            "Interface and language",
-            "The docked tool options bar now blends into the workspace when its Background opacity is reduced, without moving the canvas. Related to issue 223."
-          ]
-        },
-        "file": {
-          "name": "PaintFE.exe",
-          "url": "https://github.com/kylejckson/PaintFE/releases/download/v1.4.27/PaintFE.exe",
-          "size": 45106688,
-          "sha256": "6ef5a97af15a1da592c95449ab66ae7eb81f81c3359af756fa35d62046d2caab",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": true,
-          "scan": "clean"
-        },
-        "since": "2026-11-06T13:02:46Z"
-      },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "photocraft": {
       "release": {
@@ -1247,7 +1138,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 77865,
+        "stars": 78117,
         "license": "Apache-2.0",
         "created": "2026-09-30",
         "homepage": "https://getartcraft.com/apps/photocraft",
@@ -1256,34 +1147,34 @@
       },
       "pending": {
         "release": {
-          "tag": "v0.21.0",
-          "version": "0.21.0",
+          "tag": "v0.22.0",
+          "version": "0.22.0",
           "prerelease": false,
-          "published": "2026-11-06",
+          "published": "2026-11-09",
           "notes": [
             "What's Changed",
-            "Save the flattened document at full size into .pcraft files as an option by @dotCooCoo in",
-            "Add guarded scratch storage and owned memory supervision by @vistaero in",
-            "Save: stop doubling the encoded file in memory (#6607) by @VishnuByrraju in",
-            "Stream native PSD/PSB and EXR imports through bounded bands by @vistaero in",
-            "Size PSD import memory limits from available RAM by @wanikhawar in",
-            "Portable mode: create the write probe exclusively, never through an existing entry by @dylanmtaylor in",
-            "codecs: refuse EXR preview attributes larger than their value by @dylanmtaylor in"
+            "fix(export): preserve high-quality JPEG colour detail in Export As by @fokas-hoa in",
+            "Integration batch 19: epic PRs (WIP) by @davidmann4 in",
+            "fix(transform): a click on another layer's pixels commits the box; the next click picks it (#11100, #8208) by @Higgs32584 in",
+            "Move tool: an arrow nudge is one screen pixel, as in Photoshop (#9511) by @hectorviov in",
+            "Pen: Make Shape turns the path into a shape layer (#10934) by @DingusMcRinkyDinky in",
+            "Actions: load and save Blend If and Gradient Fill layers (#10771) by @NaufalDzz in",
+            "Right-click on the toolbar's \"…\" button opens a flyout with one row, Edit Toolbar… (#11378) by @TrevorBrown-dev in"
           ]
         },
         "file": {
-          "name": "photocraft-0.21.0-windows-x64-portable.zip",
-          "url": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-windows-x64-portable.zip",
-          "size": 134361814,
-          "sha256": "93b4e90a0ba74cdbf61ce36e227128ed78f5a0e43f814aa71563b1bf46e8b6a4",
+          "name": "photocraft-0.22.0-windows-x64-portable.zip",
+          "url": "https://github.com/storytold/photocraft/releases/download/v0.22.0/photocraft-0.22.0-windows-x64-portable.zip",
+          "size": 141201815,
+          "sha256": "d6e13cd7de440d9aae5964aaf70b15762b64dc05127155c3e2f06308f153e46b",
           "digestChecked": true,
           "signer": null,
           "unsigned": false,
           "scan": "clean"
         },
-        "since": "2026-11-07T11:48:17Z"
+        "since": "2026-11-09T14:00:53Z"
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "pixelorama": {
       "release": {
@@ -1313,7 +1204,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11024,
+        "stars": 11036,
         "license": "MIT",
         "created": "2019-08-18",
         "homepage": "https://www.pixelorama.org/",
@@ -1324,73 +1215,44 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "powertoys": {
       "release": {
-        "tag": "v0.102.3001",
-        "version": "0.102.3001",
+        "tag": "v0.102.3101",
+        "version": "0.102.3101",
         "prerelease": false,
-        "published": "2026-10-27",
+        "published": "2026-11-06",
         "notes": [
-          "Release v0.102.3001.0",
-          "This hotfix release addresses crashes in File Locksmith and Quick Accent. See the v0.102.2933.0 release notes for the full list of changes in PowerToys v0.102.",
+          "Release v0.102.3101.0",
+          "This hotfix release improves File Explorer thumbnail generation, fixes Mouse Without Borders pairing failures, and restores optional diagnostic event reporti…",
           "Installer Hashes",
           "Highlights",
-          "This patch contains two fixes since the previous stable release.",
-          "File Locksmith",
-          "Fixed crashes when File Locksmith encounters a stalled file-handle scan, including crashes after the scan completes, in #51507.",
-          "Quick Accent"
+          "This patch addresses three areas since the previous stable release.",
+          "File Explorer",
+          "Improved handling of stalled thumbnail renderers, isolated concurrent SVG requests, and preserved supported SVG formatting and UTF-8 STL names, in #49950.",
+          "General"
         ]
       },
       "file": {
-        "name": "PowerToysUserSetup-0.102.3001.0-x64.exe",
-        "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3001/PowerToysUserSetup-0.102.3001.0-x64.exe",
-        "size": 323884640,
-        "sha256": "4459b9f1ad5d70a342e109ffb66dbbb08ea07b2d2ec5634b314f878700f9ff0b",
+        "name": "PowerToysUserSetup-0.102.3101.0-x64.exe",
+        "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysUserSetup-0.102.3101.0-x64.exe",
+        "size": 323951160,
+        "sha256": "4b4c49a31e8b7e6a36647ccd3033acb0ad56c306595a9409e59865c3c27d1cf2",
         "digestChecked": true,
         "signer": "Microsoft Corporation",
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 140714,
+        "stars": 140765,
         "license": "MIT",
         "created": "2019-05-01",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v0.102.3101",
-          "version": "0.102.3101",
-          "prerelease": false,
-          "published": "2026-11-06",
-          "notes": [
-            "Release v0.102.3101.0",
-            "This hotfix release improves File Explorer thumbnail generation, fixes Mouse Without Borders pairing failures, and restores optional diagnostic event reporti…",
-            "Installer Hashes",
-            "Highlights",
-            "This patch addresses three areas since the previous stable release.",
-            "File Explorer",
-            "Improved handling of stalled thumbnail renderers, isolated concurrent SVG requests, and preserved supported SVG formatting and UTF-8 STL names, in #49950.",
-            "General"
-          ]
-        },
-        "file": {
-          "name": "PowerToysUserSetup-0.102.3101.0-x64.exe",
-          "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysUserSetup-0.102.3101.0-x64.exe",
-          "size": 323951160,
-          "sha256": "4b4c49a31e8b7e6a36647ccd3033acb0ad56c306595a9409e59865c3c27d1cf2",
-          "digestChecked": true,
-          "signer": "Microsoft Corporation",
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-06T13:02:46Z"
-      },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "puzzle": {
       "release": {
@@ -1424,7 +1286,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "rapidraw": {
       "release": {
@@ -1454,7 +1316,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 10982,
+        "stars": 11028,
         "license": "AGPL-3.0",
         "created": "2025-06-13",
         "homepage": "https://getrapidraw.com",
@@ -1463,37 +1325,66 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-07"
+      "pending": {
+        "release": {
+          "tag": "v1.6.9",
+          "version": "1.6.9",
+          "prerelease": false,
+          "published": "2026-11-07",
+          "notes": [
+            "Imagine editing a whole shoot without touching a single slider. With the new Speed Edit, you hold W, drag on the photo, and jump to the next image with one k…",
+            "New Features",
+            "Black & White Mode",
+            "RapidRAW now has a dedicated Black & White mode instead of simply turning the saturation down. It gives you the tools of a real darkroom:",
+            "Film Responses: Choose how the \"film\" reacts to color, from Neutral and Panchromatic to Orthochromatic, Extended Red and Infrared for glowing foliage and nea…",
+            "Color Filters: Add a yellow, orange, red, green or blue filter, just like on a real lens, with an adjustable strength.",
+            "B&W Mix: Control how bright each color turns out. Click and drag up or down directly on the photo to change the colors under your cursor.",
+            "Toning: Finish your image with Sepia, Selenium, Gold, Platinum, Cyanotype or Split Toning."
+          ]
+        },
+        "file": {
+          "name": "01_RapidRAW_v1.6.9_windows_x64.exe",
+          "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows_x64.exe",
+          "size": 33919943,
+          "sha256": "4d4e82af9a104a96c799640c7cb6ccd66c3be017f11722ad8fcb81d82e7c2b77",
+          "digestChecked": true,
+          "signer": null,
+          "unsigned": true,
+          "scan": "clean"
+        },
+        "since": "2026-11-09T14:00:53Z"
+      },
+      "checked": "2026-11-09"
     },
     "readest": {
       "release": {
-        "tag": "v0.12.16",
-        "version": "0.12.16",
+        "tag": "v0.12.20",
+        "version": "0.12.20",
         "prerelease": false,
-        "published": "2026-10-13",
+        "published": "2026-11-05",
         "notes": [
           "Release Highlights",
-          "Text-to-Speech: Added Readest Voice premium read-aloud voices for Plus and Pro, you can now connect your own OpenAI-compatible voice service, and Edge voices…",
-          "Annotations: You can now handwrite and draw on your pages, and share passages as quote card images",
-          "Library: Books now show their page count with a new Pages sort and filter that syncs across devices, and numbered titles sort in natural order",
-          "Sync: Custom fonts download when you need them and can be removed from the cloud, custom theme edits now sync, and deleted books no longer come back",
-          "Sync: KOReader progress sync and WebDAV sync are more reliable, and signing out only logs out the current device",
-          "Reading: Very large or link-heavy chapters no longer freeze the reader, and fixed layout issues with headings, blockquotes, footnotes, and background textures",
-          "Audiobooks: Audiobookshelf playback now works in the web app, chapters are detected more reliably, and you can pair audiobooks with books streamed from Audio…"
+          "Vocabulary: You can now build a vocabulary list, mark words as Learning or Mastered for Word Lens hints, and sync with Anki",
+          "Statistics: Added a reading statistics dashboard so you can see your reading habits at a glance",
+          "Reading: Added Page Flip and paper curl page turns, a page preview while dragging the progress slider, a straight-line reading ruler, and keyboard-only text …",
+          "Styling: You can now ignore publisher fonts, make white image backgrounds transparent, and adjust dialogue highlighting",
+          "Text-to-Speech: You can now preview voices, pick a default voice per language, and sync downloaded read-aloud audio across devices",
+          "Library: You can now import pasted text and Word or RTF files, share collections as bundles, search for covers in the app",
+          "Sync: Added Grimmory, Obsidian, and CrossPoint 2.0 highlight sync, a new view of where your reading data goes, and a switch for servers with self-signed cert…"
         ]
       },
       "file": {
-        "name": "Readest_0.12.16_x64-portable.exe",
-        "url": "https://github.com/readest/readest/releases/download/v0.12.16/Readest_0.12.16_x64-portable.exe",
-        "size": 92852224,
-        "sha256": "683a620d4ee883c2d15c500cbe0ca82e42900510276e557df33289e3b7265f74",
+        "name": "Readest_0.12.20_x64-portable.exe",
+        "url": "https://github.com/readest/readest/releases/download/v0.12.20/Readest_0.12.20_x64-portable.exe",
+        "size": 97063424,
+        "sha256": "aef79804bcbb629e880f3ea2b6b32c6cc033e9dfd27304423523d09999325c36",
         "digestChecked": true,
         "signer": null,
         "unsigned": true,
         "scan": "clean"
       },
       "repo": {
-        "stars": 26060,
+        "stars": 26118,
         "license": "AGPL-3.0",
         "created": "2024-10-12",
         "homepage": "https://readest.com",
@@ -1502,36 +1393,7 @@
         ],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v0.12.20",
-          "version": "0.12.20",
-          "prerelease": false,
-          "published": "2026-11-05",
-          "notes": [
-            "Release Highlights",
-            "Vocabulary: You can now build a vocabulary list, mark words as Learning or Mastered for Word Lens hints, and sync with Anki",
-            "Statistics: Added a reading statistics dashboard so you can see your reading habits at a glance",
-            "Reading: Added Page Flip and paper curl page turns, a page preview while dragging the progress slider, a straight-line reading ruler, and keyboard-only text …",
-            "Styling: You can now ignore publisher fonts, make white image backgrounds transparent, and adjust dialogue highlighting",
-            "Text-to-Speech: You can now preview voices, pick a default voice per language, and sync downloaded read-aloud audio across devices",
-            "Library: You can now import pasted text and Word or RTF files, share collections as bundles, search for covers in the app",
-            "Sync: Added Grimmory, Obsidian, and CrossPoint 2.0 highlight sync, a new view of where your reading data goes, and a switch for servers with self-signed cert…"
-          ]
-        },
-        "file": {
-          "name": "Readest_0.12.20_x64-portable.exe",
-          "url": "https://github.com/readest/readest/releases/download/v0.12.20/Readest_0.12.20_x64-portable.exe",
-          "size": 97063424,
-          "sha256": "aef79804bcbb629e880f3ea2b6b32c6cc033e9dfd27304423523d09999325c36",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": true,
-          "scan": "clean"
-        },
-        "since": "2026-11-06T13:02:46Z"
-      },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "recordly": {
       "release": {
@@ -1561,7 +1423,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 36302,
+        "stars": 36376,
         "license": "AGPL-3.0",
         "created": "2026-03-12",
         "homepage": "https://recordly.dev",
@@ -1571,7 +1433,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "rufus": {
       "release": {
@@ -1601,14 +1463,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38281,
+        "stars": 38293,
         "license": "GPL-3.0",
         "created": "2011-11-19",
         "homepage": "https://rufus.ie",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "screentogif": {
       "release": {
@@ -1635,7 +1497,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 27898,
+        "stars": 27906,
         "license": "MS-PL",
         "created": "2016-08-02",
         "homepage": null,
@@ -1650,7 +1512,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "seelen-ui": {
       "release": {
@@ -1680,7 +1542,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18379,
+        "stars": 18411,
         "license": "AGPL-3.0",
         "created": "2024-02-16",
         "homepage": null,
@@ -1692,7 +1554,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "sharex": {
       "release": {
@@ -1715,7 +1577,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 40746,
+        "stars": 40876,
         "license": "GPL-3.0",
         "created": "2013-10-08",
         "homepage": "https://getsharex.com",
@@ -1726,27 +1588,27 @@
       },
       "pending": {
         "release": {
-          "tag": "v22.3.0",
-          "version": "22.3.0",
+          "tag": "v22.4.0",
+          "version": "22.4.0",
           "prerelease": false,
-          "published": "2026-11-07",
+          "published": "2026-11-08",
           "notes": [
             "Changelog:"
           ]
         },
         "file": {
-          "name": "ShareX-22.3.0-portable-x64.zip",
-          "url": "https://github.com/ShareX/ShareX/releases/download/v22.3.0/ShareX-22.3.0-portable-x64.zip",
-          "size": 209418034,
-          "sha256": "0c6d6b954ccf9115f7f038eb16cd65db3faf81a775eca37c30c9d90b45ef7928",
+          "name": "ShareX-22.4.0-portable-x64.zip",
+          "url": "https://github.com/ShareX/ShareX/releases/download/v22.4.0/ShareX-22.4.0-portable-x64.zip",
+          "size": 209735803,
+          "sha256": "c321ed353a6c6ae32093927f97c22e0f0627628ce6fa47ed366bcefd05936c7b",
           "digestChecked": true,
           "signer": null,
           "unsigned": false,
           "scan": "clean"
         },
-        "since": "2026-11-07T11:48:17Z"
+        "since": "2026-11-09T14:00:53Z"
       },
-      "checked": "2026-11-07"
+      "checked": "2026-11-09"
     },
     "shattered-pixel-dungeon": {
       "release": {
@@ -1776,14 +1638,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6775,
+        "stars": 6779,
         "license": "GPL-3.0",
         "created": "2014-07-31",
         "homepage": "https://shatteredpixel.com/shatteredpd/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "shotcut": {
       "release": {
@@ -1813,14 +1675,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15631,
+        "stars": 15638,
         "license": "GPL-3.0",
         "created": "2012-04-23",
         "homepage": "https://www.shotcut.org",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "stellarium": {
       "release": {
@@ -1850,7 +1712,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 10152,
+        "stars": 10154,
         "license": "GPL-2.0",
         "created": "2014-04-13",
         "homepage": "https://stellarium.org",
@@ -1859,7 +1721,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "stretchly": {
       "release": {
@@ -1900,7 +1762,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "thorium-reader": {
       "release": {
@@ -1930,14 +1792,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2935,
+        "stars": 2936,
         "license": "BSD-3-Clause",
         "created": "2017-03-20",
         "homepage": "https://www.edrlab.org/software/thorium-reader/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "translucenttb": {
       "release": {
@@ -1967,7 +1829,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 20751,
+        "stars": 20770,
         "license": "GPL-3.0",
         "created": "2017-01-10",
         "homepage": "https://translucenttb.github.io",
@@ -1977,7 +1839,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "twinkle-tray": {
       "release": {
@@ -2007,7 +1869,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9303,
+        "stars": 9315,
         "license": "MIT",
         "created": "2019-08-14",
         "homepage": "https://twinkletray.com",
@@ -2019,7 +1881,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "vscodium": {
       "release": {
@@ -2049,14 +1911,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 34010,
+        "stars": 34024,
         "license": "MIT",
         "created": "2018-08-13",
         "homepage": "https://vscodium.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "wealthfolio": {
       "release": {
@@ -2086,7 +1948,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9367,
+        "stars": 9397,
         "license": "AGPL-3.0",
         "created": "2024-05-27",
         "homepage": "https://wealthfolio.app",
@@ -2096,7 +1958,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "windirstat": {
       "release": {
@@ -2120,7 +1982,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4490,
+        "stars": 4497,
         "license": "GPL-3.0",
         "created": "2016-04-04",
         "homepage": "https://windirstat.net",
@@ -2131,7 +1993,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "wsl-dashboard": {
       "release": {
@@ -2161,14 +2023,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4101,
+        "stars": 4109,
         "license": "GPL-3.0",
         "created": "2026-01-18",
         "homepage": "https://www.wslui.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "yaak": {
       "release": {
@@ -2194,7 +2056,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19456,
+        "stars": 19465,
         "license": "MIT",
         "created": "2023-02-16",
         "homepage": "https://yaak.app",
@@ -2203,37 +2065,37 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     },
     "zen-browser": {
       "release": {
-        "tag": "1.24b",
-        "version": "1.24b",
+        "tag": "1.24.1b",
+        "version": "1.24.1b",
         "prerelease": false,
-        "published": "2026-10-29",
+        "published": "2026-11-06",
         "notes": [
           "Zen Stable Release",
           "Security",
           "New Features",
-          "Updated to Firefox 159.0",
-          "You can now import Spaces and Profiles from Arc and Dia.",
-          "Boosts gets a nice upgrade! THey can now be shared with others and they get an overall quality improvement.",
-          "Holding 'ctrl' (or 'cmd' on macOS) while hovering over the new tab button will now give the option to 'Paste & Search'.",
-          "You can now remove/add tabs from the library."
+          "Updated to Firefox 159.0.1",
+          "New grain options have been added to the theme picker. You can cycle through different grain effects by clicking on the circle inside the dial.",
+          "Fixes",
+          "Fixed a command prompt window briefly appearing on Windows when Zen restarts to apply an update.",
+          "Fixed passkey sign-in failing on websites that share passkeys across related sites, such as Facebook and Instagram."
         ]
       },
       "file": {
         "name": "zen.installer.exe",
-        "url": "https://github.com/zen-browser/desktop/releases/download/1.24b/zen.installer.exe",
-        "size": 118588392,
-        "sha256": "2d55965f1952f2e5489dfaf954d613ebbf6361c5ca2bcad95ab8d3c0a481d6a4",
+        "url": "https://github.com/zen-browser/desktop/releases/download/1.24.1b/zen.installer.exe",
+        "size": 118933392,
+        "sha256": "ce649f801579fb40a02499bfceeb66f2c049f87988b4c2cef73046540c46e8a3",
         "digestChecked": true,
         "signer": "Open Source Developer Oscar Gonzalez Moreno",
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 45657,
+        "stars": 45684,
         "license": "MPL-2.0",
         "created": "2024-03-28",
         "homepage": "https://zen-browser.app",
@@ -2244,36 +2106,7 @@
         ],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "1.24.1b",
-          "version": "1.24.1b",
-          "prerelease": false,
-          "published": "2026-11-06",
-          "notes": [
-            "Zen Stable Release",
-            "Security",
-            "New Features",
-            "Updated to Firefox 159.0.1",
-            "New grain options have been added to the theme picker. You can cycle through different grain effects by clicking on the circle inside the dial.",
-            "Fixes",
-            "Fixed a command prompt window briefly appearing on Windows when Zen restarts to apply an update.",
-            "Fixed passkey sign-in failing on websites that share passkeys across related sites, such as Facebook and Instagram."
-          ]
-        },
-        "file": {
-          "name": "zen.installer.exe",
-          "url": "https://github.com/zen-browser/desktop/releases/download/1.24.1b/zen.installer.exe",
-          "size": 118933392,
-          "sha256": "ce649f801579fb40a02499bfceeb66f2c049f87988b4c2cef73046540c46e8a3",
-          "digestChecked": true,
-          "signer": "Open Source Developer Oscar Gonzalez Moreno",
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-07T11:48:17Z"
-      },
-      "checked": "2026-11-08"
+      "checked": "2026-11-09"
     }
   }
 }
