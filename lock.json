@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11",
+  "generated": "2026-11-12",
   "apps": {
     "7zip": {
       "release": {
@@ -24,14 +24,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4480,
+        "stars": 4492,
         "license": null,
         "created": "2022-03-05",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "anki": {
       "release": {
@@ -59,14 +59,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 32735,
+        "stars": 32760,
         "license": null,
         "created": "2012-12-21",
         "homepage": "https://apps.ankiweb.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "audacity": {
       "release": {
@@ -96,14 +96,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19024,
+        "stars": 19036,
         "license": null,
         "created": "2015-03-26",
         "homepage": "https://www.audacityteam.org/manual/getting-started/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "clypra": {
       "release": {
@@ -126,7 +126,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 3358,
+        "stars": 3360,
         "license": "MIT",
         "created": "2026-04-26",
         "homepage": "https://clypra.abdulkabirmusa.com",
@@ -137,7 +137,29 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "pending": {
+        "release": {
+          "tag": "v1.6.1",
+          "version": "1.6.1",
+          "prerelease": false,
+          "published": "2026-11-11",
+          "notes": [
+            "Automated multi-platform release bundle — macOS (arm64, x64), Windows (x64, arm64), Linux (x64, arm64)."
+          ]
+        },
+        "file": {
+          "name": "Clypra_1.6.1_x64-setup.exe",
+          "url": "https://github.com/AIEraDev/Clypra/releases/download/v1.6.1/Clypra_1.6.1_x64-setup.exe",
+          "size": 76790985,
+          "sha256": "1252b02a230d2032500556e5bd41e55ca9160cef49e75acf21d4b870821566ba",
+          "digestChecked": true,
+          "signer": null,
+          "unsigned": true,
+          "scan": "clean"
+        },
+        "since": "2026-11-12T13:52:35Z"
+      },
+      "checked": "2026-11-12"
     },
     "dbx": {
       "release": {
@@ -167,7 +189,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 30025,
+        "stars": 30173,
         "license": "Apache-2.0",
         "created": "2026-04-29",
         "homepage": "https://dbxio.com",
@@ -207,7 +229,7 @@
         },
         "since": "2026-11-11T12:49:00Z"
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "escrcpy": {
       "release": {
@@ -237,14 +259,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 12347,
+        "stars": 12360,
         "license": "Apache-2.0",
         "created": "2023-09-15",
         "homepage": "https://viarotel.eu.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "fastmd": {
       "release": {
@@ -274,14 +296,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2,
+        "stars": 3,
         "license": "MIT",
         "created": "2026-09-19",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "flow-launcher": {
       "release": {
@@ -311,7 +333,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16011,
+        "stars": 16016,
         "license": "MIT",
         "created": "2020-04-21",
         "homepage": "https://flowlauncher.com",
@@ -321,37 +343,37 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "geolibre": {
       "release": {
-        "tag": "v3.6.1",
-        "version": "3.6.1",
+        "tag": "v3.7.0",
+        "version": "3.7.0",
         "prerelease": false,
-        "published": "2026-11-02",
+        "published": "2026-11-08",
         "notes": [
-          "GeoLibre v3.6.1 sets the map CRS from a link or a plugin, makes the OSM Downloader more reliable, and gives plugins and AI clients more to work with. It also…",
+          "GeoLibre v3.7.0 brings indoor maps, ArcGIS I3S Building Scene Layers, and JAXA Earth data. You can now open IMDF and IndoorGML buildings, step through their …",
           "Highlights",
-          "Map CRS from a link or a plugin: a ?crs= parameter such as ?crs=EPSG:25832 or ?crs=earth-arctic opens the map in that CRS, so a shared map that relies on a W…",
-          "A more reliable OSM Downloader: the area limit is checked before any request is sent, requests fall back across Overpass relays and to the OSM map API for sm…",
-          "Live desktop control over MCP: new live_* tools let an AI client read and move the camera, add markers, query layer, selected, drawn, and rendered features, …",
-          "More for plugins: plugins can register file handlers that claim files dropped on the map, including telling zip archives apart by their contents, write files…",
-          "Fixes: the desktop sidecar and Jupyter environments are pinned to Python 3.12, so the sidecar no longer fails to start when uv picks Python 3.15, and affecte…",
-          "Download"
+          "Indoor maps: open an IMDF venue archive (the zip of GeoJSON that Apple Maps and many indoor tools export) as a ready-made 3D venue, or an OGC IndoorGML build…",
+          "Stacked floors from data: the extrusion base can now come from a field, a scale, or an expression, and a floor height stacks every floor of a building from i…",
+          "I3S and ArcGIS imagery: ArcGIS I3S scene layers draw again on deck.gl, and Building Scene Layers (BIM) load with discipline and category toggles. Hosted tile…",
+          "JAXA Earth: a new plugin under Plugins → Web Services browses all 119 JAXA Earth API datasets, from AW3D30 elevation to GSMaP precipitation and land surface …",
+          "Cartography and measurement: lines gain their own opacity, dashes, and blur in the layer style, also applied from imported Mapbox styles. The print layout ge…",
+          "Deployment controls: administrators can turn off the Regional basemaps served from mainland China (an opened project that selects one now asks first), point …"
         ]
       },
       "file": {
-        "name": "GeoLibre.Desktop_3.6.1_x64-setup.exe",
-        "url": "https://github.com/opengeos/GeoLibre/releases/download/v3.6.1/GeoLibre.Desktop_3.6.1_x64-setup.exe",
-        "size": 44163795,
-        "sha256": "addd163729e6558649a8d742d082bb2f6a16a86df2477c4301855f37e759b47d",
+        "name": "GeoLibre.Desktop_3.7.0_x64-setup.exe",
+        "url": "https://github.com/opengeos/GeoLibre/releases/download/v3.7.0/GeoLibre.Desktop_3.7.0_x64-setup.exe",
+        "size": 44494285,
+        "sha256": "dccc304e1ff65b551a0aec079dfe156527be92e4c6c89724eb6c553ef21e8a1b",
         "digestChecked": true,
         "signer": null,
         "unsigned": true,
         "scan": "clean"
       },
       "repo": {
-        "stars": 8558,
+        "stars": 8579,
         "license": "MIT",
         "created": "2026-05-27",
         "homepage": "https://geolibre.app",
@@ -361,36 +383,7 @@
         ],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v3.7.0",
-          "version": "3.7.0",
-          "prerelease": false,
-          "published": "2026-11-08",
-          "notes": [
-            "GeoLibre v3.7.0 brings indoor maps, ArcGIS I3S Building Scene Layers, and JAXA Earth data. You can now open IMDF and IndoorGML buildings, step through their …",
-            "Highlights",
-            "Indoor maps: open an IMDF venue archive (the zip of GeoJSON that Apple Maps and many indoor tools export) as a ready-made 3D venue, or an OGC IndoorGML build…",
-            "Stacked floors from data: the extrusion base can now come from a field, a scale, or an expression, and a floor height stacks every floor of a building from i…",
-            "I3S and ArcGIS imagery: ArcGIS I3S scene layers draw again on deck.gl, and Building Scene Layers (BIM) load with discipline and category toggles. Hosted tile…",
-            "JAXA Earth: a new plugin under Plugins → Web Services browses all 119 JAXA Earth API datasets, from AW3D30 elevation to GSMaP precipitation and land surface …",
-            "Cartography and measurement: lines gain their own opacity, dashes, and blur in the layer style, also applied from imported Mapbox styles. The print layout ge…",
-            "Deployment controls: administrators can turn off the Regional basemaps served from mainland China (an opened project that selects one now asks first), point …"
-          ]
-        },
-        "file": {
-          "name": "GeoLibre.Desktop_3.7.0_x64-setup.exe",
-          "url": "https://github.com/opengeos/GeoLibre/releases/download/v3.7.0/GeoLibre.Desktop_3.7.0_x64-setup.exe",
-          "size": 44494285,
-          "sha256": "dccc304e1ff65b551a0aec079dfe156527be92e4c6c89724eb6c553ef21e8a1b",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": true,
-          "scan": "clean"
-        },
-        "since": "2026-11-09T14:00:53Z"
-      },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "git": {
       "release": {
@@ -420,7 +413,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9500,
+        "stars": 9505,
         "license": null,
         "created": "2014-08-22",
         "homepage": null,
@@ -456,7 +449,7 @@
         },
         "since": "2026-11-11T12:49:00Z"
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "handy": {
       "release": {
@@ -486,7 +479,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38385,
+        "stars": 38514,
         "license": "MIT",
         "created": "2025-02-13",
         "homepage": "https://handy.computer",
@@ -499,7 +492,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "imageglass": {
       "release": {
@@ -529,7 +522,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 14931,
+        "stars": 14940,
         "license": null,
         "created": "2012-12-30",
         "homepage": "https://imageglass.org",
@@ -541,7 +534,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "jan": {
       "release": {
@@ -571,14 +564,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45668,
+        "stars": 45686,
         "license": null,
         "created": "2023-08-17",
         "homepage": "https://jan.ai/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "joplin": {
       "release": {
@@ -606,7 +599,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 57137,
+        "stars": 57152,
         "license": null,
         "created": "2017-01-16",
         "homepage": "https://joplinapp.org",
@@ -617,7 +610,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "kando": {
       "release": {
@@ -647,7 +640,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6627,
+        "stars": 6635,
         "license": null,
         "created": "2023-04-16",
         "homepage": "https://kando.menu",
@@ -657,7 +650,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "keepassxc": {
       "release": {
@@ -687,7 +680,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29927,
+        "stars": 29953,
         "license": null,
         "created": "2016-02-28",
         "homepage": "https://keepassxc.org/",
@@ -701,7 +694,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "killerpdf": {
       "release": {
@@ -731,14 +724,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4351,
+        "stars": 4358,
         "license": "GPL-3.0",
         "created": "2026-04-16",
         "homepage": "https://KillerPDF.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "lightbulb": {
       "release": {
@@ -775,7 +768,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "localsend": {
       "release": {
@@ -805,7 +798,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 98404,
+        "stars": 98632,
         "license": "Apache-2.0",
         "created": "2022-12-16",
         "homepage": "https://localsend.org",
@@ -814,7 +807,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "luanti": {
       "release": {
@@ -839,7 +832,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 13850,
+        "stars": 13849,
         "license": null,
         "created": "2011-08-07",
         "homepage": "https://www.luanti.org/",
@@ -849,7 +842,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "mpc-hc": {
       "release": {
@@ -879,14 +872,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16131,
+        "stars": 16140,
         "license": "GPL-3.0",
         "created": "2017-05-17",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "notepadplusplus": {
       "release": {
@@ -916,14 +909,43 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29848,
+        "stars": 29864,
         "license": null,
         "created": "2015-03-28",
         "homepage": "https://notepad-plus-plus.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "pending": {
+        "release": {
+          "tag": "v8.9.9.1",
+          "version": "8.9.9.1",
+          "prerelease": false,
+          "published": "2026-11-12",
+          "notes": [
+            "Release note:",
+            "SHA256 Digest:",
+            "e5ac20348d83693a2816f4ed8e4a3118d5759f258af07c8cec525d1e0cc026e9 npp.8.9.9.1.Installer.arm64.exe",
+            "8f6f564e628d35f20fdf0f38fa827f843c29b834c2e16f5e70091acac259df95 npp.8.9.9.1.Installer.exe",
+            "ce3267f5c4e7e42f847e00f4b20234da6150647203033cdde34a69593efc3152 npp.8.9.9.1.Installer.x64.exe",
+            "e3b0607a092ce2604fbdac027db2c94915995e8e568ebd226f8c5493c2f61a80 npp.8.9.9.1.Installer.x64.msi",
+            "83202b830253c9011b3e89a9bafd0675eba19dd569165ef98b9ac1d699b06c83 npp.8.9.9.1.portable.7z",
+            "b21a8c3fe11c6b4e098b60cc4890eef50c213d70b7bceda25ce988ac5f0efaf7 npp.8.9.9.1.portable.arm64.7z"
+          ]
+        },
+        "file": {
+          "name": "npp.8.9.9.1.portable.x64.zip",
+          "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.portable.x64.zip",
+          "size": 8369720,
+          "sha256": "cbcefa34677e10fe6dd19802f7d6b3b9860cd6de62afeaae7680e09c51b47779",
+          "digestChecked": true,
+          "signer": null,
+          "unsigned": false,
+          "scan": "clean"
+        },
+        "since": "2026-11-12T13:52:35Z"
+      },
+      "checked": "2026-11-12"
     },
     "obs-studio": {
       "release": {
@@ -953,7 +975,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 79350,
+        "stars": 79454,
         "license": "GPL-2.0",
         "created": "2013-10-01",
         "homepage": "https://obsproject.com",
@@ -963,7 +985,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "obsidian": {
       "release": {
@@ -984,14 +1006,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 23277,
+        "stars": 23218,
         "license": null,
         "created": "2020-05-08",
         "homepage": "https://obsidian.md",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "onlyoffice": {
       "release": {
@@ -1014,14 +1036,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 5718,
+        "stars": 5726,
         "license": "AGPL-3.0",
         "created": "2016-10-03",
         "homepage": "https://www.onlyoffice.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "openlogi": {
       "release": {
@@ -1051,7 +1073,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 25552,
+        "stars": 25613,
         "license": "Apache-2.0",
         "created": "2026-05-24",
         "homepage": "https://openlogi.org",
@@ -1061,7 +1083,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "openpencil": {
       "release": {
@@ -1091,7 +1113,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9780,
+        "stars": 9805,
         "license": "MIT",
         "created": "2026-02-27",
         "homepage": "https://openpencil.dev",
@@ -1100,7 +1122,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "paintfe": {
       "release": {
@@ -1130,7 +1152,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 413,
+        "stars": 414,
         "license": "MIT",
         "created": "2026-02-23",
         "homepage": "https://www.paintfe.com",
@@ -1166,7 +1188,7 @@
         },
         "since": "2026-11-11T12:49:00Z"
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "photocraft": {
       "release": {
@@ -1196,7 +1218,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 78635,
+        "stars": 78890,
         "license": "Apache-2.0",
         "created": "2026-09-30",
         "homepage": "https://getartcraft.com/apps/photocraft",
@@ -1205,34 +1227,34 @@
       },
       "pending": {
         "release": {
-          "tag": "v0.22.0",
-          "version": "0.22.0",
+          "tag": "v0.23.1",
+          "version": "0.23.1",
           "prerelease": false,
-          "published": "2026-11-09",
+          "published": "2026-11-12",
           "notes": [
             "What's Changed",
-            "fix(export): preserve high-quality JPEG colour detail in Export As by @fokas-hoa in",
-            "Integration batch 19: epic PRs (WIP) by @davidmann4 in",
-            "fix(transform): a click on another layer's pixels commits the box; the next click picks it (#11100, #8208) by @Higgs32584 in",
-            "Move tool: an arrow nudge is one screen pixel, as in Photoshop (#9511) by @hectorviov in",
-            "Pen: Make Shape turns the path into a shape layer (#10934) by @DingusMcRinkyDinky in",
-            "Actions: load and save Blend If and Gradient Fill layers (#10771) by @NaufalDzz in",
-            "Right-click on the toolbar's \"…\" button opens a flyout with one row, Edit Toolbar… (#11378) by @TrevorBrown-dev in"
+            "fix(ui): keep the Color Sampler cursor while a sampler is dragged (#13063) by @RickiNano in",
+            "fix(ui): the Arbitrary angle rounds in f64 and keeps that value (#13067) by @RickiNano in",
+            "Remove tool: 19 px brush after Reset Tool and on first use by @rmsff in",
+            "Release: PhotoCraft v0.23.0 on main by @FredApps in",
+            "Remove: alert on a pixel layer with Lock All by @rmsff in",
+            "Pen: Undo after finishing a path gives it back to the Pen instead of deleting it (#6619) by @marmitoTH in",
+            "ci: use StepSecurity's maintained actions by @dylanmtaylor in"
           ]
         },
         "file": {
-          "name": "photocraft-0.22.0-windows-x64-portable.zip",
-          "url": "https://github.com/storytold/photocraft/releases/download/v0.22.0/photocraft-0.22.0-windows-x64-portable.zip",
-          "size": 141201815,
-          "sha256": "d6e13cd7de440d9aae5964aaf70b15762b64dc05127155c3e2f06308f153e46b",
+          "name": "photocraft-0.23.1-windows-x64-portable.zip",
+          "url": "https://github.com/storytold/photocraft/releases/download/v0.23.1/photocraft-0.23.1-windows-x64-portable.zip",
+          "size": 143135209,
+          "sha256": "6317e764ecfa804227c38079311bea489283ab383ef040c81ef2fd6d86bd60b1",
           "digestChecked": true,
           "signer": null,
           "unsigned": false,
           "scan": "clean"
         },
-        "since": "2026-11-09T14:00:53Z"
+        "since": "2026-11-12T13:52:35Z"
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "pixelorama": {
       "release": {
@@ -1262,7 +1284,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11066,
+        "stars": 11084,
         "license": "MIT",
         "created": "2019-08-18",
         "homepage": "https://www.pixelorama.org/",
@@ -1273,7 +1295,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "powertoys": {
       "release": {
@@ -1303,14 +1325,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 140864,
+        "stars": 140911,
         "license": "MIT",
         "created": "2019-05-01",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "puzzle": {
       "release": {
@@ -1344,37 +1366,37 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "rapidraw": {
       "release": {
-        "tag": "v1.6.7",
-        "version": "1.6.7",
+        "tag": "v1.6.9",
+        "version": "1.6.9",
         "prerelease": false,
-        "published": "2026-10-25",
+        "published": "2026-11-07",
         "notes": [
-          "This release is the result of a one-week sprint focused on making the core of RapidRAW faster and lighter on RAM. I rewrote large parts of the image pipeline…",
+          "Imagine editing a whole shoot without touching a single slider. With the new Speed Edit, you hold W, drag on the photo, and jump to the next image with one k…",
           "New Features",
-          "Performance Improvements & Lower RAM Usage",
-          "This release is all about speed. I went through the whole app to find out where time and memory were wasted and rewrote large parts of the image pipeline:",
-          "Faster Library: Thumbnails load much faster and scrolling through big folders feels smoother.",
-          "Faster Editing: Previews update quicker while moving sliders, and preset previews render much faster.",
-          "Faster Exports: Exports finish noticeably faster and use less RAM. Two new Advanced settings let you choose how many images are exported at the same time and…",
-          "Faster Batch Actions: Pasting adjustments, resetting and auto lens correction across many images are now much quicker."
+          "Black & White Mode",
+          "RapidRAW now has a dedicated Black & White mode instead of simply turning the saturation down. It gives you the tools of a real darkroom:",
+          "Film Responses: Choose how the \"film\" reacts to color, from Neutral and Panchromatic to Orthochromatic, Extended Red and Infrared for glowing foliage and nea…",
+          "Color Filters: Add a yellow, orange, red, green or blue filter, just like on a real lens, with an adjustable strength.",
+          "B&W Mix: Control how bright each color turns out. Click and drag up or down directly on the photo to change the colors under your cursor.",
+          "Toning: Finish your image with Sepia, Selenium, Gold, Platinum, Cyanotype or Split Toning."
         ]
       },
       "file": {
-        "name": "01_RapidRAW_v1.6.7_windows_x64.exe",
-        "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.7/01_RapidRAW_v1.6.7_windows_x64.exe",
-        "size": 33162598,
-        "sha256": "ad1c82c63507406c0f3fb26082583a52e619c18e3b72a44b7ec986b9593ea255",
+        "name": "01_RapidRAW_v1.6.9_windows_x64.exe",
+        "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows_x64.exe",
+        "size": 33919943,
+        "sha256": "4d4e82af9a104a96c799640c7cb6ccd66c3be017f11722ad8fcb81d82e7c2b77",
         "digestChecked": true,
         "signer": null,
         "unsigned": true,
         "scan": "clean"
       },
       "repo": {
-        "stars": 11058,
+        "stars": 11075,
         "license": "AGPL-3.0",
         "created": "2025-06-13",
         "homepage": "https://getrapidraw.com",
@@ -1383,36 +1405,7 @@
         ],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v1.6.9",
-          "version": "1.6.9",
-          "prerelease": false,
-          "published": "2026-11-07",
-          "notes": [
-            "Imagine editing a whole shoot without touching a single slider. With the new Speed Edit, you hold W, drag on the photo, and jump to the next image with one k…",
-            "New Features",
-            "Black & White Mode",
-            "RapidRAW now has a dedicated Black & White mode instead of simply turning the saturation down. It gives you the tools of a real darkroom:",
-            "Film Responses: Choose how the \"film\" reacts to color, from Neutral and Panchromatic to Orthochromatic, Extended Red and Infrared for glowing foliage and nea…",
-            "Color Filters: Add a yellow, orange, red, green or blue filter, just like on a real lens, with an adjustable strength.",
-            "B&W Mix: Control how bright each color turns out. Click and drag up or down directly on the photo to change the colors under your cursor.",
-            "Toning: Finish your image with Sepia, Selenium, Gold, Platinum, Cyanotype or Split Toning."
-          ]
-        },
-        "file": {
-          "name": "01_RapidRAW_v1.6.9_windows_x64.exe",
-          "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/01_RapidRAW_v1.6.9_windows_x64.exe",
-          "size": 33919943,
-          "sha256": "4d4e82af9a104a96c799640c7cb6ccd66c3be017f11722ad8fcb81d82e7c2b77",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": true,
-          "scan": "clean"
-        },
-        "since": "2026-11-09T14:00:53Z"
-      },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "readest": {
       "release": {
@@ -1442,7 +1435,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 26189,
+        "stars": 26224,
         "license": "AGPL-3.0",
         "created": "2024-10-12",
         "homepage": "https://readest.com",
@@ -1451,7 +1444,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "recordly": {
       "release": {
@@ -1481,7 +1474,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 36512,
+        "stars": 36574,
         "license": "AGPL-3.0",
         "created": "2026-03-12",
         "homepage": "https://recordly.dev",
@@ -1491,7 +1484,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "rufus": {
       "release": {
@@ -1521,14 +1514,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38317,
+        "stars": 38328,
         "license": "GPL-3.0",
         "created": "2011-11-19",
         "homepage": "https://rufus.ie",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "screentogif": {
       "release": {
@@ -1555,7 +1548,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 27921,
+        "stars": 27923,
         "license": "MS-PL",
         "created": "2016-08-02",
         "homepage": null,
@@ -1570,7 +1563,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "seelen-ui": {
       "release": {
@@ -1600,7 +1593,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18450,
+        "stars": 18463,
         "license": "AGPL-3.0",
         "created": "2024-02-16",
         "homepage": null,
@@ -1612,30 +1605,30 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "sharex": {
       "release": {
-        "tag": "v21.0.0",
-        "version": "21.0.0",
+        "tag": "v22.4.0",
+        "version": "22.4.0",
         "prerelease": false,
-        "published": "2026-07-03",
+        "published": "2026-11-08",
         "notes": [
           "Changelog:"
         ]
       },
       "file": {
-        "name": "ShareX-21.0.0-portable-x64.zip",
-        "url": "https://github.com/ShareX/ShareX/releases/download/v21.0.0/ShareX-21.0.0-portable-x64.zip",
-        "size": 208850419,
-        "sha256": "8124938fa718d702bb08ef29292f0140052bdad03d23b3041b5015054ff1c230",
+        "name": "ShareX-22.4.0-portable-x64.zip",
+        "url": "https://github.com/ShareX/ShareX/releases/download/v22.4.0/ShareX-22.4.0-portable-x64.zip",
+        "size": 209735803,
+        "sha256": "c321ed353a6c6ae32093927f97c22e0f0627628ce6fa47ed366bcefd05936c7b",
         "digestChecked": true,
         "signer": null,
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 40943,
+        "stars": 40984,
         "license": "GPL-3.0",
         "created": "2013-10-08",
         "homepage": "https://getsharex.com",
@@ -1644,29 +1637,7 @@
         ],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v22.4.0",
-          "version": "22.4.0",
-          "prerelease": false,
-          "published": "2026-11-08",
-          "notes": [
-            "Changelog:"
-          ]
-        },
-        "file": {
-          "name": "ShareX-22.4.0-portable-x64.zip",
-          "url": "https://github.com/ShareX/ShareX/releases/download/v22.4.0/ShareX-22.4.0-portable-x64.zip",
-          "size": 209735803,
-          "sha256": "c321ed353a6c6ae32093927f97c22e0f0627628ce6fa47ed366bcefd05936c7b",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-09T14:00:53Z"
-      },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "shattered-pixel-dungeon": {
       "release": {
@@ -1696,14 +1667,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6787,
+        "stars": 6788,
         "license": "GPL-3.0",
         "created": "2014-07-31",
         "homepage": "https://shatteredpixel.com/shatteredpd/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "shotcut": {
       "release": {
@@ -1733,14 +1704,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15653,
+        "stars": 15659,
         "license": "GPL-3.0",
         "created": "2012-04-23",
         "homepage": "https://www.shotcut.org",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "stellarium": {
       "release": {
@@ -1770,7 +1741,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 10162,
+        "stars": 10163,
         "license": "GPL-2.0",
         "created": "2014-04-13",
         "homepage": "https://stellarium.org",
@@ -1779,7 +1750,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "stretchly": {
       "release": {
@@ -1809,7 +1780,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6645,
+        "stars": 6646,
         "license": "BSD-2-Clause",
         "created": "2016-07-10",
         "homepage": "https://hovancik.net/stretchly",
@@ -1820,7 +1791,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "thorium-reader": {
       "release": {
@@ -1850,14 +1821,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2938,
+        "stars": 2939,
         "license": "BSD-3-Clause",
         "created": "2017-03-20",
         "homepage": "https://www.edrlab.org/software/thorium-reader/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "translucenttb": {
       "release": {
@@ -1887,7 +1858,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 20795,
+        "stars": 20804,
         "license": "GPL-3.0",
         "created": "2017-01-10",
         "homepage": "https://translucenttb.github.io",
@@ -1897,7 +1868,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "twinkle-tray": {
       "release": {
@@ -1927,7 +1898,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9333,
+        "stars": 9341,
         "license": "MIT",
         "created": "2019-08-14",
         "homepage": "https://twinkletray.com",
@@ -1939,7 +1910,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "vscodium": {
       "release": {
@@ -1969,14 +1940,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 34059,
+        "stars": 34073,
         "license": "MIT",
         "created": "2018-08-13",
         "homepage": "https://vscodium.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "wealthfolio": {
       "release": {
@@ -2006,7 +1977,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9418,
+        "stars": 9423,
         "license": "AGPL-3.0",
         "created": "2024-05-27",
         "homepage": "https://wealthfolio.app",
@@ -2016,7 +1987,36 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "pending": {
+        "release": {
+          "tag": "v3.13.0",
+          "version": "3.13.0",
+          "prerelease": false,
+          "published": "2026-11-11",
+          "notes": [
+            "Highlights",
+            "Contribution limits. Open a limit to see what counts toward it, and leave",
+            "out any you don't want counted. Repeats every year shows the coming years",
+            "for you to add, and one dialog edits everything. (#1841, #2525, #2593)",
+            "Match transfers. Find transfers whose two sides came in separately and",
+            "link them in bulk, from the Health Center or, on desktop, Activities → Add",
+            "Activities. Make it a transfer... turns one deposit or withdrawal into a",
+            "transfer. (#2523, #2349)"
+          ]
+        },
+        "file": {
+          "name": "Wealthfolio_3.13.0_x64-setup.exe",
+          "url": "https://github.com/wealthfolio/wealthfolio/releases/download/v3.13.0/Wealthfolio_3.13.0_x64-setup.exe",
+          "size": 54899440,
+          "sha256": "6caeef41093e1340dd364ab062dc31b1bef89751ac1a20b66ce8c954b8fb61cb",
+          "digestChecked": true,
+          "signer": "Teymz Inc.",
+          "unsigned": false,
+          "scan": "clean"
+        },
+        "since": "2026-11-12T13:52:35Z"
+      },
+      "checked": "2026-11-12"
     },
     "windirstat": {
       "release": {
@@ -2040,7 +2040,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4512,
+        "stars": 4520,
         "license": "GPL-3.0",
         "created": "2016-04-04",
         "homepage": "https://windirstat.net",
@@ -2051,7 +2051,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "wsl-dashboard": {
       "release": {
@@ -2081,14 +2081,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4114,
+        "stars": 4121,
         "license": "GPL-3.0",
         "created": "2026-01-18",
         "homepage": "https://www.wslui.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "yaak": {
       "release": {
@@ -2114,7 +2114,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19481,
+        "stars": 19483,
         "license": "MIT",
         "created": "2023-02-16",
         "homepage": "https://yaak.app",
@@ -2123,7 +2123,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "checked": "2026-11-12"
     },
     "zen-browser": {
       "release": {
@@ -2153,7 +2153,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45723,
+        "stars": 45741,
         "license": "MPL-2.0",
         "created": "2024-03-28",
         "homepage": "https://zen-browser.app",
@@ -2164,7 +2164,36 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-11"
+      "pending": {
+        "release": {
+          "tag": "1.24.2b",
+          "version": "1.24.2b",
+          "prerelease": false,
+          "published": "2026-11-12",
+          "notes": [
+            "Zen Stable Release",
+            "Security",
+            "New Features",
+            "Updated to Firefox 160.0",
+            "Added pause context menu button for the downloads section",
+            "The urlbar now has a bit of transparency for a more modern look.",
+            "The Picture-in-Picture player now has a playback speed setting, with options ranging from 0.25x to 2.0x speed. The setting appears only when the player windo…",
+            "Pages saved as PDF now make mathematical content (MathML) accessible to assistive technology such as screen readers."
+          ]
+        },
+        "file": {
+          "name": "zen.installer.exe",
+          "url": "https://github.com/zen-browser/desktop/releases/download/1.24.2b/zen.installer.exe",
+          "size": 119895240,
+          "sha256": "bd53e63028b84fd77a4c734873d485d98b59921f4a6a6617cb654b2f9f1585bc",
+          "digestChecked": true,
+          "signer": "Open Source Developer Oscar Gonzalez Moreno",
+          "unsigned": false,
+          "scan": "clean"
+        },
+        "since": "2026-11-12T13:52:35Z"
+      },
+      "checked": "2026-11-12"
     }
   }
 }
