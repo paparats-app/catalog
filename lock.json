@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "apps": {
     "7zip": {
       "release": {
@@ -24,14 +24,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4500,
+        "stars": 4508,
         "license": null,
         "created": "2022-03-05",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "anki": {
       "release": {
@@ -59,14 +59,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 32771,
+        "stars": 32789,
         "license": null,
         "created": "2012-12-21",
         "homepage": "https://apps.ankiweb.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "audacity": {
       "release": {
@@ -96,14 +96,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19043,
+        "stars": 19052,
         "license": null,
         "created": "2015-03-26",
         "homepage": "https://www.audacityteam.org/manual/getting-started/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "clypra": {
       "release": {
@@ -139,27 +139,27 @@
       },
       "pending": {
         "release": {
-          "tag": "v1.6.2",
-          "version": "1.6.2",
+          "tag": "v1.6.4",
+          "version": "1.6.4",
           "prerelease": false,
-          "published": "2026-11-13",
+          "published": "2026-11-14",
           "notes": [
             "Automated multi-platform release bundle — macOS (arm64, x64), Windows (x64, arm64), Linux (x64, arm64)."
           ]
         },
         "file": {
-          "name": "Clypra_1.6.2_x64-setup.exe",
-          "url": "https://github.com/AIEraDev/Clypra/releases/download/v1.6.2/Clypra_1.6.2_x64-setup.exe",
-          "size": 72039759,
-          "sha256": "81ebed53cd2715b03b172747e211ddac18af3df5a84611cbb5babea2e8714af0",
+          "name": "Clypra_1.6.4_x64-setup.exe",
+          "url": "https://github.com/AIEraDev/Clypra/releases/download/v1.6.4/Clypra_1.6.4_x64-setup.exe",
+          "size": 72089785,
+          "sha256": "3d931b0726facd52a1ee0e1cf375026786973f5ed64d693213af81fbc4e55f4d",
           "digestChecked": true,
           "signer": null,
           "unsigned": true,
           "scan": "clean"
         },
-        "since": "2026-11-13T13:14:49Z"
+        "since": "2026-11-14T12:17:58Z"
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "dbx": {
       "release": {
@@ -189,7 +189,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 30287,
+        "stars": 30334,
         "license": "Apache-2.0",
         "created": "2026-04-29",
         "homepage": "https://dbxio.com",
@@ -229,7 +229,7 @@
         },
         "since": "2026-11-13T13:14:49Z"
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "escrcpy": {
       "release": {
@@ -259,14 +259,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 12365,
+        "stars": 12368,
         "license": "Apache-2.0",
         "created": "2023-09-15",
         "homepage": "https://viarotel.eu.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "fastmd": {
       "release": {
@@ -303,7 +303,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "flow-launcher": {
       "release": {
@@ -333,7 +333,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16022,
+        "stars": 16026,
         "license": "MIT",
         "created": "2020-04-21",
         "homepage": "https://flowlauncher.com",
@@ -343,7 +343,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "geolibre": {
       "release": {
@@ -373,7 +373,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 8596,
+        "stars": 8611,
         "license": "MIT",
         "created": "2026-05-27",
         "homepage": "https://geolibre.app",
@@ -383,7 +383,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "git": {
       "release": {
@@ -413,14 +413,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9505,
+        "stars": 9508,
         "license": null,
         "created": "2014-08-22",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "handy": {
       "release": {
@@ -450,7 +450,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38631,
+        "stars": 38726,
         "license": "MIT",
         "created": "2025-02-13",
         "homepage": "https://handy.computer",
@@ -463,7 +463,36 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "pending": {
+        "release": {
+          "tag": "v0.10.1",
+          "version": "0.10.1",
+          "prerelease": false,
+          "published": "2026-11-14",
+          "notes": [
+            "a ton of bug fixes! thanks all for the contributions",
+            "What's Changed",
+            "fix(deps): address TLS dependency security advisories (CVE-2026-41677) by @JesseDyer in",
+            "fix(overlay): disable WebView2 context menu on the recording overlay by @alanshurafa in",
+            "fix: build the async runtime before streaming logs to the webview by @alanshurafa in",
+            "Let AppImage users opt into native Wayland by @alanshurafa in",
+            "fix: turn off the updater on Linux builds that cannot install updates by @alanshurafa in",
+            "fix: keep X11 overlay resizable so Bottom stays on screen by @alanshurafa in"
+          ]
+        },
+        "file": {
+          "name": "Handy_0.10.1_x64-setup.exe",
+          "url": "https://github.com/cjpais/Handy/releases/download/v0.10.1/Handy_0.10.1_x64-setup.exe",
+          "size": 17399128,
+          "sha256": "3d0c05cfe2717370e64ca71e6cb36dd575d8b0f28424f48e00efe18565a04edf",
+          "digestChecked": true,
+          "signer": "YNYNG LLC",
+          "unsigned": false,
+          "scan": "clean"
+        },
+        "since": "2026-11-14T12:17:58Z"
+      },
+      "checked": "2026-11-14"
     },
     "imageglass": {
       "release": {
@@ -493,7 +522,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 14952,
+        "stars": 14960,
         "license": null,
         "created": "2012-12-30",
         "homepage": "https://imageglass.org",
@@ -505,7 +534,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "jan": {
       "release": {
@@ -535,14 +564,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45703,
+        "stars": 45717,
         "license": null,
         "created": "2023-08-17",
         "homepage": "https://jan.ai/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "joplin": {
       "release": {
@@ -570,7 +599,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 57161,
+        "stars": 57173,
         "license": null,
         "created": "2017-01-16",
         "homepage": "https://joplinapp.org",
@@ -581,7 +610,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "kando": {
       "release": {
@@ -611,7 +640,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6639,
+        "stars": 6646,
         "license": null,
         "created": "2023-04-16",
         "homepage": "https://kando.menu",
@@ -621,7 +650,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "keepassxc": {
       "release": {
@@ -651,7 +680,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29971,
+        "stars": 29991,
         "license": null,
         "created": "2016-02-28",
         "homepage": "https://keepassxc.org/",
@@ -665,7 +694,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "killerpdf": {
       "release": {
@@ -695,14 +724,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4368,
+        "stars": 4373,
         "license": "GPL-3.0",
         "created": "2026-04-16",
         "homepage": "https://KillerPDF.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "lightbulb": {
       "release": {
@@ -739,7 +768,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "localsend": {
       "release": {
@@ -769,7 +798,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 98821,
+        "stars": 98931,
         "license": "Apache-2.0",
         "created": "2022-12-16",
         "homepage": "https://localsend.org",
@@ -778,7 +807,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "luanti": {
       "release": {
@@ -803,7 +832,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 13857,
+        "stars": 13860,
         "license": null,
         "created": "2011-08-07",
         "homepage": "https://www.luanti.org/",
@@ -813,7 +842,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "mpc-hc": {
       "release": {
@@ -843,14 +872,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16143,
+        "stars": 16151,
         "license": "GPL-3.0",
         "created": "2017-05-17",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "notepadplusplus": {
       "release": {
@@ -880,7 +909,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29871,
+        "stars": 29883,
         "license": null,
         "created": "2015-03-28",
         "homepage": "https://notepad-plus-plus.org/",
@@ -916,7 +945,7 @@
         },
         "since": "2026-11-12T13:52:35Z"
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "obs-studio": {
       "release": {
@@ -946,7 +975,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 79505,
+        "stars": 79537,
         "license": "GPL-2.0",
         "created": "2013-10-01",
         "homepage": "https://obsproject.com",
@@ -956,7 +985,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "obsidian": {
       "release": {
@@ -977,7 +1006,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 23247,
+        "stars": 23263,
         "license": null,
         "created": "2020-05-08",
         "homepage": "https://obsidian.md",
@@ -1004,7 +1033,7 @@
         },
         "since": "2026-11-13T13:14:49Z"
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "onlyoffice": {
       "release": {
@@ -1027,14 +1056,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 5732,
+        "stars": 5735,
         "license": "AGPL-3.0",
         "created": "2016-10-03",
         "homepage": "https://www.onlyoffice.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "openlogi": {
       "release": {
@@ -1064,7 +1093,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 25657,
+        "stars": 25698,
         "license": "Apache-2.0",
         "created": "2026-05-24",
         "homepage": "https://openlogi.org",
@@ -1074,7 +1103,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "openpencil": {
       "release": {
@@ -1104,7 +1133,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9821,
+        "stars": 9846,
         "license": "MIT",
         "created": "2026-02-27",
         "homepage": "https://openpencil.dev",
@@ -1113,7 +1142,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "paintfe": {
       "release": {
@@ -1150,7 +1179,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "photocraft": {
       "release": {
@@ -1180,7 +1209,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 79120,
+        "stars": 79299,
         "license": "Apache-2.0",
         "created": "2026-09-30",
         "homepage": "https://getartcraft.com/apps/photocraft",
@@ -1216,7 +1245,7 @@
         },
         "since": "2026-11-12T13:52:35Z"
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "pixelorama": {
       "release": {
@@ -1246,7 +1275,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11093,
+        "stars": 11097,
         "license": "MIT",
         "created": "2019-08-18",
         "homepage": "https://www.pixelorama.org/",
@@ -1257,7 +1286,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "powertoys": {
       "release": {
@@ -1287,14 +1316,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 140939,
+        "stars": 140971,
         "license": "MIT",
         "created": "2019-05-01",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "puzzle": {
       "release": {
@@ -1317,7 +1346,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 275,
+        "stars": 276,
         "license": "GPL-3.0",
         "created": "2026-05-01",
         "homepage": "https://puzzle.fossgames.online/",
@@ -1328,7 +1357,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "rapidraw": {
       "release": {
@@ -1358,7 +1387,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11087,
+        "stars": 11101,
         "license": "AGPL-3.0",
         "created": "2025-06-13",
         "homepage": "https://getrapidraw.com",
@@ -1367,7 +1396,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "readest": {
       "release": {
@@ -1397,7 +1426,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 26250,
+        "stars": 26277,
         "license": "AGPL-3.0",
         "created": "2024-10-12",
         "homepage": "https://readest.com",
@@ -1406,7 +1435,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "recordly": {
       "release": {
@@ -1436,7 +1465,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 36636,
+        "stars": 36711,
         "license": "AGPL-3.0",
         "created": "2026-03-12",
         "homepage": "https://recordly.dev",
@@ -1446,7 +1475,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "rufus": {
       "release": {
@@ -1476,14 +1505,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38329,
+        "stars": 38337,
         "license": "GPL-3.0",
         "created": "2011-11-19",
         "homepage": "https://rufus.ie",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "screentogif": {
       "release": {
@@ -1510,7 +1539,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 27933,
+        "stars": 27939,
         "license": "MS-PL",
         "created": "2016-08-02",
         "homepage": null,
@@ -1525,7 +1554,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "seelen-ui": {
       "release": {
@@ -1555,7 +1584,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18477,
+        "stars": 18481,
         "license": "AGPL-3.0",
         "created": "2024-02-16",
         "homepage": null,
@@ -1567,7 +1596,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "sharex": {
       "release": {
@@ -1590,7 +1619,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 41005,
+        "stars": 41025,
         "license": "GPL-3.0",
         "created": "2013-10-08",
         "homepage": "https://getsharex.com",
@@ -1599,7 +1628,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "shattered-pixel-dungeon": {
       "release": {
@@ -1636,7 +1665,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "shotcut": {
       "release": {
@@ -1666,14 +1695,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15668,
+        "stars": 15678,
         "license": "GPL-3.0",
         "created": "2012-04-23",
         "homepage": "https://www.shotcut.org",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "stellarium": {
       "release": {
@@ -1703,7 +1732,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 10165,
+        "stars": 10167,
         "license": "GPL-2.0",
         "created": "2014-04-13",
         "homepage": "https://stellarium.org",
@@ -1712,7 +1741,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "stretchly": {
       "release": {
@@ -1742,7 +1771,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6646,
+        "stars": 6645,
         "license": "BSD-2-Clause",
         "created": "2016-07-10",
         "homepage": "https://hovancik.net/stretchly",
@@ -1753,7 +1782,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "thorium-reader": {
       "release": {
@@ -1783,14 +1812,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2939,
+        "stars": 2944,
         "license": "BSD-3-Clause",
         "created": "2017-03-20",
         "homepage": "https://www.edrlab.org/software/thorium-reader/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "translucenttb": {
       "release": {
@@ -1820,7 +1849,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 20805,
+        "stars": 20809,
         "license": "GPL-3.0",
         "created": "2017-01-10",
         "homepage": "https://translucenttb.github.io",
@@ -1830,7 +1859,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "twinkle-tray": {
       "release": {
@@ -1860,7 +1889,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9344,
+        "stars": 9352,
         "license": "MIT",
         "created": "2019-08-14",
         "homepage": "https://twinkletray.com",
@@ -1872,7 +1901,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "vscodium": {
       "release": {
@@ -1902,14 +1931,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 34092,
+        "stars": 34104,
         "license": "MIT",
         "created": "2018-08-13",
         "homepage": "https://vscodium.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "wealthfolio": {
       "release": {
@@ -1939,7 +1968,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9435,
+        "stars": 9441,
         "license": "AGPL-3.0",
         "created": "2024-05-27",
         "homepage": "https://wealthfolio.app",
@@ -1978,7 +2007,7 @@
         },
         "since": "2026-11-12T13:52:35Z"
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "windirstat": {
       "release": {
@@ -2002,7 +2031,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4523,
+        "stars": 4530,
         "license": "GPL-3.0",
         "created": "2016-04-04",
         "homepage": "https://windirstat.net",
@@ -2013,7 +2042,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "wsl-dashboard": {
       "release": {
@@ -2043,14 +2072,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4127,
+        "stars": 4128,
         "license": "GPL-3.0",
         "created": "2026-01-18",
         "homepage": "https://www.wslui.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "yaak": {
       "release": {
@@ -2076,7 +2105,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19491,
+        "stars": 19494,
         "license": "MIT",
         "created": "2023-02-16",
         "homepage": "https://yaak.app",
@@ -2085,7 +2114,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     },
     "zen-browser": {
       "release": {
@@ -2115,7 +2144,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45767,
+        "stars": 45791,
         "license": "MPL-2.0",
         "created": "2024-03-28",
         "homepage": "https://zen-browser.app",
@@ -2155,7 +2184,7 @@
         },
         "since": "2026-11-12T13:52:35Z"
       },
-      "checked": "2026-11-13"
+      "checked": "2026-11-14"
     }
   }
 }
