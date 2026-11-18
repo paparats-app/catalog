@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17",
+  "generated": "2026-11-18",
   "apps": {
     "7zip": {
       "release": {
@@ -24,14 +24,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4536,
+        "stars": 4545,
         "license": null,
         "created": "2022-03-05",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "anki": {
       "release": {
@@ -59,14 +59,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 32860,
+        "stars": 32887,
         "license": null,
         "created": "2012-12-21",
         "homepage": "https://apps.ankiweb.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "audacity": {
       "release": {
@@ -96,14 +96,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19092,
+        "stars": 19101,
         "license": null,
         "created": "2015-03-26",
         "homepage": "https://www.audacityteam.org/manual/getting-started/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "clypra": {
       "release": {
@@ -126,7 +126,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 3368,
+        "stars": 3369,
         "license": "MIT",
         "created": "2026-04-26",
         "homepage": "https://clypra.abdulkabirmusa.com",
@@ -159,37 +159,37 @@
         },
         "since": "2026-11-17T14:36:08Z"
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "dbx": {
       "release": {
-        "tag": "v0.6.62",
-        "version": "0.6.62",
+        "tag": "v0.6.71",
+        "version": "0.6.71",
         "prerelease": false,
-        "published": "2026-10-30",
+        "published": "2026-11-15",
         "notes": [
           "新功能",
-          "连接参数新增可视化编辑器：独立弹窗内搜索、编辑参数并查看说明，支持重复参数、原始文本模式和敏感值隐藏，通用 JDBC 连接可读取驱动属性元数据 (contributed by @zipg) (PR #13892)",
-          "MySQL 数据导出新增「省略表名中的数据库前缀」选项，INSERT 语句中的表名不再携带 db. 前缀 (contributed by @yiqiui) (PR #13601)",
-          "Elasticsearch/EasySearch 的 REST 请求体支持 JSON 语言，提供语法高亮、嵌套折叠和语法诊断，执行内容保持不变 (contributed by @OOMEcho) (PR #10749)",
-          "数据网格底栏的选中统计精简为单项指标（默认求和），其余指标收进弹出面板，所选指标自动记住并在重启后沿用 (contributed by @zipg) (PR #13951)",
-          "更新被配置弹窗阻止时明确指出需要关闭的对话框名称（包括弹窗位于其他窗口的情况），不再显示笼统的「请先完成当前配置编辑」 (contributed by @zipg) (PR #13907)",
-          "PostgreSQL 原生查询错误信息附带 SQLSTATE 错误码，便于对照定位问题 (contributed by @imcman) (PR #13922)",
-          "选择自定义或系统 Java 时，驱动管理对话框隐藏 Dbx 托管的 JRE 运行时列表，避免展示与当前选择矛盾的条目 (contributed by @yiqiui) (PR #13949)"
+          "设置新增工具栏自定义，可配置新建连接、新建查询、备份等按钮的显隐与顺序 (contributed by @ThugKd) (PR #14667)",
+          "全局快速打开升级为统一搜索入口，可在连接、数据库、表、字段、SQL 文件与插件命令间结构化搜索，支持拼音匹配和范围筛选 (contributed by @eryajf) (PR #14826)",
+          "顶部菜单新增可搜索的最近关闭标签选择器，关闭全部标签后也能快速找回 (contributed by @ThugKd) (PR #14558)",
+          "侧栏连接和数据库节点新增新建数据库一级入口，并支持 Shift+F4 快捷键 (contributed by @ThugKd) (PR #14913)",
+          "侧栏选中数据库或表分组时可用快捷键直接打开新建表编辑器 (contributed by @ThugKd) (PR #14910)",
+          "侧栏列名双击行为可配置为生成条件查询语句 (contributed by @ThugKd) (PR #14552)",
+          "执行 SQL 文件对话框新增目标 Schema 选择，批量导入可落入指定 Schema (contributed by @xiaou61) (PR #14590)"
         ]
       },
       "file": {
-        "name": "DBX_0.6.62_x64-setup.exe",
-        "url": "https://github.com/t8y2/dbx/releases/download/v0.6.62/DBX_0.6.62_x64-setup.exe",
-        "size": 33885736,
-        "sha256": "42b8cb250cd72e91847507fbe1e55f3426459e5dc0b9494811247ea4e6d9da2d",
+        "name": "DBX_0.6.71_x64-setup.exe",
+        "url": "https://github.com/t8y2/dbx/releases/download/v0.6.71/DBX_0.6.71_x64-setup.exe",
+        "size": 34670960,
+        "sha256": "a598374f73b868d92cf801d9d63370f2405c2be199c86a77187b3954c73766d2",
         "digestChecked": true,
         "signer": "武汉市洪山区宇界网络工作室（个体工商户）",
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 30610,
+        "stars": 30750,
         "license": "Apache-2.0",
         "created": "2026-04-29",
         "homepage": "https://dbxio.com",
@@ -200,36 +200,7 @@
         ],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v0.6.71",
-          "version": "0.6.71",
-          "prerelease": false,
-          "published": "2026-11-15",
-          "notes": [
-            "新功能",
-            "设置新增工具栏自定义，可配置新建连接、新建查询、备份等按钮的显隐与顺序 (contributed by @ThugKd) (PR #14667)",
-            "全局快速打开升级为统一搜索入口，可在连接、数据库、表、字段、SQL 文件与插件命令间结构化搜索，支持拼音匹配和范围筛选 (contributed by @eryajf) (PR #14826)",
-            "顶部菜单新增可搜索的最近关闭标签选择器，关闭全部标签后也能快速找回 (contributed by @ThugKd) (PR #14558)",
-            "侧栏连接和数据库节点新增新建数据库一级入口，并支持 Shift+F4 快捷键 (contributed by @ThugKd) (PR #14913)",
-            "侧栏选中数据库或表分组时可用快捷键直接打开新建表编辑器 (contributed by @ThugKd) (PR #14910)",
-            "侧栏列名双击行为可配置为生成条件查询语句 (contributed by @ThugKd) (PR #14552)",
-            "执行 SQL 文件对话框新增目标 Schema 选择，批量导入可落入指定 Schema (contributed by @xiaou61) (PR #14590)"
-          ]
-        },
-        "file": {
-          "name": "DBX_0.6.71_x64-setup.exe",
-          "url": "https://github.com/t8y2/dbx/releases/download/v0.6.71/DBX_0.6.71_x64-setup.exe",
-          "size": 34670960,
-          "sha256": "a598374f73b868d92cf801d9d63370f2405c2be199c86a77187b3954c73766d2",
-          "digestChecked": true,
-          "signer": "武汉市洪山区宇界网络工作室（个体工商户）",
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-16T13:46:24Z"
-      },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "escrcpy": {
       "release": {
@@ -259,14 +230,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 12396,
+        "stars": 12410,
         "license": "Apache-2.0",
         "created": "2023-09-15",
         "homepage": "https://viarotel.eu.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "fastmd": {
       "release": {
@@ -303,7 +274,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "flow-launcher": {
       "release": {
@@ -333,7 +304,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16043,
+        "stars": 16045,
         "license": "MIT",
         "created": "2020-04-21",
         "homepage": "https://flowlauncher.com",
@@ -343,7 +314,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "geolibre": {
       "release": {
@@ -373,7 +344,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 8694,
+        "stars": 8720,
         "license": "MIT",
         "created": "2026-05-27",
         "homepage": "https://geolibre.app",
@@ -383,7 +354,36 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "pending": {
+        "release": {
+          "tag": "v3.9.0",
+          "version": "3.9.0",
+          "prerelease": false,
+          "published": "2026-11-17",
+          "notes": [
+            "GeoLibre v3.9.0 lets the desktop AI Assistant run on your ChatGPT plan, keeps the assistant's conversation when you switch providers, and adds Gallery collec…",
+            "Highlights",
+            "Sign in with ChatGPT: the desktop AI Assistant can use your ChatGPT plan instead of an API key. Sign-in runs in your system browser and the tokens stay in th…",
+            "An AI Assistant that keeps the thread: switching profiles or models mid-conversation now carries the conversation over to the new provider instead of startin…",
+            "Gallery collections: Open from Gallery has a Collections tab that browses public collections from share.geolibre.app and opens their projects in place. See G…",
+            "Summarize within: a new client-side Vector tool counts the features of another layer inside each polygon, summarizes a numeric field (sum, mean, min, max), a…",
+            "Number columns that read like QGIS: the attribute table right-aligns number columns and rounds floating-point noise for display only, so sorting, editing, an…",
+            "Terrain and QGIS projects: a custom COG DEM can be surrounded, and its no-data gaps filled, by the global terrain instead of a flat plain. QGIS project impor…"
+          ]
+        },
+        "file": {
+          "name": "GeoLibre.Desktop_3.9.0_x64-setup.exe",
+          "url": "https://github.com/opengeos/GeoLibre/releases/download/v3.9.0/GeoLibre.Desktop_3.9.0_x64-setup.exe",
+          "size": 45612799,
+          "sha256": "a35830764243bdd4ffb3e15ef4068f91474da4994f888793112e53563c842121",
+          "digestChecked": true,
+          "signer": null,
+          "unsigned": true,
+          "scan": "clean"
+        },
+        "since": "2026-11-18T14:12:27Z"
+      },
+      "checked": "2026-11-18"
     },
     "git": {
       "release": {
@@ -413,14 +413,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9513,
+        "stars": 9515,
         "license": null,
         "created": "2014-08-22",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "handy": {
       "release": {
@@ -450,7 +450,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 39066,
+        "stars": 39168,
         "license": "MIT",
         "created": "2025-02-13",
         "homepage": "https://handy.computer",
@@ -463,7 +463,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "imageglass": {
       "release": {
@@ -493,7 +493,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 14988,
+        "stars": 15001,
         "license": null,
         "created": "2012-12-30",
         "homepage": "https://imageglass.org",
@@ -505,7 +505,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "jan": {
       "release": {
@@ -535,14 +535,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45760,
+        "stars": 45795,
         "license": null,
         "created": "2023-08-17",
         "homepage": "https://jan.ai/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "joplin": {
       "release": {
@@ -570,7 +570,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 57222,
+        "stars": 57232,
         "license": null,
         "created": "2017-01-16",
         "homepage": "https://joplinapp.org",
@@ -581,7 +581,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "kando": {
       "release": {
@@ -611,7 +611,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6656,
+        "stars": 6664,
         "license": null,
         "created": "2023-04-16",
         "homepage": "https://kando.menu",
@@ -621,7 +621,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "keepassxc": {
       "release": {
@@ -651,7 +651,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 30027,
+        "stars": 30048,
         "license": null,
         "created": "2016-02-28",
         "homepage": "https://keepassxc.org/",
@@ -665,73 +665,44 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "killerpdf": {
       "release": {
-        "tag": "v1.9.2",
-        "version": "1.9.2",
+        "tag": "v1.9.4",
+        "version": "1.9.4",
         "prerelease": false,
-        "published": "2026-11-02",
+        "published": "2026-11-15",
         "notes": [
-          "1.9.2 follows a PDF owner's limits when saving, printing and exporting, lets you edit recognized text on scans, fixes rendering, signatures, comments, forms,…",
+          "1.9.4 is a bugfix release: Rasterize Region removes the text inside the box, text can be selected before it is highlighted, printing a turned page no longer …",
           "Fixed",
-          "Damaged encrypted PDFs with a missing encryption trailer are refused before saving instead of being rewritten with unreadable pages.",
-          "Protection is recognized wherever a PDF keeps its encryption entry, including linearized files and large cross-reference streams, so those files no longer op…",
-          "Render-failure recovery keeps a protected document's encryption, so the recovered tab keeps its limits and saves back to its file. A recovered document that …",
-          "Render-failure recovery preserves unsaved edits across panes and detached windows, including edits committed after focus moves, and a recovered document reop…",
-          "Undo and Redo preserve retryable history and the open document when snapshot storage fails.",
-          "Command-line straightening and text replacement preserve an existing output if copying unchanged input fails."
+          "Printing a page that turns to fit the sheet no longer crashes with \"The calling thread cannot access this object because a different thread owns it.\" (#492)",
+          "Rasterize Region removes the text inside the box, so it can no longer be searched, selected or copied from under the image. A letter that crosses the box's e…",
+          "Rotating a page turns everything on it: pictures, signatures and text boxes now turn with the page and stay on the content they were placed on, as highlights…",
+          "A picture cut or copied from a page shown turned is pasted and saved turned the same way, instead of upright and running past the page.",
+          "Text edits on scans (#467): copying the replacement text or its cover copies the whole object, so a paste brings both; with the text box locked and the cover…",
+          "Page thumbnails show unsaved edits: pasted pictures, signatures, text boxes, highlights, covers, drawings and measurements appear on a page's thumbnail as so…"
         ]
       },
       "file": {
         "name": "KillerPDF-Portable.exe",
-        "url": "https://github.com/SteveTheKiller/KillerPDF/releases/download/v1.9.2/KillerPDF-Portable.exe",
-        "size": 97618944,
-        "sha256": "2150e92bfc0049d5d4807b8d0e224f7c39a5f0e8d346ac3a8dc34bc8c0b54dd6",
+        "url": "https://github.com/SteveTheKiller/KillerPDF/releases/download/v1.9.4/KillerPDF-Portable.exe",
+        "size": 106191872,
+        "sha256": "2509926c4f01d51d116ff4e1c2c2838aeb1479bb327be71e4e6ab186c69b898d",
         "digestChecked": true,
         "signer": "Open Source Developer Stephen Riley",
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 4396,
+        "stars": 4405,
         "license": "GPL-3.0",
         "created": "2026-04-16",
         "homepage": "https://KillerPDF.net",
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v1.9.4",
-          "version": "1.9.4",
-          "prerelease": false,
-          "published": "2026-11-15",
-          "notes": [
-            "1.9.4 is a bugfix release: Rasterize Region removes the text inside the box, text can be selected before it is highlighted, printing a turned page no longer …",
-            "Fixed",
-            "Printing a page that turns to fit the sheet no longer crashes with \"The calling thread cannot access this object because a different thread owns it.\" (#492)",
-            "Rasterize Region removes the text inside the box, so it can no longer be searched, selected or copied from under the image. A letter that crosses the box's e…",
-            "Rotating a page turns everything on it: pictures, signatures and text boxes now turn with the page and stay on the content they were placed on, as highlights…",
-            "A picture cut or copied from a page shown turned is pasted and saved turned the same way, instead of upright and running past the page.",
-            "Text edits on scans (#467): copying the replacement text or its cover copies the whole object, so a paste brings both; with the text box locked and the cover…",
-            "Page thumbnails show unsaved edits: pasted pictures, signatures, text boxes, highlights, covers, drawings and measurements appear on a page's thumbnail as so…"
-          ]
-        },
-        "file": {
-          "name": "KillerPDF-Portable.exe",
-          "url": "https://github.com/SteveTheKiller/KillerPDF/releases/download/v1.9.4/KillerPDF-Portable.exe",
-          "size": 106191872,
-          "sha256": "2509926c4f01d51d116ff4e1c2c2838aeb1479bb327be71e4e6ab186c69b898d",
-          "digestChecked": true,
-          "signer": "Open Source Developer Stephen Riley",
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-16T13:46:24Z"
-      },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "lightbulb": {
       "release": {
@@ -761,14 +732,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2827,
+        "stars": 2826,
         "license": "MIT",
         "created": "2017-01-12",
         "homepage": "https://github.com/Tyrrrz/LightBulb/releases",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "localsend": {
       "release": {
@@ -798,7 +769,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 99395,
+        "stars": 99579,
         "license": "Apache-2.0",
         "created": "2022-12-16",
         "homepage": "https://localsend.org",
@@ -807,7 +778,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "luanti": {
       "release": {
@@ -832,7 +803,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 13871,
+        "stars": 13873,
         "license": null,
         "created": "2011-08-07",
         "homepage": "https://www.luanti.org/",
@@ -842,7 +813,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "mpc-hc": {
       "release": {
@@ -872,14 +843,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16178,
+        "stars": 16187,
         "license": "GPL-3.0",
         "created": "2017-05-17",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "notepadplusplus": {
       "release": {
@@ -909,14 +880,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29909,
+        "stars": 29916,
         "license": null,
         "created": "2015-03-28",
         "homepage": "https://notepad-plus-plus.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "obs-studio": {
       "release": {
@@ -946,7 +917,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 79729,
+        "stars": 79710,
         "license": "GPL-2.0",
         "created": "2013-10-01",
         "homepage": "https://obsproject.com",
@@ -956,7 +927,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "obsidian": {
       "release": {
@@ -977,14 +948,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 23346,
+        "stars": 23371,
         "license": null,
         "created": "2020-05-08",
         "homepage": "https://obsidian.md",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "onlyoffice": {
       "release": {
@@ -1007,14 +978,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 5748,
+        "stars": 5755,
         "license": "AGPL-3.0",
         "created": "2016-10-03",
         "homepage": "https://www.onlyoffice.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "openlogi": {
       "release": {
@@ -1044,7 +1015,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 25839,
+        "stars": 25874,
         "license": "Apache-2.0",
         "created": "2026-05-24",
         "homepage": "https://openlogi.org",
@@ -1054,7 +1025,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "openpencil": {
       "release": {
@@ -1084,7 +1055,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9902,
+        "stars": 9927,
         "license": "MIT",
         "created": "2026-02-27",
         "homepage": "https://openpencil.dev",
@@ -1093,7 +1064,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "paintfe": {
       "release": {
@@ -1123,7 +1094,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 419,
+        "stars": 418,
         "license": "MIT",
         "created": "2026-02-23",
         "homepage": "https://www.paintfe.com",
@@ -1132,34 +1103,31 @@
       },
       "pending": {
         "release": {
-          "tag": "v1.5.1",
-          "version": "1.5.1",
+          "tag": "v1.5.2",
+          "version": "1.5.2",
           "prerelease": false,
-          "published": "2026-11-16",
+          "published": "2026-11-18",
           "notes": [
-            "PaintFE 1.5.1",
-            "Themes and interface",
-            "Add optional fine grain, raised retro controls and solid dialogue headers for custom themes, including the new community theme collection.",
-            "Keep Preferences and standard dialogue headers consistent.",
-            "Include canvas grid appearance in theme files and update glass immediately when previewing or restoring a theme.",
-            "Improvements",
-            "Preserve translucent theme colours after saving and reopening the app. Reapply the original theme to restore colours affected by earlier saves.",
-            "Tighten AUR publishing checks and verify build dependencies against approved hashes."
+            "New",
+            "Open and save common 8-bit RGB Photoshop PSD files with raster layers and simple masks. PaintFE tells you when it opens a flattened preview and warns before …",
+            "Use a local RMBG 2.0 ONNX model for background removal. Refine edges adds an extra pass around uncertain edges on larger images. It takes longer and is off b…",
+            "Fixed",
+            "Wide brush strokes drawn through MCP now fill in properly. Related to issue 245."
           ]
         },
         "file": {
           "name": "PaintFE.exe",
-          "url": "https://github.com/kylejckson/PaintFE/releases/download/v1.5.1/PaintFE.exe",
-          "size": 47675392,
-          "sha256": "a03dd12f71223c595233ab8bdc9b6e4d412fd0b544acfbef3a3a2b63658942f4",
+          "url": "https://github.com/kylejckson/PaintFE/releases/download/v1.5.2/PaintFE.exe",
+          "size": 47776256,
+          "sha256": "563960e3d0c4a7d5d75efe6e34ea29cd98db6efee999b9af644b3112a302e7d6",
           "digestChecked": true,
           "signer": null,
           "unsigned": true,
           "scan": "clean"
         },
-        "since": "2026-11-16T13:46:24Z"
+        "since": "2026-11-18T14:12:27Z"
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "photocraft": {
       "release": {
@@ -1189,14 +1157,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 80000,
+        "stars": 80230,
         "license": "Apache-2.0",
         "created": "2026-09-30",
         "homepage": "https://getartcraft.com/apps/photocraft",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "pixelorama": {
       "release": {
@@ -1226,7 +1194,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11130,
+        "stars": 11141,
         "license": "MIT",
         "created": "2019-08-18",
         "homepage": "https://www.pixelorama.org/",
@@ -1237,7 +1205,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "powertoys": {
       "release": {
@@ -1267,14 +1235,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 141096,
+        "stars": 141128,
         "license": "MIT",
         "created": "2019-05-01",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "puzzle": {
       "release": {
@@ -1308,7 +1276,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "rapidraw": {
       "release": {
@@ -1338,7 +1306,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11147,
+        "stars": 11173,
         "license": "AGPL-3.0",
         "created": "2025-06-13",
         "homepage": "https://getrapidraw.com",
@@ -1347,7 +1315,36 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "pending": {
+        "release": {
+          "tag": "v1.7.0",
+          "version": "1.7.0",
+          "prerelease": false,
+          "published": "2026-11-15",
+          "notes": [
+            "I'm really excited to share this release, as it changes how every photo in RapidRAW looks. At its heart is Furka, a new rendering engine that reworks how Rap…",
+            "New Features",
+            "Furka Rendering Engine",
+            "Furka is RapidRAW's new rendering engine. RAW files are now demosaiced on the GPU with RCD for Bayer sensors and Markesteijn for Fujifilm X-Trans, which remo…",
+            "You can read everything about Furka, with lots of comparisons, in the blog post: Introducing the Furka Rendering Engine",
+            "RapidRes AI Super Resolution",
+            "RapidRes is a new 2x AI upscaler that sits right next to AI Denoise in the Details panel. It is fine-tuned on RapidRAW's own Bayer and X-Trans pipeline, so i…",
+            "You can read more about how RapidRes was made, with comparisons, in the blog post: Introducing RapidRes"
+          ]
+        },
+        "file": {
+          "name": "01_RapidRAW_v1.7.0_windows_x64.exe",
+          "url": "https://github.com/CyberTimon/RapidRAW/releases/download/v1.7.0/01_RapidRAW_v1.7.0_windows_x64.exe",
+          "size": 35092453,
+          "sha256": "ad8dce5e3ad2cb8a710bd7cc30dcf99a0445648fceb20e56e343ed194c3541d0",
+          "digestChecked": true,
+          "signer": null,
+          "unsigned": true,
+          "scan": "clean"
+        },
+        "since": "2026-11-18T14:12:27Z"
+      },
+      "checked": "2026-11-18"
     },
     "readest": {
       "release": {
@@ -1377,7 +1374,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 26398,
+        "stars": 26434,
         "license": "AGPL-3.0",
         "created": "2024-10-12",
         "homepage": "https://readest.com",
@@ -1386,7 +1383,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "recordly": {
       "release": {
@@ -1416,7 +1413,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 36982,
+        "stars": 37036,
         "license": "AGPL-3.0",
         "created": "2026-03-12",
         "homepage": "https://recordly.dev",
@@ -1426,7 +1423,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "rufus": {
       "release": {
@@ -1456,7 +1453,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 38375,
+        "stars": 38395,
         "license": "GPL-3.0",
         "created": "2011-11-19",
         "homepage": "https://rufus.ie",
@@ -1492,7 +1489,7 @@
         },
         "since": "2026-11-17T14:36:08Z"
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "screentogif": {
       "release": {
@@ -1519,7 +1516,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 27960,
+        "stars": 27970,
         "license": "MS-PL",
         "created": "2016-08-02",
         "homepage": null,
@@ -1534,7 +1531,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "seelen-ui": {
       "release": {
@@ -1564,7 +1561,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 18541,
+        "stars": 18554,
         "license": "AGPL-3.0",
         "created": "2024-02-16",
         "homepage": null,
@@ -1605,7 +1602,7 @@
         },
         "since": "2026-11-17T14:36:08Z"
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "sharex": {
       "release": {
@@ -1628,7 +1625,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 41103,
+        "stars": 41134,
         "license": "GPL-3.0",
         "created": "2013-10-08",
         "homepage": "https://getsharex.com",
@@ -1637,7 +1634,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "shattered-pixel-dungeon": {
       "release": {
@@ -1667,14 +1664,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6817,
+        "stars": 6825,
         "license": "GPL-3.0",
         "created": "2014-07-31",
         "homepage": "https://shatteredpixel.com/shatteredpd/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "shotcut": {
       "release": {
@@ -1704,7 +1701,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15714,
+        "stars": 15721,
         "license": "GPL-3.0",
         "created": "2012-04-23",
         "homepage": "https://www.shotcut.org",
@@ -1740,7 +1737,7 @@
         },
         "since": "2026-11-17T14:36:08Z"
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "stellarium": {
       "release": {
@@ -1770,7 +1767,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 10183,
+        "stars": 10187,
         "license": "GPL-2.0",
         "created": "2014-04-13",
         "homepage": "https://stellarium.org",
@@ -1779,7 +1776,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "stretchly": {
       "release": {
@@ -1809,7 +1806,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6652,
+        "stars": 6655,
         "license": "BSD-2-Clause",
         "created": "2016-07-10",
         "homepage": "https://hovancik.net/stretchly",
@@ -1820,7 +1817,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "thorium-reader": {
       "release": {
@@ -1850,14 +1847,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2953,
+        "stars": 2955,
         "license": "BSD-3-Clause",
         "created": "2017-03-20",
         "homepage": "https://www.edrlab.org/software/thorium-reader/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "translucenttb": {
       "release": {
@@ -1887,7 +1884,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 20831,
+        "stars": 20845,
         "license": "GPL-3.0",
         "created": "2017-01-10",
         "homepage": "https://translucenttb.github.io",
@@ -1897,7 +1894,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "twinkle-tray": {
       "release": {
@@ -1927,7 +1924,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9368,
+        "stars": 9375,
         "license": "MIT",
         "created": "2019-08-14",
         "homepage": "https://twinkletray.com",
@@ -1939,7 +1936,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "vscodium": {
       "release": {
@@ -1969,14 +1966,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 34153,
+        "stars": 34161,
         "license": "MIT",
         "created": "2018-08-13",
         "homepage": "https://vscodium.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "wealthfolio": {
       "release": {
@@ -2006,7 +2003,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9468,
+        "stars": 9553,
         "license": "AGPL-3.0",
         "created": "2024-05-27",
         "homepage": "https://wealthfolio.app",
@@ -2016,7 +2013,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "windirstat": {
       "release": {
@@ -2040,7 +2037,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4554,
+        "stars": 4567,
         "license": "GPL-3.0",
         "created": "2016-04-04",
         "homepage": "https://windirstat.net",
@@ -2051,7 +2048,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "wsl-dashboard": {
       "release": {
@@ -2081,14 +2078,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4131,
+        "stars": 4135,
         "license": "GPL-3.0",
         "created": "2026-01-18",
         "homepage": "https://www.wslui.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "yaak": {
       "release": {
@@ -2114,7 +2111,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19504,
+        "stars": 19517,
         "license": "MIT",
         "created": "2023-02-16",
         "homepage": "https://yaak.app",
@@ -2123,7 +2120,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     },
     "zen-browser": {
       "release": {
@@ -2153,7 +2150,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45858,
+        "stars": 45876,
         "license": "MPL-2.0",
         "created": "2024-03-28",
         "homepage": "https://zen-browser.app",
@@ -2164,7 +2161,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-17"
+      "checked": "2026-11-18"
     }
   }
 }
