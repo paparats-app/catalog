@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "apps": {
     "7zip": {
       "release": {
@@ -24,14 +24,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4551,
+        "stars": 4556,
         "license": null,
         "created": "2022-03-05",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "anki": {
       "release": {
@@ -59,14 +59,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 32909,
+        "stars": 32929,
         "license": null,
         "created": "2012-12-21",
         "homepage": "https://apps.ankiweb.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "audacity": {
       "release": {
@@ -96,30 +96,30 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19108,
+        "stars": 19118,
         "license": null,
         "created": "2015-03-26",
         "homepage": "https://www.audacityteam.org/manual/getting-started/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "clypra": {
       "release": {
-        "tag": "v1.6.0",
-        "version": "1.6.0",
+        "tag": "v1.6.6",
+        "version": "1.6.6",
         "prerelease": false,
-        "published": "2026-10-11",
+        "published": "2026-11-17",
         "notes": [
           "Automated multi-platform release bundle — macOS (arm64, x64), Windows (x64, arm64), Linux (x64, arm64)."
         ]
       },
       "file": {
-        "name": "Clypra_1.6.0_x64-setup.exe",
-        "url": "https://github.com/AIEraDev/Clypra/releases/download/v1.6.0/Clypra_1.6.0_x64-setup.exe",
-        "size": 76594346,
-        "sha256": "619748f1f7282b4dd57a941acb7a80775c20186c9c220f696036065ba80a7b8f",
+        "name": "Clypra_1.6.6_x64-setup.exe",
+        "url": "https://github.com/AIEraDev/Clypra/releases/download/v1.6.6/Clypra_1.6.6_x64-setup.exe",
+        "size": 72109084,
+        "sha256": "2de16b4fcf30ca3e7f21977e9081fe3eae8aad31053ca3e996de63fa576037f1",
         "digestChecked": true,
         "signer": null,
         "unsigned": true,
@@ -137,29 +137,7 @@
         ],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v1.6.6",
-          "version": "1.6.6",
-          "prerelease": false,
-          "published": "2026-11-17",
-          "notes": [
-            "Automated multi-platform release bundle — macOS (arm64, x64), Windows (x64, arm64), Linux (x64, arm64)."
-          ]
-        },
-        "file": {
-          "name": "Clypra_1.6.6_x64-setup.exe",
-          "url": "https://github.com/AIEraDev/Clypra/releases/download/v1.6.6/Clypra_1.6.6_x64-setup.exe",
-          "size": 72109084,
-          "sha256": "2de16b4fcf30ca3e7f21977e9081fe3eae8aad31053ca3e996de63fa576037f1",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": true,
-          "scan": "clean"
-        },
-        "since": "2026-11-17T14:36:08Z"
-      },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "dbx": {
       "release": {
@@ -189,7 +167,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 30902,
+        "stars": 31040,
         "license": "Apache-2.0",
         "created": "2026-04-29",
         "homepage": "https://dbxio.com",
@@ -200,7 +178,36 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "pending": {
+        "release": {
+          "tag": "v0.6.72",
+          "version": "0.6.72",
+          "prerelease": false,
+          "published": "2026-11-19",
+          "notes": [
+            "新功能",
+            "Kafka 新增查看 Broker 生效配置，可按名称、值和来源浏览 (contributed by @CSXFanMeng) (PR #15227)",
+            "Elasticsearch 支持按文本搜索索引文档",
+            "Redis 逻辑库节点下直接列出该库已保存的命令，点击即可打开编辑器 (contributed by @ThugKd) (PR #15052)",
+            "Redis 支持将大值下载为结构化 JSON",
+            "MongoDB 的 JSON 预览新增「当前页」模式，沿用表格筛选与排序并支持完整复制 (contributed by @ThugKd) (PR #15139)",
+            "Oracle 包和包体源码页新增可收起的成员列表，点击跳转到声明 (contributed by @ThugKd) (PR #15140)",
+            "StarRocks 权限编辑支持表、视图和物化视图，并按对象类型生成 ON TABLE / ON VIEW / ON MATERIALIZED VIEW 授权语句 (contributed by @ThugKd) (PR #15094)"
+          ]
+        },
+        "file": {
+          "name": "DBX_0.6.72_x64-setup.exe",
+          "url": "https://github.com/t8y2/dbx/releases/download/v0.6.72/DBX_0.6.72_x64-setup.exe",
+          "size": 34916568,
+          "sha256": "004c3a5dc28b5b5b5a20b9dcbf8219c39f0aa445de0d7d8c7c9ab9ca399b477a",
+          "digestChecked": true,
+          "signer": "武汉市洪山区宇界网络工作室（个体工商户）",
+          "unsigned": false,
+          "scan": "clean"
+        },
+        "since": "2026-11-20T14:08:10Z"
+      },
+      "checked": "2026-11-20"
     },
     "escrcpy": {
       "release": {
@@ -230,14 +237,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 12421,
+        "stars": 12429,
         "license": "Apache-2.0",
         "created": "2023-09-15",
         "homepage": "https://viarotel.eu.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "fastmd": {
       "release": {
@@ -274,7 +281,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "flow-launcher": {
       "release": {
@@ -304,7 +311,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16055,
+        "stars": 16058,
         "license": "MIT",
         "created": "2020-04-21",
         "homepage": "https://flowlauncher.com",
@@ -314,7 +321,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "geolibre": {
       "release": {
@@ -344,7 +351,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 8742,
+        "stars": 8757,
         "license": "MIT",
         "created": "2026-05-27",
         "homepage": "https://geolibre.app",
@@ -383,7 +390,7 @@
         },
         "since": "2026-11-18T14:12:27Z"
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "git": {
       "release": {
@@ -413,14 +420,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9517,
+        "stars": 9520,
         "license": null,
         "created": "2014-08-22",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "handy": {
       "release": {
@@ -450,7 +457,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 39286,
+        "stars": 39394,
         "license": "MIT",
         "created": "2025-02-13",
         "homepage": "https://handy.computer",
@@ -463,7 +470,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "imageglass": {
       "release": {
@@ -493,7 +500,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 15014,
+        "stars": 15015,
         "license": null,
         "created": "2012-12-30",
         "homepage": "https://imageglass.org",
@@ -505,7 +512,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "jan": {
       "release": {
@@ -535,14 +542,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45843,
+        "stars": 45938,
         "license": null,
         "created": "2023-08-17",
         "homepage": "https://jan.ai/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "joplin": {
       "release": {
@@ -570,7 +577,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 57253,
+        "stars": 57261,
         "license": null,
         "created": "2017-01-16",
         "homepage": "https://joplinapp.org",
@@ -581,7 +588,36 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "pending": {
+        "release": {
+          "tag": "v3.7.24",
+          "version": "3.7.24",
+          "prerelease": false,
+          "published": "2026-11-19",
+          "notes": [
+            "Improved: Add a first-class OpenAI provider using the Responses API (#16864) (#16450 by @Rygaa)",
+            "Improved: Create the application authorisation ID in one place (79d954a)",
+            "Improved: Prioritize local changes to sync info over values with unchanged far-future remote timestamps (2624b35 by Henry Heino)",
+            "Improved: Sync/E2EE: Avoid propagating share/publish status until an item has decrypted (b6692eb by Henry Heino)",
+            "Fixed: Fix ENEX import failing when an unescaped ampersand is directly followed by a tag (e5ed69a)",
+            "Fixed: Fix crash when a semantic search result is open in a secondary window (#17085)",
+            "Security: Add UI to allow validating public key fingerprints when sharing notebooks (3fd2f2f by Henry Heino)",
+            "Security: Ask for confirmation before disabling E2EE (f4447dd by Henry Heino)"
+          ]
+        },
+        "file": {
+          "name": "Joplin-Setup-3.7.24.exe",
+          "url": "https://github.com/laurent22/joplin/releases/download/v3.7.24/Joplin-Setup-3.7.24.exe",
+          "size": 368947560,
+          "sha256": "9b528527bf24c4657c35052309437d2798c2ab38f80e32b66f0dedb8daeb3ec9",
+          "digestChecked": true,
+          "signer": "Joplin",
+          "unsigned": false,
+          "scan": "clean"
+        },
+        "since": "2026-11-20T14:08:10Z"
+      },
+      "checked": "2026-11-20"
     },
     "kando": {
       "release": {
@@ -611,7 +647,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6667,
+        "stars": 6674,
         "license": null,
         "created": "2023-04-16",
         "homepage": "https://kando.menu",
@@ -621,7 +657,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "keepassxc": {
       "release": {
@@ -651,7 +687,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 30063,
+        "stars": 30074,
         "license": null,
         "created": "2016-02-28",
         "homepage": "https://keepassxc.org/",
@@ -665,7 +701,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "killerpdf": {
       "release": {
@@ -695,14 +731,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4415,
+        "stars": 4421,
         "license": "GPL-3.0",
         "created": "2026-04-16",
         "homepage": "https://KillerPDF.net",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "lightbulb": {
       "release": {
@@ -732,14 +768,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 2826,
+        "stars": 2827,
         "license": "MIT",
         "created": "2017-01-12",
         "homepage": "https://github.com/Tyrrrz/LightBulb/releases",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "localsend": {
       "release": {
@@ -769,7 +805,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 99741,
+        "stars": 99923,
         "license": "Apache-2.0",
         "created": "2022-12-16",
         "homepage": "https://localsend.org",
@@ -778,7 +814,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "luanti": {
       "release": {
@@ -803,7 +839,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 13877,
+        "stars": 13879,
         "license": null,
         "created": "2011-08-07",
         "homepage": "https://www.luanti.org/",
@@ -813,7 +849,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "mpc-hc": {
       "release": {
@@ -843,14 +879,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 16195,
+        "stars": 16204,
         "license": "GPL-3.0",
         "created": "2017-05-17",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "notepadplusplus": {
       "release": {
@@ -880,14 +916,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 29925,
+        "stars": 29930,
         "license": null,
         "created": "2015-03-28",
         "homepage": "https://notepad-plus-plus.org/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "obs-studio": {
       "release": {
@@ -917,7 +953,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 79761,
+        "stars": 79806,
         "license": "GPL-2.0",
         "created": "2013-10-01",
         "homepage": "https://obsproject.com",
@@ -927,7 +963,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "obsidian": {
       "release": {
@@ -948,14 +984,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 23398,
+        "stars": 23417,
         "license": null,
         "created": "2020-05-08",
         "homepage": "https://obsidian.md",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "onlyoffice": {
       "release": {
@@ -978,14 +1014,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 5759,
+        "stars": 5762,
         "license": "AGPL-3.0",
         "created": "2016-10-03",
         "homepage": "https://www.onlyoffice.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "openlogi": {
       "release": {
@@ -1015,7 +1051,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 25909,
+        "stars": 25955,
         "license": "Apache-2.0",
         "created": "2026-05-24",
         "homepage": "https://openlogi.org",
@@ -1025,7 +1061,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "openpencil": {
       "release": {
@@ -1055,7 +1091,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9958,
+        "stars": 9973,
         "license": "MIT",
         "created": "2026-02-27",
         "homepage": "https://openpencil.dev",
@@ -1064,7 +1100,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "paintfe": {
       "release": {
@@ -1094,7 +1130,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 420,
+        "stars": 419,
         "license": "MIT",
         "created": "2026-02-23",
         "homepage": "https://www.paintfe.com",
@@ -1129,7 +1165,7 @@
         },
         "since": "2026-11-19T14:31:32Z"
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "photocraft": {
       "release": {
@@ -1159,14 +1195,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 80442,
+        "stars": 80662,
         "license": "Apache-2.0",
         "created": "2026-09-30",
         "homepage": "https://getartcraft.com/apps/photocraft",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "pixelorama": {
       "release": {
@@ -1196,7 +1232,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11149,
+        "stars": 11156,
         "license": "MIT",
         "created": "2019-08-18",
         "homepage": "https://www.pixelorama.org/",
@@ -1207,7 +1243,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "powertoys": {
       "release": {
@@ -1237,14 +1273,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 141172,
+        "stars": 141214,
         "license": "MIT",
         "created": "2019-05-01",
         "homepage": null,
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "puzzle": {
       "release": {
@@ -1278,7 +1314,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "rapidraw": {
       "release": {
@@ -1308,7 +1344,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 11190,
+        "stars": 11210,
         "license": "AGPL-3.0",
         "created": "2025-06-13",
         "homepage": "https://getrapidraw.com",
@@ -1346,7 +1382,7 @@
         },
         "since": "2026-11-18T14:12:27Z"
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "readest": {
       "release": {
@@ -1376,7 +1412,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 26468,
+        "stars": 26502,
         "license": "AGPL-3.0",
         "created": "2024-10-12",
         "homepage": "https://readest.com",
@@ -1385,7 +1421,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "recordly": {
       "release": {
@@ -1415,7 +1451,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 37087,
+        "stars": 37128,
         "license": "AGPL-3.0",
         "created": "2026-03-12",
         "homepage": "https://recordly.dev",
@@ -1425,73 +1461,44 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "rufus": {
       "release": {
-        "tag": "v4.15",
-        "version": "4.15",
+        "tag": "v4.16",
+        "version": "4.16",
         "prerelease": false,
-        "published": "2026-06-30",
+        "published": "2026-11-17",
         "notes": [
-          "Add RISC-V 64 support to UEFI:NTFS",
-          "Improve the guards for using the _\"silent\"_ Windows installation option",
-          "Improve the ability to cancel during write retries",
-          "Improve progress reporting for compressed image extraction",
-          "Fix unrestricted XML entity expansion and integer overflow in ezxml parser (courtesy of @esadowski4) [GHSA-55r2-34wg-8mv9]",
-          "Fix _\"silent\"_ Windows installation failing at 75% in most cases [#2960]",
-          "Fix a crash during boot when using UEFI:NTFS on Snapdragon X based ARM64 platforms [#2934]",
-          "Fix first WUE option always being checked by default [#2965]"
+          "Finally work around that stupid AMI NTFS driver bug, so that runtime UEFI media validation can work on the millions of PCs that AMI screwed up",
+          "Finally report USB 3.2+ devices (USB 3.2 = 20 Gbps, USB 4.0 = 40 Gpbs, USB 4.1 = 80 Gbps &mdash; See, USB Forum, it's really NOT that hard!)",
+          "Fix the CA 2023 updated files not being taken into account during runtime UEFI media validation",
+          "Fix the \"Silent\" installation option being potentially applied even when all dependencies aren't met (#3008)",
+          "Fix a regression where \"Write as ESP\" used the whole drive, instead of the expected 1 GB partition",
+          "Fix WUE timezone duplication for non English locales (#3070, #2499) and reinstate the use of dots in local usernames (#3057)",
+          "Add classic right click context menu restoration to the QoL improvements option (courtesy of @Fredolx , #3007)",
+          "Drop the ever problematic use of Group Policies when disabling the _\"Do you want to format this drive?\"_ prompt (#3042)"
         ]
       },
       "file": {
-        "name": "rufus-4.15.exe",
-        "url": "https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15.exe",
-        "size": 1989992,
-        "sha256": "84c8a437f8af89257524478489e5c85f1edf25f761d299e2bcde46ac0afbe106",
+        "name": "rufus-4.16.exe",
+        "url": "https://github.com/pbatard/rufus/releases/download/v4.16/rufus-4.16.exe",
+        "size": 1985016,
+        "sha256": "8351a56c134aa6dd26a930d702cc3fd57f11ef90b17e55a8de960d5a73d46cfc",
         "digestChecked": true,
         "signer": "Akeo Consulting",
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 38421,
+        "stars": 38433,
         "license": "GPL-3.0",
         "created": "2011-11-19",
         "homepage": "https://rufus.ie",
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v4.16",
-          "version": "4.16",
-          "prerelease": false,
-          "published": "2026-11-17",
-          "notes": [
-            "Finally work around that stupid AMI NTFS driver bug, so that runtime UEFI media validation can work on the millions of PCs that AMI screwed up",
-            "Finally report USB 3.2+ devices (USB 3.2 = 20 Gbps, USB 4.0 = 40 Gpbs, USB 4.1 = 80 Gbps &mdash; See, USB Forum, it's really NOT that hard!)",
-            "Fix the CA 2023 updated files not being taken into account during runtime UEFI media validation",
-            "Fix the \"Silent\" installation option being potentially applied even when all dependencies aren't met (#3008)",
-            "Fix a regression where \"Write as ESP\" used the whole drive, instead of the expected 1 GB partition",
-            "Fix WUE timezone duplication for non English locales (#3070, #2499) and reinstate the use of dots in local usernames (#3057)",
-            "Add classic right click context menu restoration to the QoL improvements option (courtesy of @Fredolx , #3007)",
-            "Drop the ever problematic use of Group Policies when disabling the _\"Do you want to format this drive?\"_ prompt (#3042)"
-          ]
-        },
-        "file": {
-          "name": "rufus-4.16.exe",
-          "url": "https://github.com/pbatard/rufus/releases/download/v4.16/rufus-4.16.exe",
-          "size": 1985016,
-          "sha256": "8351a56c134aa6dd26a930d702cc3fd57f11ef90b17e55a8de960d5a73d46cfc",
-          "digestChecked": true,
-          "signer": "Akeo Consulting",
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-17T14:36:08Z"
-      },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "screentogif": {
       "release": {
@@ -1518,7 +1525,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 27973,
+        "stars": 27974,
         "license": "MS-PL",
         "created": "2016-08-02",
         "homepage": null,
@@ -1533,37 +1540,37 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "seelen-ui": {
       "release": {
-        "tag": "v2.8.10",
-        "version": "2.8.10",
+        "tag": "v2.8.11",
+        "version": "2.8.11",
         "prerelease": false,
-        "published": "2026-10-22",
+        "published": "2026-11-16",
         "notes": [
+          "features",
+          "cli: slu quit and slu restart commands to gracefully close or restart Seelen UI.",
+          "dock: live window previews (paused on performance mode, static snapshots are shown instead).",
+          "dock: hovering an open app shows its window previews without stealing the focus.",
           "enhancements",
-          "allow set twm layout per monitor and per workspace.",
-          "allow hide pause message on wallpapers.",
-          "fix",
-          "per-app volume sessions not showing in the media volume mixer.",
-          "network api crashing when no connected to any network.",
-          "system tray not showing any icon on Windows 10, and icons without registry entry being ignored on Windows 11.",
-          "What's Changed"
+          "close popup if triggered and already shown.",
+          "add network adapters to network popup.",
+          "widgets: popups can be triggered by hover (TriggerSource), they don't take focus and hide on cursor out."
         ]
       },
       "file": {
-        "name": "Seelen.UI_2.8.10.0_x64.Msix",
-        "url": "https://github.com/eythaann/Seelen-UI/releases/download/v2.8.10/Seelen.UI_2.8.10.0_x64.Msix",
-        "size": 43800895,
-        "sha256": "2ee867a349dbc1833aa97dee279033822b972fe8ec31c3a64d9f5ca1a4ce6085",
+        "name": "Seelen.UI_2.8.11.0_x64.Msix",
+        "url": "https://github.com/eythaann/Seelen-UI/releases/download/v2.8.11/Seelen.UI_2.8.11.0_x64.Msix",
+        "size": 43888519,
+        "sha256": "187eec4e0619903f7ad20eeed03f444d6bfbf0eb3b6fb4f6c5c36687caa2de87",
         "digestChecked": true,
         "signer": null,
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 18574,
+        "stars": 18588,
         "license": "AGPL-3.0",
         "created": "2024-02-16",
         "homepage": null,
@@ -1575,36 +1582,7 @@
         ],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v2.8.11",
-          "version": "2.8.11",
-          "prerelease": false,
-          "published": "2026-11-16",
-          "notes": [
-            "features",
-            "cli: slu quit and slu restart commands to gracefully close or restart Seelen UI.",
-            "dock: live window previews (paused on performance mode, static snapshots are shown instead).",
-            "dock: hovering an open app shows its window previews without stealing the focus.",
-            "enhancements",
-            "close popup if triggered and already shown.",
-            "add network adapters to network popup.",
-            "widgets: popups can be triggered by hover (TriggerSource), they don't take focus and hide on cursor out."
-          ]
-        },
-        "file": {
-          "name": "Seelen.UI_2.8.11.0_x64.Msix",
-          "url": "https://github.com/eythaann/Seelen-UI/releases/download/v2.8.11/Seelen.UI_2.8.11.0_x64.Msix",
-          "size": 43888519,
-          "sha256": "187eec4e0619903f7ad20eeed03f444d6bfbf0eb3b6fb4f6c5c36687caa2de87",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-17T14:36:08Z"
-      },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "sharex": {
       "release": {
@@ -1627,7 +1605,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 41198,
+        "stars": 41255,
         "license": "GPL-3.0",
         "created": "2013-10-08",
         "homepage": "https://getsharex.com",
@@ -1636,7 +1614,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "shattered-pixel-dungeon": {
       "release": {
@@ -1666,80 +1644,51 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6831,
+        "stars": 6837,
         "license": "GPL-3.0",
         "created": "2014-07-31",
         "homepage": "https://shatteredpixel.com/shatteredpd/",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "shotcut": {
       "release": {
-        "tag": "v26.9.27",
-        "version": "26.9.27",
+        "tag": "v26.11.15",
+        "version": "26.11.15",
         "prerelease": false,
-        "published": "2026-09-28",
+        "published": "2026-11-16",
         "notes": [
           "What's Changed",
-          "See a nicely formatted page on the web site.",
-          "Fixed security flaws in upgrade and Whisper downloads (failed HTTPS was retried over HTTP, certificate errors could be ignored, and a downloaded file could b…",
-          "Fixed Mask: Draw (Glaxnimate) filter, Operation > Subtract for 8-bit processing mode (broke in version 25.12).",
-          "Fixed using Size, Position & Rotate with Mask: Apply filters (broke in version 25.12).",
-          "Improved audio quality by removing a conversion to 16-bit integer and keeping the pipeline in 32-bit float.",
-          "Fixed LV2 external audio plugins not loading on Windows (unless LV2_PATH environment var set explicitly).",
-          "Fixed VA-API HEVC hardware encoder on Linux."
+          "Fixed a crash when drag-n-drop video suggesting conversion when Settings > Timeline > Automatically Add Tracks is on (broke in v26.9).",
+          "Fixed Timeline interactions slow when something is using Windows UI Automation (broke in v26.9).",
+          "Fixed copy and paste of multiple clips including dissolve video transitions (broke in v26.9).",
+          "Fixed audio playback might sound scratchy (broke in v26.9).",
+          "Fixed Ctrl+mouse-wheel and context menus in the numeric fields of filters on Windows (broke in v26.9).",
+          "Fixed crash when using hardware decoding and preview scaling with GPU processing mode (broke in v26.9).",
+          "Fixed scrubbing audio in the Source player (broke in v26.9)."
         ]
       },
       "file": {
-        "name": "shotcut-win64-26.9.27.zip",
-        "url": "https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win64-26.9.27.zip",
-        "size": 213335062,
-        "sha256": "1f8c50ce7b125a2f0dcb60777b358e86baf03b8515982612b6adae10a83d93a5",
+        "name": "shotcut-win64-26.11.15.zip",
+        "url": "https://github.com/mltframework/shotcut/releases/download/v26.11.15/shotcut-win64-26.11.15.zip",
+        "size": 196097953,
+        "sha256": "d704c12a8ce6d1fbe1a13155578ee5cf36b749a26503500cce38d8e68f900b0d",
         "digestChecked": true,
         "signer": null,
         "unsigned": false,
         "scan": "clean"
       },
       "repo": {
-        "stars": 15729,
+        "stars": 15739,
         "license": "GPL-3.0",
         "created": "2012-04-23",
         "homepage": "https://www.shotcut.org",
         "funding": [],
         "archived": false
       },
-      "pending": {
-        "release": {
-          "tag": "v26.11.15",
-          "version": "26.11.15",
-          "prerelease": false,
-          "published": "2026-11-16",
-          "notes": [
-            "What's Changed",
-            "Fixed a crash when drag-n-drop video suggesting conversion when Settings > Timeline > Automatically Add Tracks is on (broke in v26.9).",
-            "Fixed Timeline interactions slow when something is using Windows UI Automation (broke in v26.9).",
-            "Fixed copy and paste of multiple clips including dissolve video transitions (broke in v26.9).",
-            "Fixed audio playback might sound scratchy (broke in v26.9).",
-            "Fixed Ctrl+mouse-wheel and context menus in the numeric fields of filters on Windows (broke in v26.9).",
-            "Fixed crash when using hardware decoding and preview scaling with GPU processing mode (broke in v26.9).",
-            "Fixed scrubbing audio in the Source player (broke in v26.9)."
-          ]
-        },
-        "file": {
-          "name": "shotcut-win64-26.11.15.zip",
-          "url": "https://github.com/mltframework/shotcut/releases/download/v26.11.15/shotcut-win64-26.11.15.zip",
-          "size": 196097953,
-          "sha256": "d704c12a8ce6d1fbe1a13155578ee5cf36b749a26503500cce38d8e68f900b0d",
-          "digestChecked": true,
-          "signer": null,
-          "unsigned": false,
-          "scan": "clean"
-        },
-        "since": "2026-11-17T14:36:08Z"
-      },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "stellarium": {
       "release": {
@@ -1778,7 +1727,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "stretchly": {
       "release": {
@@ -1808,7 +1757,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 6657,
+        "stars": 6660,
         "license": "BSD-2-Clause",
         "created": "2016-07-10",
         "homepage": "https://hovancik.net/stretchly",
@@ -1819,7 +1768,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "thorium-reader": {
       "release": {
@@ -1856,7 +1805,7 @@
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "translucenttb": {
       "release": {
@@ -1886,7 +1835,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 20857,
+        "stars": 20870,
         "license": "GPL-3.0",
         "created": "2017-01-10",
         "homepage": "https://translucenttb.github.io",
@@ -1896,7 +1845,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "twinkle-tray": {
       "release": {
@@ -1926,7 +1875,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9373,
+        "stars": 9378,
         "license": "MIT",
         "created": "2019-08-14",
         "homepage": "https://twinkletray.com",
@@ -1938,7 +1887,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "vscodium": {
       "release": {
@@ -1968,14 +1917,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 34179,
+        "stars": 34194,
         "license": "MIT",
         "created": "2018-08-13",
         "homepage": "https://vscodium.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "wealthfolio": {
       "release": {
@@ -2005,7 +1954,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 9584,
+        "stars": 9627,
         "license": "AGPL-3.0",
         "created": "2024-05-27",
         "homepage": "https://wealthfolio.app",
@@ -2044,7 +1993,7 @@
         },
         "since": "2026-11-19T14:31:32Z"
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "windirstat": {
       "release": {
@@ -2068,7 +2017,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4572,
+        "stars": 4583,
         "license": "GPL-3.0",
         "created": "2016-04-04",
         "homepage": "https://windirstat.net",
@@ -2079,7 +2028,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "wsl-dashboard": {
       "release": {
@@ -2109,14 +2058,14 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 4137,
+        "stars": 4139,
         "license": "GPL-3.0",
         "created": "2026-01-18",
         "homepage": "https://www.wslui.com",
         "funding": [],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "yaak": {
       "release": {
@@ -2142,7 +2091,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 19523,
+        "stars": 19527,
         "license": "MIT",
         "created": "2023-02-16",
         "homepage": "https://yaak.app",
@@ -2151,7 +2100,7 @@
         ],
         "archived": false
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     },
     "zen-browser": {
       "release": {
@@ -2181,7 +2130,7 @@
         "scan": "clean"
       },
       "repo": {
-        "stars": 45908,
+        "stars": 45926,
         "license": "MPL-2.0",
         "created": "2024-03-28",
         "homepage": "https://zen-browser.app",
@@ -2221,7 +2170,7 @@
         },
         "since": "2026-11-19T14:31:32Z"
       },
-      "checked": "2026-11-19"
+      "checked": "2026-11-20"
     }
   }
 }
